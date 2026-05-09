@@ -10,7 +10,12 @@
 
 *Ngươi có thể ghi chú thêm vào đây.*
 
+Ai( Artificial Intelligence) = Linh Trí
+
 agent= linh thể
 
 mcp=linh thể thông đạo
+
 sandbox= ảo cảnh
+
+
