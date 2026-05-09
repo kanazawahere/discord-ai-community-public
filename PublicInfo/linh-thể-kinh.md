@@ -6,25 +6,61 @@
 
 ---
 
-## Đang trong quá trình xây dựng...
+## Thuật Ngữ
 
-*Ngươi có thể ghi chú thêm vào đây.*
+| Thuật ngữ | Dị Giới |
+|-----------|---------|
+| AI (Artificial Intelligence) | Linh Trí |
+| Agent | Linh Thể |
+| MCP | Linh Cảnh Quy Chuẩn |
+| API | Thiên Cơ Thông Đạo |
+| sandbox | Ảo Cảnh |
+| RAG | Thông Thiên Truy Ký |
+| fine-tuning | Vi Chỉnh |
+| context | Ngữ Cảnh |
+| headless browser | Vô Hình Thú |
 
-Ai( Artificial Intelligence) = Linh Trí
-Agent= Linh Thể
+---
 
-MCP =Linh Cảnh Quy Chuẩn
+## 🆕 Công Cụ Mới
 
-API	=Thiên Cơ Thông Đạo
+### Lightpanda
 
-sandbox= ảo cảnh
+**GitHub:** https://github.com/lightpanda-io/browser
 
-Rag = Thông Thiên Truy Ký
+**Loại:** Headless Browser cho AI & Automation
 
-fine-tuning = Vi Chỉnh
+**Dị Giới tên:** Thú Vô Hình
 
-context = Ngữ Cảnh 
+**Mô tả:** Trình duyệt không giao diện, dùng cho AI tự động thao tác web.
 
+### Cài đặt
 
+```bash
+# npm
+npm install @lightpanda/core
 
+# hoặc Docker
+docker pull lightpandaio/browser
+```
 
+### Sử dụng
+
+```javascript
+import { Browser } from '@lightpanda/core';
+
+const browser = new Browser();
+await browser.navigate('https://example.com');
+```
+
+### So sánh
+
+| Tool | Dị Giới tên | Loại |
+|------|-------------|------|
+| Playwright | Thú Vô Hình (phiên bản 1) | Automation |
+| Puppeteer | Thú Vô Hình (phiên bản 2) | Automation |
+| Lightpanda | Thú Vô Hình (phiên bản 3) | AI-optimized |
+
+---
+
+*Đang cập nhật...*
