@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'scripts/**'
+      - 'docs/**'
+      - 'README.md'
+      - 'PROJECT_STATE.md'
+      - 'ANNOUNCEMENTS.md'
+      - '.github/**'
 
 jobs:
   sync:
@@ -30,7 +37,7 @@ jobs:
           # Clean old content
           rm -rf .github scripts docs README.md PROJECT_STATE.md ANNOUNCEMENTS.md .gitignore 2>/dev/null || true
           
-          # Copy ONLY public files from private
+          # Copy ONLY public files
           mkdir -p .github/workflows
           cp -r ../.github/workflows/. .github/
           cp -r ../scripts .
@@ -44,6 +51,6 @@ jobs:
         run: |
           cd public_repo
           git add -A
-          git diff --cached --quiet && echo "No changes to sync" && exit 0
-          git commit -m "Sync from private - $(date '+%Y-%m-%d %H:%M')" || exit 0
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Sync from private - $(date '+%Y-%m-%d %H:%M')"
           git push https://${{ secrets.GH_TOKEN }}@github.com/kanazawahere/discord-ai-community-public.git main
