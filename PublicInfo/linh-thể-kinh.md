@@ -11,11 +11,20 @@
 *Ngươi có thể ghi chú thêm vào đây.*
 
 Ai( Artificial Intelligence) = Linh Trí
+Agent= Linh Thể
 
-agent= linh thể
+MCP =Linh Cảnh Quy Chuẩn
 
-mcp=linh thể thông đạo
+API	=Thiên Cơ Thông Đạo
 
 sandbox= ảo cảnh
+
+Rag = Thông Thiên Truy Ký
+
+fine-tuning = Vi Chỉnh
+
+context = Ngữ Cảnh 
+
+
 
 
