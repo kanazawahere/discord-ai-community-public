@@ -1,0 +1,47 @@
+name: Sync to Public Repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Clone public repo
+        run: |
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/kanazawahere/discord-ai-community-public.git public_repo
+          cd public_repo
+          git checkout main || git checkout -b main
+
+      - name: Copy public files
+        run: |
+          cd public_repo
+          # Remove old files
+          rm -rf .github scripts docs README.md PROJECT_STATE.md ANNOUNCEMENTS.md 2>/dev/null
+          # Copy from private (only public files)
+          cp -r ../.github .
+          cp -r ../scripts .
+          cp -r ../docs .
+          cp ../README.md .
+          cp ../PROJECT_STATE.md .
+          cp ../ANNOUNCEMENTS.md .
+
+      - name: Commit and push to public
+        run: |
+          cd public_repo
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync from private repo - $(date '+%Y-%m-%d %H:%M')"
+          git push https://${{ secrets.GH_TOKEN }}@github.com/kanazawahere/discord-ai-community-public.git main
