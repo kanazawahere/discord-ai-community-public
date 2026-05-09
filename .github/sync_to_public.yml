@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout private repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Git
         run: |
@@ -25,23 +23,27 @@ jobs:
           cd public_repo
           git checkout main || git checkout -b main
 
-      - name: Copy public files
+      - name: Copy only public files
         run: |
           cd public_repo
-          # Remove old files
-          rm -rf .github scripts docs README.md PROJECT_STATE.md ANNOUNCEMENTS.md 2>/dev/null
-          # Copy from private (only public files)
-          cp -r ../.github .
+          
+          # Clean old content
+          rm -rf .github scripts docs README.md PROJECT_STATE.md ANNOUNCEMENTS.md .gitignore 2>/dev/null || true
+          
+          # Copy ONLY public files from private
+          mkdir -p .github/workflows
+          cp -r ../.github/workflows/. .github/
           cp -r ../scripts .
           cp -r ../docs .
           cp ../README.md .
           cp ../PROJECT_STATE.md .
           cp ../ANNOUNCEMENTS.md .
+          cp ../.gitignore .
 
-      - name: Commit and push to public
+      - name: Commit and push
         run: |
           cd public_repo
           git add -A
-          git diff --cached --quiet && exit 0
-          git commit -m "Sync from private repo - $(date '+%Y-%m-%d %H:%M')"
+          git diff --cached --quiet && echo "No changes to sync" && exit 0
+          git commit -m "Sync from private - $(date '+%Y-%m-%d %H:%M')" || exit 0
           git push https://${{ secrets.GH_TOKEN }}@github.com/kanazawahere/discord-ai-community-public.git main
