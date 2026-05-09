@@ -11,3 +11,6 @@
 *Ngươi có thể ghi chú thêm vào đây.*
 
 agent= linh thể
+
+mcp=linh thể thông đạo
+sandbox= ảo cảnh
