@@ -9,3 +9,5 @@
 ## Đang trong quá trình xây dựng...
 
 *Ngươi có thể ghi chú thêm vào đây.*
+
+agent= linh thể
