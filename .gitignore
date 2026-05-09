@@ -1,7 +1,23 @@
+# Private (never commit)
 .env
 .env.local
-*.json
-!package.json
+.env.*.local
+
+# Discord MCP
+discord-mcp/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Claude config (may contain tokens)
+.claude/
+*.json
