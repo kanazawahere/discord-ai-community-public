@@ -1,23 +1,23 @@
-# Private (never commit)
+# === PRIVATE - Only local, never push ===
 .env
 .env.local
 .env.*.local
 
-# Discord MCP
+# === PUBLIC - Can push to both repos ===
+# (no ignore needed)
+
+# === SUBMODULES ===
 discord-mcp/
 
-# Python
+# === GENERATED/_CACHE ===
 __pycache__/
 *.pyc
 *.pyo
-
-# Node
 node_modules/
-
-# OS
 .DS_Store
 Thumbs.db
 
-# Claude config (may contain tokens)
+# === CONFIG (may contain secrets) ===
 .claude/
 *.json
+claude_desktop_config.json
