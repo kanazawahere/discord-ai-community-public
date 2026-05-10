@@ -1,5 +1,5 @@
 ---
-title: "Certificate of completion"
+title: "Certificate of completion (Chứng nhận hoàn thành)"
 parent: Claude 101
 nav_order: 14
 ---
@@ -7,59 +7,58 @@ nav_order: 14
 # Certificate of completion
 
 ## Khả năng tổng quan của Claude
-Claude không chỉ đơn thuần là một công cụ tìm kiếm thông tin hay trợ lý giọng
-nói. Đây là một **trợ lý AI đa năng** được thiết kế để hỗ trợ người dùng trong
-nhiều tác vụ phức tạp bao gồm: viết lách, nghiên cứu, lập trình, giải quyết vấn
-đề và nhiều công việc khác.
+Claude không chỉ là một công cụ tìm kiếm hay trợ lý giọng nói đơn thuần. Đây là
+một **trợ lý AI đa năng** có khả năng hỗ trợ người dùng trong nhiều lĩnh vực bao
+gồm: viết lách, nghiên cứu, lập trình, giải quyết vấn đề và nhiều tác vụ khác.
 
 ## Phân biệt Dự án (Projects) và Kỹ năng (Skills)
-Trong hệ sinh thái Claude, có sự khác biệt rõ rệt về mục đích sử dụng giữa Dự án
-và Kỹ năng:
-*   **Dự án (Projects):** Đóng vai trò là nơi **lưu trữ kiến thức**. Bạn có thể
-đưa vào đây các tài liệu, dữ liệu và bối cảnh cụ thể cho một công việc.
-*   **Kỹ năng (Skills):** Được thiết kế chuyên biệt để **thực hiện các tác vụ**.
+Trong quá trình sử dụng Claude, người dùng cần phân biệt rõ hai khái niệm bổ trợ
+cho nhau:
+*   **Dự án (Projects):** Được sử dụng để **lưu trữ kiến thức** và bối cảnh cho
+công việc.
+*   **Kỹ năng (Skills):** Được thiết kế để chuyên biệt **thực hiện các tác vụ**
+cụ thể.
 
-## Kết nối dữ liệu và Tìm kiếm trong Doanh nghiệp
-Claude cho phép làm việc với dữ liệu thông qua các bộ kết nối (connectors). Tuy
-nhiên, tính bảo mật được đặt lên hàng đầu: Claude chỉ có thể truy cập vào những
-dữ liệu mà bạn **đã được cấp quyền truy cập** trong dịch vụ được kết nối đó.
+## Kết nối dữ liệu và Tìm kiếm Doanh nghiệp
+Claude có khả năng làm việc với dữ liệu thông qua các bộ kết nối (connectors).
+Tuy nhiên, để đảm bảo an toàn, Claude chỉ có thể truy cập vào những dữ liệu mà
+người dùng **đã được cấp quyền truy cập** trong dịch vụ đó.
 
 Đối với tính năng **Tìm kiếm Doanh nghiệp (Enterprise Search)**, để các thành
-viên trong nhóm có thể sử dụng, bước thiết lập ban đầu bắt buộc phải được thực
-hiện bởi **Chủ sở hữu tổ chức (Quản trị viên)**.
+viên trong nhóm có thể bắt đầu sử dụng, bước thiết lập ban đầu bắt buộc phải
+được thực hiện bởi **Chủ sở hữu tổ chức (quản trị viên)**.
 
-## Quản lý giới hạn ngữ cảnh với Chế độ RAG
-Khi kho kiến thức trong dự án của bạn tiến gần đến các giới hạn về ngữ cảnh,
-Claude sẽ tự động kích hoạt **chế độ RAG (Retrieval-Augmented Generation)**. Chế
-độ này giúp mở rộng khả năng lưu trữ và xử lý của dự án lên gấp **10 lần** một
-cách liền mạch, đảm bảo bạn có thể tiếp tục làm việc mà không cần xóa bỏ tài
-liệu cũ.
+## Mở rộng dung lượng với Chế độ RAG
+Khi kho kiến thức trong dự án của bạn tiến gần đến các giới hạn về ngữ cảnh
+(context limits), Claude sẽ tự động kích hoạt **chế độ RAG (Retrieval-Augmented
+Generation)**. Chế độ này giúp mở rộng khả năng lưu trữ và xử lý của dự án
+lên gấp **10 lần** một cách liền mạch mà không làm gián đoạn công việc.
 
-## Tương tác và Chia sẻ với Artifacts
-Artifacts là các sản phẩm nội dung được tạo ra trong cuộc hội thoại. Khi bạn
-xuất bản (publish) một artifact, bạn có thể:
+## Tương tác và Chia sẻ Artifacts
+Artifacts là những sản phẩm nội dung được tạo ra trong phiên chat. Khi bạn xuất
+bản (publish) một artifact, bạn có thể:
 *   Chia sẻ nó với bất kỳ ai thông qua một liên kết duy nhất.
-*   Cho phép người khác **"remix"** (tái sử dụng và chỉnh sửa) artifact đó trong
-chính các cuộc hội thoại Claude của riêng họ.
+*   Cho phép những người khác **"remix"** (tái sử dụng và chỉnh sửa) artifact đó
+trong chính các cuộc hội thoại Claude của riêng họ.
 
 ## Kỹ thuật đặt câu lệnh (Prompting) hiệu quả
-Một câu lệnh thành công thường bao gồm ba yếu tố cấu thành: **Thiết lập bối cảnh
-(Setting the stage)**, **xác định nhiệm vụ (Defining the task)** và **quy định
-các quy tắc (Specifying rules)**.
+Một câu lệnh thành công và mang lại kết quả chính xác thường bao gồm ba yếu tố
+cấu thành: **Thiết lập bối cảnh (Setting the stage)**, **xác định nhiệm vụ
+(Defining the task)** và **quy định các quy tắc (Specifying rules)**.
 
-Trong trường hợp câu trả lời của Claude quá chung chung, bạn nên cải thiện bằng
-cách bổ sung thêm các chi tiết cụ thể về:
-*   **Đối tượng mục tiêu** (Audience) của nội dung.
-*   **Vai trò** (Role) mà Claude nên đảm nhận.
+Trong trường hợp phản hồi của Claude quá chung chung, bạn nên cải thiện bằng
+cách bổ sung thêm các chi tiết về:
+*   **Đối tượng mục tiêu** (Audience) mà nội dung hướng tới.
+*   **Vai trò** (Role) mà bạn muốn Claude đảm nhận.
 *   Các **ràng buộc** (Constraints) cụ thể cần tuân thủ.
 
-## Các công cụ và chế độ chuyên sâu
-Claude cung cấp các giải pháp chuyên biệt cho những nhu cầu cụ thể:
+## Các sản phẩm và chế độ chuyên sâu
+Tùy vào mục đích công việc, người dùng có thể lựa chọn các công cụ chuyên biệt:
 *   **Claude Code:** Là lựa chọn tốt nhất khi bạn cần **điều hướng một cơ sở mã
 nguồn (codebase) lạ** và **tự động hóa các tác vụ phát triển phần mềm**.
 *   **Chế độ Nghiên cứu (Research mode):** Cực kỳ hiệu quả cho các nhiệm vụ đòi
-hỏi chiều sâu như **thực hiện phân tích thị trường toàn diện**. Chế độ này không
-phù hợp cho các tác vụ đơn giản hơn như định dạng lại tệp PDF, tìm mật danh sản
+hỏi chiều sâu như **thực hiện phân tích thị trường toàn diện**. Chế độ này
+không nhằm phục vụ các việc đơn giản như định dạng lại tệp PDF, tìm mật danh sản
 phẩm hay rà soát văn bản pháp lý.
 
 Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d

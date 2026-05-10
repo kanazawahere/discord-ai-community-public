@@ -1,5 +1,5 @@
 ---
-title: "Enterprise search"
+title: "Enterprise search (Tìm kiếm Doanh nghiệp)"
 parent: Claude 101
 nav_order: 9
 ---
@@ -8,42 +8,44 @@ nav_order: 9
 
 ## Tìm kiếm Doanh nghiệp (Enterprise Search)
 
-**Tìm kiếm Doanh nghiệp** (Enterprise Search) bổ sung thêm một tùy chọn chuyên
-dụng "Hỏi {Tên tổ chức của bạn}" vào thanh bên của bạn. Tính năng này được
-thiết kế đặc biệt để tìm kiếm và tổng hợp kiến thức bị chôn vùi trong các công
-cụ và nguồn dữ liệu khác nhau của công ty bạn. Bạn có thể coi Tìm kiếm Doanh
-nghiệp như một Dự án (Project) được xây dựng sẵn cho toàn bộ tổ chức — kho kiến
-thức của công ty bạn đã được tải sẵn, vì vậy bạn có thể bắt đầu ngay để nhận
-được các câu trả lời phù hợp với ngữ cảnh cho các câu hỏi của mình. Khác với
-các cuộc trò chuyện thông thường có bật trình kết nối, Tìm kiếm Doanh nghiệp
-được thiết kế riêng cho việc thu thập thông tin, sử dụng các hướng dẫn tùy chỉnh
-được cấu hình bởi đội ngũ Anthropic.
+**Tìm kiếm Doanh nghiệp** bổ sung một tùy chọn chuyên dụng mang tên **"Ask {Tên
+tổ chức của bạn}"** vào thanh bên của giao diện Claude. Tính năng này được
+thiết kế đặc biệt để tìm kiếm và tổng hợp các kiến thức đang nằm rải rác trong
+các công cụ và nguồn dữ liệu khác nhau của công ty bạn. Bạn có thể coi Tìm
+kiếm Doanh nghiệp như một Dự án (Project) được xây dựng sẵn cho toàn bộ tổ chức
+— nơi cơ sở kiến thức của công ty đã được tải sẵn để bạn có thể nhận được các
+câu trả lời phù hợp với ngữ cảnh ngay lập tức. Khác với các cuộc trò chuyện
+thông thường có bật trình kết nối, Tìm kiếm Doanh nghiệp được thiết kế riêng cho
+mục đích thu thập thông tin, sử dụng các hướng dẫn tùy chỉnh được cấu hình bởi
+đội ngũ Anthropic.
 
 ## Các gói dịch vụ hỗ trợ
 
-Tính năng Tìm kiếm Doanh nghiệp khả dụng trên các gói **Team** và
-**Enterprise**, và phải được bật bởi quản trị viên không gian làm việc. Nếu
-bạn đang sử dụng gói Miễn phí (Free), Pro hoặc Max, bạn có thể bỏ qua phần này.
+Tính năng Tìm kiếm Doanh nghiệp khả dụng cho các gói **Team** và **Enterprise**,
+và cần được quản trị viên không gian làm việc kích hoạt. Nếu bạn đang sử
+dụng gói Miễn phí (Free), Pro hoặc Max, bạn có thể bỏ qua nội dung này.
 
 ## Bạn có thể hỏi những gì?
 
-Tìm kiếm Doanh nghiệp đặc biệt có giá trị đối với các câu hỏi trải dài trên
-nhiều nguồn hoặc yêu cầu tổng hợp thông tin từ khắp nơi trong tổ chức của bạn. Dưới đây là một số trường hợp sử dụng phổ biến:
+Tìm kiếm Doanh nghiệp đặc biệt có giá trị đối với các câu hỏi liên quan đến
+nhiều nguồn dữ liệu hoặc yêu cầu tổng hợp thông tin từ khắp nơi trong tổ chức
+của bạn. Dưới đây là một số trường hợp sử dụng phổ biến:
 
-*   **Cập nhật tình hình:**
+*   **Nắm bắt thông tin nhanh chóng:**
     *   "Chuyện gì đã xảy ra ngày hôm qua khi tôi vắng mặt?".
     *   "Tóm tắt các cập nhật quan trọng trong toàn bộ doanh nghiệp từ tuần
 trước".
-    *   "Những rào cản hiện tại đối với dự án Platform là gì?".
-*   **Câu hỏi về chính sách và quy trình:**
+    *   "Những rào cản hiện tại đối với dự án Nền tảng (Platform) là gì?".
+*   **Các câu hỏi về chính sách và quy trình:**
     *   "Chính sách làm việc từ xa của công ty chúng ta là gì?".
     *   "Làm thế nào để tôi nộp báo cáo chi phí?".
     *   "Quy trình yêu cầu nghỉ phép là gì?".
 *   **Nghiên cứu và phân tích:**
-    *   "Lý do chính mà khách hàng đưa ra khi chọn đối thủ cạnh tranh là gì?".
+    *   "Những lý do chính mà khách hàng đưa ra khi chọn đối thủ cạnh tranh là
+gì?".
     *   "Tóm tắt các cuộc thảo luận về lộ trình sản phẩm Quý 4".
     *   "Tìm thông tin về quy trình tiếp nhận khách hàng mới của chúng ta".
-*   **Tiếp nhận thành viên mới:**
+*   **Tiếp nhận thành viên mới (Onboarding):**
     *   "Hệ thống xác thực của chúng ta hoạt động như thế nào?".
     *   "Tôi nên nói chuyện với ai để tìm hiểu về hệ thống thanh toán?".
     *   "Nhóm kỹ thuật sử dụng những công cụ nào để triển khai (deployment)?".
@@ -53,65 +55,71 @@ trước".
     *   "Tóm tắt những đóng góp của nhóm cho sáng kiến Cơ sở hạ tầng
 (Infrastructure)".
 
-Khi bạn đặt câu hỏi, Claude sẽ tìm kiếm trên tất cả các công cụ đã kết nối của
-bạn — chẳng hạn như tài liệu SharePoint, các cuộc hội thoại Slack, luồng email
-Gmail và tệp Google Drive — sau đó tổng hợp thông tin thành một câu trả lời
-thống nhất. Ngoài ra, nó luôn trích dẫn nguồn để bạn có thể nắm bắt đầy đủ
-ngữ cảnh.
+Khi bạn đặt câu hỏi, Claude sẽ tìm kiếm trên tất cả các công cụ đã được kết nối
+— chẳng hạn như tài liệu **SharePoint**, các cuộc hội thoại **Slack**, các luồng
+email **Gmail** và tệp **Google Drive** — sau đó tổng hợp thông tin thành một
+câu trả lời thống nhất. Ngoài ra, hệ thống luôn trích dẫn nguồn cụ thể để
+bạn có thể xem lại đầy đủ ngữ cảnh.
 
-## Thiết lập Tìm kiếm Doanh nghiệp cho Quản trị viên (Chủ sở hữu)
+## Thiết lập Tìm kiếm Doanh nghiệp
 
-Dự án Tìm kiếm Doanh nghiệp được bật theo mặc định cho tất cả các tổ chức gói
-Team và Enterprise, nhưng Chủ sở hữu cần hoàn tất thiết lập ban đầu trước khi
-các thành viên trong nhóm có thể sử dụng:
+Tìm kiếm Doanh nghiệp yêu cầu một quy trình thiết lập gồm hai bước: đầu tiên,
+quản trị viên cấu hình cho tổ chức, sau đó các người dùng cá nhân tiến hành xác
+thực bằng tài khoản riêng của họ.
 
-1.  Nhấp vào **"Ask Your Org"** (Hỏi tổ chức của bạn) ở thanh bên trái.
-2.  Nhấp vào **"Set up for your org"** (Thiết lập cho tổ chức của bạn) để tiếp
-tục (hoặc "Disable" để tắt tính năng này).
-3.  **Kết nối các công cụ của tổ chức:** Bạn sẽ được yêu cầu chọn một trình kết
-nối cho Tài liệu (như Google Drive hoặc SharePoint) và Trò chuyện (như Slack
-hoặc Microsoft Teams). Email được khuyến khích nhưng không bắt buộc.
+## Dành cho Quản trị viên (Chủ sở hữu)
+
+Dự án Tìm kiếm Doanh nghiệp được bật mặc định cho tất cả các tổ chức gói Team và
+Enterprise, nhưng Chủ sở hữu (Owner) cần hoàn tất thiết lập ban đầu trước khi
+các thành viên có thể sử dụng:
+
+1.  Nhấp vào **"Ask Your Org"** ở thanh bên trái.
+2.  Nhấp vào **"Set up for your org"** để tiếp tục (hoặc chọn "Disable" nếu muốn
+tắt tính năng này).
+3.  **Kết nối các công cụ của tổ chức:** Bạn bắt buộc phải chọn một trình kết
+nối cho Tài liệu (như Google Drive hoặc SharePoint) và một trình kết nối cho Trò
+chuyện (như Slack hoặc Microsoft Teams). Email là tùy chọn được khuyến nghị
+nhưng không bắt buộc.
 4.  Nhấp vào **"+ Add more"** để thiết lập bất kỳ công cụ bổ sung nào mà nhóm
-của bạn cần.
-5.  **Tùy chỉnh tên dự án:** Bất cứ tên nào bạn nhập sẽ xuất hiện dưới dạng "Hỏi
-[Tên]" trong thanh bên của mọi người.
-6.  Thêm mô tả, sau đó nhấp vào **"Finish set up"** (Hoàn tất thiết lập).
+cần.
+5.  **Tùy chỉnh tên dự án:** Tên bạn nhập sẽ xuất hiện dưới dạng "Ask [Tên]"
+trên thanh bên của mọi thành viên.
+6.  Thêm mô tả và nhấp vào **"Finish set up"**.
 
-Sau khi thiết lập hoàn tất, dự án sẽ hiển thị cho tất cả thành viên trong tổ
-chức của bạn.
+Sau khi hoàn tất, dự án sẽ hiển thị cho tất cả thành viên trong tổ chức.
 
-## Thiết lập dành cho người dùng
+## Dành cho người dùng
 
-Sau khi quản trị viên đã thiết lập Tìm kiếm Doanh nghiệp, bạn sẽ thấy dự án "Ask
-{Tên tổ chức}" được gắn dấu sao trong thanh bên của mình. Dưới đây là cách
-bắt đầu:
+Sau khi quản trị viên đã thiết lập, bạn sẽ thấy dự án "Ask {Tên tổ chức}" được
+gắn dấu sao ở thanh bên. Các bước bắt đầu bao gồm:
 
-1.  Nhấp vào dự án trong thanh bên của bạn.
+1.  Nhấp vào dự án trên thanh bên của bạn.
 2.  Làm theo quy trình hướng dẫn để kết nối với các dịch vụ được đề xuất.
-3.  Xác thực với từng dịch vụ bạn muốn tìm kiếm (Slack, Google, Microsoft 365,
-v.v.).
+3.  Xác thực với từng dịch vụ mà bạn muốn tìm kiếm (Slack, Google, Microsoft
+365, v.v.).
 
-Hãy bắt đầu đặt câu hỏi cho Claude về kiến thức của tổ chức bạn. Bạn càng
-bật nhiều trình kết nối, kết quả tìm kiếm của bạn sẽ càng toàn diện. Bạn
-luôn có thể thêm nhiều trình kết nối hơn sau này bằng cách nhấp vào "Connect"
-trong phần Instructions (Hướng dẫn) của dự án.
+Bây giờ bạn có thể bắt đầu đặt câu hỏi cho Claude về các kiến thức trong tổ chức. Bạn càng bật nhiều trình kết nối, kết quả tìm kiếm sẽ càng toàn diện.
+Bạn luôn có thể thêm các trình kết nối sau này bằng cách nhấp vào nút
+**"Connect"** trong phần Hướng dẫn (Instructions) của dự án.
 
-## Tính an toàn và bảo mật dữ liệu
+## An toàn và Bảo mật dữ liệu
 
-Với một lượng dữ liệu khổng lồ như vậy, câu hỏi đặt ra là liệu nó có an toàn
-không? Câu trả lời ngắn gọn là: **Có**. Tìm kiếm Doanh nghiệp chỉ hiển thị
-những gì bạn đã có quyền truy cập trong công cụ gốc được kết nối. Thêm vào
-đó, các cuộc trò chuyện của bạn vẫn ở chế độ riêng tư, và dữ liệu được kết nối
-của bạn không bị lập chỉ mục hoặc lưu trữ riêng biệt.
+Trước câu hỏi về việc liệu việc truy cập lượng dữ liệu khổng lồ như vậy có an
+toàn hay không, câu trả lời ngắn gọn là: **Có**. Tìm kiếm Doanh nghiệp chỉ
+hiển thị những thông tin mà bạn đã có quyền truy cập trong công cụ gốc được kết
+nối. Bên cạnh đó, các cuộc trò chuyện của bạn vẫn được giữ riêng tư, và dữ
+liệu được kết nối của bạn không bị lập chỉ mục hay lưu trữ riêng biệt.
 
 ## Suy ngẫm về bài học
 
-Trước khi tiếp tục, hãy cân nhắc các câu hỏi sau:
-*   Những câu hỏi nào bạn thường xuyên hỏi đồng nghiệp mà có thể được trả lời
-bằng cách tìm kiếm trong tài liệu và thông tin liên lạc của tổ chức?.
+Trước khi kết thúc, hãy cân nhắc các câu hỏi sau:
+*   Những câu hỏi nào bạn thường xuyên phải hỏi đồng nghiệp mà thực tế có thể
+được trả lời bằng cách tìm kiếm trong tài liệu và thông tin liên lạc của tổ
+chức?.
 *   Có kịch bản tiếp nhận hoặc đào tạo nào mà Tìm kiếm Doanh nghiệp có thể giúp
-các thành viên mới bắt kịp tốc độ nhanh hơn không?.
-*   Nguồn dữ liệu nào sẽ có giá trị nhất để kết nối cho vai trò cụ thể của bạn?.
+thành viên mới bắt nhịp nhanh hơn không?.
+*   Nguồn dữ liệu nào sẽ có giá trị nhất để kết nối đối với vai trò cụ thể của
+bạn?.
 
 Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 

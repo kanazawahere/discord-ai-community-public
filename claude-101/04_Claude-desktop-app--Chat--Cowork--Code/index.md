@@ -1,162 +1,185 @@
 ---
-title: "Claude desktop app: Chat, Cowork, Code"
+title: "Claude desktop app: Chat, Cowork, Code (Ứng dụng Claude trên máy tính: Chat, Cowork, Code)"
 parent: Claude 101
 nav_order: 4
 ---
 
 # Claude desktop app: Chat, Cowork, Code
 
-## Ứng dụng Claude trên máy tính: Chat, Cowork, Code
+## Ứng dụng Claude trên máy tính: Chat, Cowork và Code
 
 Ứng dụng Claude trên máy tính cung cấp cho bạn ba phương thức để làm việc:
-**Chat, Cowork và Code** — đáp ứng từ các câu hỏi nhanh, nghiên cứu phức tạp cho
-đến xây dựng phần mềm.
+**Chat, Cowork và Code** — đáp ứng mọi nhu cầu từ các câu hỏi nhanh, nghiên cứu
+phức tạp cho đến việc xây dựng phần mềm.
 
-*   **Chat** là phiên bản Claude quen thuộc từ trang web claude.ai, nhưng được
-bổ sung thêm các tính năng như nhập liệu nhanh, chụp ảnh màn hình, đọc văn bản
-(dictation) và các bộ kết nối (connectors) chạy trực tiếp trên máy tính.
+*   **Chat** là phiên bản Claude giống như trên trang web claude.ai, nhưng được
+bổ sung thêm các tính năng chạy trực tiếp trên máy tính như nhập liệu nhanh,
+chụp ảnh màn hình, đọc văn bản (dictation) và các bộ kết nối (connectors).
 *   **Cowork** là một công cụ mang tính tác nhân (agentic) — bạn đưa ra mục
-tiêu, kết nối nó với các công cụ và tài nguyên của mình, sau đó để nó tự thực
-hiện công việc. Với Cowork, Claude có phạm vi tiếp cận và không gian làm
-việc rộng hơn để thực hiện nghiên cứu, phân tích chuyên sâu và tạo ra các tài
-liệu, sản phẩm bàn giao phức tạp.
-*   **Code** dành riêng cho việc xây dựng phần mềm, từ viết, kiểm thử cho đến
-triển khai mã nguồn.
+tiêu, kết nối nó với các công cụ cũng như tài nguyên của mình và để nó tự thực
+hiện công việc. Với Cowork, Claude có phạm vi tiếp cận và không gian rộng
+hơn để thực hiện các nghiên cứu, phân tích chuyên sâu và tạo ra các tài liệu
+hoặc sản phẩm bàn giao phức tạp.
+*   **Code** được thiết kế riêng cho việc xây dựng phần mềm, từ khâu viết, kiểm
+thử mã nguồn cho đến triển khai.
 
-Cả Cowork và Code đều chạy trên cùng một nền tảng engine là **Claude Code** bên
-dưới — hoạt động cục bộ trên máy tính, có khả năng làm việc độc lập, có thể tạo
-ra các **sub-agent (tác nhân phụ)** và duy trì các nhiệm vụ dài hạn. Điều
-này cho phép Claude tự mình giải quyết các công việc lớn hơn như nghiên cứu,
-viết lách hoặc xây dựng phần mềm. Mỗi chế độ được thiết kế xoay quanh loại
-hình công việc mà nó phục vụ, hiển thị những thông tin quan trọng và cung cấp
-quyền kiểm soát ở những nơi bạn cần.
+Cả Cowork và Code đều vận hành trên cùng một nền tảng engine là **Claude Code**
+bên dưới. Cả hai đều hoạt động cục bộ trên máy tính của bạn, có khả năng làm
+việc độc lập, có thể tạo ra các tác nhân phụ (sub-agents) và duy trì các nhiệm
+vụ dài hạn. Điều này cho phép Claude tự mình giải quyết các công việc lớn
+hơn như nghiên cứu, viết lách hoặc lập trình. Mỗi chế độ được thiết kế xoay
+quanh loại hình công việc cụ thể mà nó phục vụ, hiển thị những thông tin quan
+trọng nhất và cung cấp cho bạn quyền kiểm soát ở những nơi cần thiết.
 
 ## Chế độ Chat
 
-Chế độ Chat vượt trội khi bạn cần đặt câu hỏi, động não (brainstorm), soạn thảo
-hoặc giải quyết các vấn đề thông qua việc đối thoại qua lại. Nếu bạn đã từng
-sử dụng claude.ai, chế độ này hoạt động tương tự nhưng có thêm một vài tính năng
-tích hợp trực tiếp trên máy tính:
+Chế độ Chat phát huy thế mạnh nhất khi bạn cần đặt câu hỏi, động não
+(brainstorm), soạn thảo hoặc giải quyết các vấn đề thông qua việc đối thoại qua
+lại. Nếu bạn đã từng sử dụng claude.ai, chế độ này hoạt động tương tự nhưng
+có thêm một số tính năng tích hợp trực tiếp trên máy tính:
 
 *   **Nhập liệu nhanh (Quick entry):** Nhấn đúp phím Option trên máy Mac để mở
-Claude ngay trên bất kỳ ứng dụng nào bạn đang làm việc. Nó phản hồi trong
-một cửa sổ nhỏ gọn luôn nằm trên cùng, giúp bạn không bao giờ phải rời khỏi công
-việc đang dở dang để đặt câu hỏi.
+Claude ngay trên bất kỳ ứng dụng nào bạn đang làm việc. Claude sẽ phản hồi
+trong một cửa sổ nhỏ gọn luôn nằm trên cùng khi bạn chuyển đổi giữa các ứng
+dụng, giúp bạn không bao giờ phải rời khỏi công việc đang làm để đặt câu hỏi.
 *   **Chụp ảnh màn hình và chia sẻ cửa sổ:** Chụp ảnh màn hình hoặc chia sẻ một
-cửa sổ cụ thể để Claude thấy chính xác những gì bạn đang nhìn thấy. Điều này
-nhanh chóng và chính xác hơn nhiều so với việc mô tả bằng lời.
-*   **(Trên Mac) Đọc văn bản (Dictation):** Nói ra vấn đề thay vì gõ phím.
-Tính năng này hữu ích khi bạn đang suy nghĩ thành tiếng, không ngồi gần bàn phím
-hoặc khi việc nói nhanh hơn việc viết.
+cửa sổ cụ thể để Claude thấy chính xác những gì bạn đang nhìn thấy. Việc này
+nhanh chóng và chính xác hơn nhiều so với việc mô tả bằng lời những gì có trên
+màn hình.
+*   **Đọc văn bản (Dictation - Chỉ dành cho Mac):** Nói ra vấn đề thay vì gõ
+phím. Tính năng này hữu ích khi bạn đang suy nghĩ thành tiếng, không ngồi
+gần bàn phím hoặc khi việc nói nhanh hơn việc viết.
 *   **Bộ kết nối máy tính (Desktop connectors):** Kết nối các công cụ và dịch vụ
 cục bộ thông qua các bộ kết nối để Claude có thể làm việc với các công cụ khác
-trên máy của bạn.
+trên máy tính của bạn.
 
-**Ví dụ nên thử:**
-*   Khi bạn đang nhìn vào một bảng điều khiển (dashboard) lạ lẫm: Nhấn đúp
-Option, kéo chuột để chụp ảnh màn hình và hỏi "các chỉ số này có ý nghĩa gì?".
-Claude sẽ trả lời ngay trong cửa sổ lớp phủ (overlay) trong khi bảng điều khiển
-vẫn hiển thị rõ ràng.
-*   Khi chuẩn bị cho cuộc họp và muốn phác thảo cấu trúc bài thuyết trình: Mở
-mục nhập liệu nhanh, chuyển sang giọng nói và trình bày ý tưởng. Claude sẽ soạn
-thảo một dàn ý từ những gì bạn nói.
+**Các ví dụ nên thử:**
+*   Khi bạn đang xem một bảng điều khiển (dashboard) lạ lẫm: Nhấn đúp phím
+Option, kéo chuột qua cửa sổ để chụp ảnh màn hình và hỏi "các chỉ số này có ý
+nghĩa gì?". Claude sẽ trả lời ngay trong cửa sổ lớp phủ trong khi bảng điều
+khiển vẫn hiển thị rõ ràng.
+*   Khi bạn đang ở giữa các cuộc họp và muốn suy nghĩ về cấu trúc một bài thuyết
+trình: Mở mục nhập liệu nhanh, chuyển sang giọng nói và trình bày ý tưởng.
+Claude sẽ soạn thảo một dàn ý từ những gì bạn đã nói.
 *   Khi bạn đã ghi chép ý tưởng cho một đợt ra mắt sản phẩm trên Apple Notes
-trong nhiều tuần: Bạn thêm bộ kết nối Notes và yêu cầu Claude: "Hãy tập hợp mọi
-thứ trong ghi chú của tôi về đợt ra mắt Osprey, tìm xem tôi còn bỏ dở chỗ nào và
-kiểm tra các công cụ đã kết nối khác để điền vào các khoảng trống đó".
-Claude sẽ đọc các ghi chú, chắp vá thông tin và tiếp tục những phần bạn còn dang
-dở.
+trong nhiều tuần: Bạn thêm bộ kết nối Notes từ phần Cài đặt và yêu cầu Claude:
+"Hãy tập hợp mọi thứ trong ghi chú của tôi về đợt ra mắt Osprey, tìm xem tôi còn
+bỏ dở chỗ nào và kiểm tra các công cụ đã kết nối khác để tìm bất cứ thông tin
+nào có thể điền vào các khoảng trống đó". Claude sẽ đọc các ghi chú trên máy
+tính của bạn, chắp vá thông tin và tiếp tục thực hiện những phần bạn còn đang
+dang dở.
 
 ## Chế độ Cowork
 
-Claude Cowork được xây dựng cho những công việc đòi hỏi sự nỗ lực thực sự: tổng
-hợp thông tin từ nhiều nguồn, phân tích ý nghĩa và tạo ra sản phẩm hoàn chỉnh. Trong Cowork, Claude có thể đa nhiệm, xử lý các phần khác nhau của dự án
-cùng lúc, cho phép nó rút trích từ nhiều nguồn hơn và có sức bền để hoàn thành
-công việc. Các nhiệm vụ phù hợp bao gồm: báo cáo nghiên cứu kỹ lưỡng, phân
-tích tài chính đa nguồn, đánh giá hợp đồng toàn diện, hoặc tạo các slide trình
-chiếu trau chuốt từ dữ liệu rải rác.
+Claude Cowork được xây dựng cho những công việc đòi hỏi nỗ lực thực sự: tổng hợp
+thông tin từ nhiều nguồn, phân tích ý nghĩa và tạo ra sản phẩm hoàn chỉnh.
+Trong Cowork, Claude có thể đa nhiệm, xử lý các phần khác nhau của dự án cùng
+lúc, cho phép nó có phạm vi rút trích từ nhiều nguồn hơn và có sức bền để hoàn
+thành công việc. Các ví dụ bao gồm: báo cáo nghiên cứu kỹ lưỡng, phân tích
+tài chính đa nguồn, đánh giá hợp đồng toàn diện, hoặc tạo các slide trình chiếu
+trau chuốt từ dữ liệu rải rác.
 
-Trước khi bắt đầu, Claude thường hỏi một số câu hỏi ngắn để xác định nhu cầu của
-bạn về: phạm vi, định dạng và các ràng buộc. Sau đó, nó xây dựng một **kế
-hoạch** mà bạn có thể xem lại ở thanh bên (sidebar). Khi nó làm việc, bạn sẽ
-thấy nhiệm vụ dần hình thành: các nguồn đang trích dẫn, các tệp đang được tạo ra
-và tiến độ thực hiện kế hoạch. Bạn có thể chạy nhiều nhiệm vụ cùng lúc và
-chuyển đổi giữa chúng từ thanh bên.
+Trước khi bắt đầu, Claude thường hỏi một số câu hỏi ngắn để xác định chính xác
+nhu cầu của bạn về: phạm vi, định dạng và các ràng buộc. Sau đó, nó xây dựng
+một **kế hoạch** mà bạn có thể xem lại ở thanh bên. Khi nó làm việc, bạn sẽ
+thấy nhiệm vụ dần hình thành: các nguồn đang được trích dẫn, các tệp đang được
+tạo ra và tiến độ thực hiện kế hoạch. Bạn có thể chạy nhiều nhiệm vụ cùng
+lúc trong các cuộc hội thoại riêng biệt và chuyển đổi giữa chúng từ thanh bên.
 
 **Các tính năng nổi bật của Cowork:**
-*   **Truy cập thư mục:** Chỉ định cho Claude một thư mục trên máy tính, nó sẽ
-đọc những gì có trong đó, tìm ra thông tin liên quan và lưu kết quả công việc
-vào chính nơi đó. Bạn cũng có thể tải tệp lên hoặc kết nối các công cụ khác.
+*   **Truy cập thư mục (Folder access):** Chỉ định cho Claude một thư mục trên
+máy tính, nó sẽ đọc những gì có trong đó, tìm ra thông tin liên quan và lưu kết
+quả công việc vào chính nơi đó. Bạn cũng có thể tải tệp lên, dán nội dung
+vào cuộc trò chuyện hoặc kết nối các công cụ để cung cấp những gì Claude cần.
 *   **Nhiệm vụ theo lịch trình (Scheduled tasks):** Claude có thể xử lý các công
-việc lặp lại theo lịch: báo cáo hàng ngày từ Slack và lịch làm việc, tổng hợp
-hàng tuần về những gì đã hoàn thành, hoặc phân loại hộp thư đến mỗi sáng.
-Nếu máy tính bị tắt lúc đến hạn, Claude sẽ làm bù ngay khi bạn quay lại.
+việc lặp lại theo lịch: báo cáo hàng ngày tổng hợp từ Slack và lịch làm việc,
+tổng hợp hàng tuần về những gì đã hoàn thành, hoặc phân loại hộp thư đến mỗi
+sáng để tìm những việc cần chú ý. Bạn xác định nhiệm vụ và thời điểm chạy,
+Claude sẽ tự động xử lý mỗi khi ứng dụng được mở. Nếu máy tính bị tắt lúc
+đến hạn, nó sẽ làm bù ngay khi bạn quay lại.
 *   **Tác nhân phụ (Subagents):** Đây là các "nhân viên nền" mà Claude tạo ra để
-xử lý song song các phần của một nhiệm vụ phức tạp, sau đó điều phối kết quả để
-đưa ra sản phẩm cuối cùng.
+xử lý các phần của một nhiệm vụ theo hướng song song. Nếu bạn yêu cầu một
+việc phức tạp — như một báo cáo nghiên cứu từ nhiều nguồn — Claude sẽ chia nhỏ
+thành các nhiệm vụ phụ, giao cho mỗi tác nhân phụ với bối cảnh riêng, sau đó
+điều phối kết quả để đưa ra một sản phẩm hoàn chỉnh cuối cùng.
 *   **Điều phối (Dispatch):** Một luồng hội thoại liên tục cho phép bạn tiếp tục
 các cuộc trò chuyện Cowork từ điện thoại. Từ ứng dụng di động, bạn có thể
-giao nhiệm vụ cho Claude sử dụng mọi thứ trên máy tính (tệp, bộ kết nối, ứng
-dụng) miễn là máy tính đang mở và ứng dụng Desktop đang chạy.
-*   **Dự án (Projects):** Cho phép nhóm các nhiệm vụ liên quan vào không gian
-làm việc riêng với tệp, chỉ dẫn và bộ nhớ riêng. Các dự án này sống cục bộ
-trên máy tính của bạn.
-*   **Sử dụng trình duyệt:** Kết nối Claude với Chrome để nó có thể điều hướng
-các trang web, tương tác và lấy dữ liệu trực tiếp (ví dụ: kiểm tra giá của 10
-đối thủ cạnh tranh).
-*   **Sử dụng máy tính (Computer use):** Khi không có bộ kết nối, Claude có thể
-điều hướng máy tính trực tiếp bằng cách nhấp chuột, gõ phím và mở ứng dụng như
-con người. Claude luôn ưu tiên bộ kết nối trước, sau đó đến Chrome và cuối
-cùng là tương tác màn hình. Bạn sẽ nhận được yêu cầu cấp quyền trước khi
-Claude truy cập từng ứng dụng. *Lưu ý: Tính năng này đang ở bản xem trước
-nghiên cứu cho gói Pro/Max trên macOS*.
+giao nhiệm vụ cho Claude sử dụng mọi thứ trên máy tính — tệp, bộ kết nối, plugin
+và cả ứng dụng máy tính. Để dùng tính năng này, bạn cần cả ứng dụng máy tính
+và di động, đồng thời máy tính phải đang mở và ứng dụng Desktop đang chạy.
+*   **Dự án (Projects):** Dự án trong Cowork cho phép nhóm các nhiệm vụ liên
+quan vào không gian làm việc riêng với tệp, bối cảnh, chỉ dẫn và bộ nhớ riêng. Các dự án này sống cục bộ trên máy tính của bạn và được xây dựng quanh các
+nhiệm vụ bạn thực hiện qua Cowork.
+*   **Sử dụng trình duyệt (Browser use):** Kết nối Claude trong Chrome để nó có
+thể điều hướng các trang web, tương tác với các trang và lấy dữ liệu trực tiếp
+vào nhiệm vụ đang thực hiện. Đây là cách Cowork thực hiện các việc như kiểm
+tra giá đối thủ cạnh tranh trên 10 trang web hoặc thu thập dữ liệu từ các trang
+không có API.
+*   **Sử dụng máy tính (Computer use):** Khi không có bộ kết nối hoặc plugin,
+Claude có thể điều hướng máy tính trực tiếp — nhấp chuột, gõ phím và mở ứng dụng
+như con người. Claude ưu tiên bộ kết nối trước, sau đó đến Chrome và cuối
+cùng là tương tác màn hình để chọn con đường nhanh và tin cậy nhất. Bạn sẽ
+thấy yêu cầu cấp quyền trước khi Claude truy cập từng ứng dụng và có thể thiết
+lập danh sách chặn cho những thứ không muốn Claude chạm vào. *Lưu ý: Tính
+năng này đang ở bản xem trước nghiên cứu cho gói Pro/Max trên macOS*.
 *   **Plugin:** Cung cấp các khả năng bổ sung như lấy dữ liệu tài chính trực
-tiếp hoặc tìm kiếm cơ sở tri thức nội bộ của công ty.
-*   **Môi trường bảo mật:** Cowork chạy trong một không gian hạn chế trên máy
-tính của bạn, chỉ có quyền truy cập vào các thư mục bạn đã chia sẻ.
+tiếp, tìm kiếm cơ sở tri thức nội bộ của công ty hoặc làm việc trong các khung
+tuân thủ cụ thể.
+*   **Môi trường bảo mật (Protected environment):** Cowork chạy trong một không
+gian hạn chế trên máy tính của bạn. Claude có thể đọc, tạo và chỉnh sửa tệp
+trong các thư mục bạn đã chia sẻ, nhưng không thể truy cập bất cứ thứ gì bên
+ngoài đó.
 
 **Ví dụ nên thử:**
 *   **Truy vấn mọi công cụ như một cơ sở dữ liệu:** Hỏi "hãy xem lại chúng ta đã
 quyết định gì về giá cả quý trước qua ghi chú cuộc họp, Slack và email, sau đó
-cập nhật bản thuyết trình Q3?".
-*   **Nghiên cứu thị trường không cần mở trình duyệt:** Cowork sẽ tự truy cập
-các trang web, đọc báo cáo, lấy giá cả và gửi lại một bản tóm tắt có nguồn dẫn
-đầy đủ.
-*   **Xử lý hơn 50 tài liệu dự án:** Yêu cầu Cowork tìm các tài liệu liên quan
-nhất và tạo bản tóm tắt. Claude sẽ đọc từng trang, đối chiếu chéo và tìm ra
-các quy luật mà chỉ khi đọc toàn bộ mới thấy được.
-*   **Tự động hóa công việc hành chính mỗi sáng:** Thiết lập một nhiệm vụ theo
-lịch để Claude kiểm tra tin nhắn và chuẩn bị cập nhật trạng thái, giúp bạn bắt
-đầu ngày mới với các câu trả lời thay vì việc giấy tờ.
+cập nhật bản thuyết trình Q3?". Cowork sẽ tìm câu trả lời xuyên suốt các ghi
+chú, slide, email và các luồng Slack.
+*   **Nghiên cứu thị trường không cần mở trình duyệt:** Đối với các nghiên cứu
+trải dài trên nhiều tab với thông tin khó trích xuất, Cowork sẽ tự truy cập các
+trang web, đọc báo cáo, lấy giá cả và đưa ra một bản tóm tắt có cấu trúc với đầy
+đủ nguồn dẫn.
+*   **Xử lý thư mục hơn 50 tài liệu dự án:** Bao gồm hợp đồng, báo cáo tài chính
+và biên bản cuộc họp. Bạn có thể yêu cầu Cowork tìm các tài liệu liên quan
+nhất và tạo một bản ghi nhớ tóm tắt. Claude sẽ đọc từng trang, đối chiếu
+chéo toàn bộ và rút ra các quy luật mà chỉ có thể thấy được khi đọc tất cả chúng. Hãy xem xét 50 tài liệu như cách bạn xem xét 5 hồ sơ.
+*   **Tự động hóa công việc hành chính mỗi sáng:** Nếu bạn lặp lại việc kiểm tra
+tin nhắn và chuẩn bị cập nhật trạng thái hàng ngày, hãy thiết lập nó thành một
+nhiệm vụ theo lịch. Claude sẽ xử lý lặp lại, giúp bạn bắt đầu ngày mới với
+các câu trả lời thay vì các công việc quản lý.
 
 Chế độ Cowork khả dụng cho người dùng Pro, Max, Team và Enterprise.
 
 ## Chế độ Code
 
-Tab Code cho phép bạn truy cập vào sức mạnh của **Claude Code** ngay trong ứng
-dụng máy tính, cung cấp một môi trường phát triển toàn diện để xây dựng phần mềm. Thông qua Code, Claude làm việc trực tiếp trong mã nguồn của bạn: đọc,
-viết, sửa đổi mã và chạy các câu lệnh.
+Tab Code cung cấp cho bạn sức mạnh của **Claude Code** chạy trực tiếp trong ứng
+dụng máy tính, mang đến một môi trường phát triển toàn diện để xây dựng phần mềm. Thông qua Code, Claude làm việc trực tiếp trong cơ sở mã nguồn (codebase)
+của bạn: đọc mã, viết, sửa đổi và chạy các câu lệnh.
 
-**Các đặc điểm chính của chế độ Code:**
-*   **Giao diện trực quan:** Có tính năng so sánh khác biệt (visual diffs) để
-xem những gì đã thay đổi, cửa sổ terminal tích hợp để xem các lệnh đang chạy và
-tích hợp **git** để theo dõi mọi phiên bản.
-*   **Quyền truy cập rộng hơn:** Khác với Cowork chạy trong không gian hạn chế,
-Code chạy trực tiếp trong dự án của bạn với quyền truy cập đầy đủ vào hệ thống
-tệp, terminal và các công cụ phát triển.
-*   **Lựa chọn nơi làm việc:**
-    *   **Cục bộ (Local):** Claude làm việc trực tiếp với các tệp trên máy tính
-của bạn, có thể chạy máy chủ phát triển để bạn xem trước trên trình duyệt.
+**Các đặc điểm chính:**
+*   **Giao diện hỗ trợ:** Có tính năng so sánh khác biệt trực quan (visual
+diffs) để xem những gì đã thay đổi, cửa sổ terminal tích hợp để xem các lệnh khi
+đang chạy và tích hợp **git** để theo dõi mọi phiên bản giúp bạn luôn có thể
+quay lại bản cũ.
+*   **Quyền truy cập:** Khác với Cowork chạy trong không gian hạn chế, Code chạy
+trực tiếp trong dự án của bạn với quyền truy cập đầy đủ vào hệ thống tệp,
+terminal và các công cụ phát triển.
+*   **Lựa chọn môi trường làm việc:**
+    *   **Cục bộ (Local):** Bạn chọn một thư mục trên máy tính và Claude làm
+việc trực tiếp với các tệp đó. Nó có thể đọc dự án, truy cập các công cụ cục
+bộ và chạy máy chủ phát triển để bạn xem trước trên trình duyệt.
     *   **Từ xa (Remote):** Kết nối với kho lưu trữ GitHub và Claude làm việc
-trong môi trường đám mây. Phiên làm việc vẫn tiếp tục ngay cả khi bạn đóng ứng
-dụng.
+trong môi trường đám mây. Các phiên làm việc vẫn tiếp tục ngay cả khi bạn
+đóng ứng dụng. Điều này tốt cho các cơ sở mã lớn hoặc khi bạn muốn thực hiện
+phát triển bên ngoài máy cục bộ.
 *   **Ba chế độ tương tác để kiểm soát:**
     *   **Hỏi (Ask):** Claude đề xuất mọi thay đổi và đợi bạn phê duyệt thông
 qua việc xem lại các thay đổi trực quan.
-    *   **Lập mã (Code):** Claude tự động áp dụng các thay đổi tệp nhưng sẽ hỏi
-trước khi chạy các lệnh terminal.
+    *   **Lập mã (Code):** Claude tự động áp dụng các thay đổi tệp nhưng sẽ kiểm
+tra trước khi chạy các lệnh terminal.
     *   **Lập kế hoạch (Plan):** Claude phác thảo toàn bộ phương pháp tiếp cận
-trước khi chạm vào bất cứ thứ gì.
+trước khi chạm vào bất cứ thứ gì. Có một trình xem kế hoạch chuyên dụng để
+bạn xem lại chiến lược khi công việc tiến triển.
 *   **Quản lý phiên làm việc:** Bạn có thể chạy nhiều phiên trên các dự án khác
 nhau và lọc chúng theo trạng thái (Đang hoạt động hoặc Đã lưu trữ) và môi trường
 (Cục bộ hoặc Đám mây) từ thanh bên.
@@ -168,21 +191,25 @@ Chế độ Code khả dụng cho người dùng Pro, Max, Team và Enterprise.
 | Đặc điểm | Chat | Cowork | Code |
 | :--- | :--- | :--- | :--- |
 | **Tối ưu hóa cho** | Trao đổi nhanh: khám phá ý tưởng, soạn thảo lặp lại, câu
-hỏi nhanh, học qua đối thoại. | Công việc phức tạp hoặc bền bỉ: nghiên cứu,
-phân tích, tổ chức tệp, tạo tài liệu và sản phẩm hoàn chỉnh. | Xây dựng phần
-mềm: viết, kiểm thử, chạy và triển khai mã nguồn. |
-| **Tính năng chính** | Nhập liệu nhanh, đọc văn bản (dictation). | Làm việc
-từ thư mục cục bộ, plugin, tác nhân phụ, nhiệm vụ theo lịch. | Các chế độ
-Hỏi/Mã/Kế hoạch, so sánh khác biệt, tích hợp git, môi trường cục bộ và từ xa. |
+hỏi nhanh, học qua đối thoại. | Công việc phức tạp hoặc bền bỉ: nghiên cứu, phân
+tích, tổ chức tệp, tạo tài liệu và sản phẩm hoàn chỉnh. | Xây dựng phần mềm:
+viết, kiểm thử, chạy và triển khai mã nguồn. |
+| **Tính năng chính** | Nhập liệu nhanh, đọc văn bản (dictation). | Làm việc từ
+thư mục cục bộ, plugin, tác nhân phụ, nhiệm vụ theo lịch. | Các chế độ Hỏi/Mã/Kế
+hoạch, so sánh khác biệt, tích hợp git, môi trường cục bộ và từ xa. |
 | **Công cụ & Tiện ích mở rộng** | Bộ kết nối, Kỹ năng (Skills), Claude trên
-Chrome. | Bộ kết nối, Kỹ năng, Claude trên Chrome, Plugin, Sử dụng máy tính. | Bộ kết nối, Kỹ năng, Claude trên Chrome, Plugin, Hooks. |
+Chrome. | Bộ kết nối, Kỹ năng, Claude trên Chrome, Plugin, Sử dụng máy tính. |
+Bộ kết nối, Kỹ năng, Claude trên Chrome, Plugin, Hooks. |
+
+(Nguồn:)
 
 ## Suy ngẫm và Bước tiếp theo
 
-Hãy dành chút thời gian để nghĩ về những công việc bạn thường xuyên dùng Claude
-nhất. Chế độ nào — Chat, Cowork hay Code — sẽ phù hợp nhất cho từng nhiệm vụ
-đó?. Đối với một dự án gần đây cần tổng hợp thông tin từ nhiều nguồn, Cowork
-có thể đã thay đổi quy trình làm việc của bạn như thế nào?.
+Hãy dành chút thời gian để nghĩ về những công việc bạn thường xuyên sử dụng
+Claude nhất. Chế độ nào — Chat, Cowork hay Code — sẽ phù hợp nhất cho từng
+nhiệm vụ đó?. Hãy cân nhắc một dự án gần đây mà bạn cần tổng hợp thông tin
+từ nhiều nguồn; Cowork có thể đã thay đổi quy trình làm việc của bạn như thế
+nào?.
 
 Trong học phần tiếp theo, bạn sẽ học cách tổ chức công việc và kiến thức của
 mình bằng cách sử dụng **Dự án (Projects)**.

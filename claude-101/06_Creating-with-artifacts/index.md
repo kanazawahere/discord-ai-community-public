@@ -1,5 +1,5 @@
 ---
-title: "Creating with artifacts"
+title: "Creating with artifacts (Tạo nội dung với Artifacts)"
 parent: Claude 101
 nav_order: 6
 ---
@@ -15,9 +15,10 @@ thấy nội dung của mình được hiển thị trực quan và sẵn sàng 
 là một trang web đang hoạt động, một biểu đồ tương tác hay một tài liệu mà bạn
 có thể tải xuống ngay lập tức.
 
-Claude sẽ tự động tạo một artifact khi nội dung đáp ứng các tiêu chí nhất định:
-*   Nội dung có ý nghĩa và mang tính độc lập, thường là **trên 15 dòng**.
-*   Đó là thứ bạn có khả năng muốn chỉnh sửa, lặp lại hoặc tái sử dụng.
+Claude sẽ **tự động tạo một artifact** khi nội dung đáp ứng các tiêu chí nhất
+định:
+*   Nội dung mang tính quan trọng và độc lập, thường là **trên 15 dòng**.
+*   Đó là thứ bạn có khả năng muốn chỉnh sửa, thực hiện lặp lại hoặc tái sử dụng.
 *   Nó đại diện cho nội dung phức tạp có thể đứng vững một mình mà không cần đến
 bối cảnh hội thoại xung quanh.
 *   Đó là nội dung bạn sẽ muốn tham khảo hoặc sử dụng sau này.
@@ -50,12 +51,13 @@ bao gồm logic thực tế và phản hồi lại thao tác của người dùn
 
 ## Cách tạo Artifact đầu tiên của bạn
 
-Việc tạo một artifact đơn giản như việc thực hiện một cuộc hội thoại. Bạn
-chỉ cần mô tả những gì mình muốn, và Claude sẽ quyết định xem có nên trình bày
-nội dung đó dưới dạng artifact hay không. Ví dụ, bạn có thể nói:
+Việc tạo một artifact đơn giản như việc thực hiện một cuộc hội thoại thông
+thường. Bạn chỉ cần mô tả những gì mình muốn, và Claude sẽ quyết định xem có
+nên trình bày nội dung đó dưới dạng artifact hay không. Ví dụ, bạn có thể
+nói:
 *   "Tạo một sơ đồ luồng hiển thị quy trình tiếp nhận khách hàng của chúng tôi"
 (Lưu ý: Claude hiện có thể tạo sơ đồ trực quan như sơ đồ luồng dưới dạng HTML
-bằng tính năng Imagine, bên cạnh các artifact dựa trên mã nguồn).
+bằng tính năng **Imagine**, bên cạnh các artifact dựa trên mã nguồn).
 *   "Xây dựng một bảng điều khiển tương tác cho phép tôi nhập chi phí hàng tháng
 và xem bảng phân tích".
 *   "Thiết kế một trang đích cho ứng dụng năng suất với phần tiêu đề chính (hero
@@ -87,21 +89,22 @@ Enterprise có thể chia sẻ artifact nội bộ với đồng nghiệp. Artif
 chia sẻ sẽ nằm trong phạm vi tổ chức của bạn và yêu cầu xác thực nhóm để truy
 cập.
 *   **Xuất bản công khai:** Đối với người dùng gói Free, Pro và Max, bạn có thể
-xuất bản artifact để bất kỳ ai có liên kết đều có thể truy cập được. Khi bạn
-xuất bản:
-    *   Chỉ phiên bản được chọn mới trở thành công khai (cuộc trò chuyện của bạn
-vẫn được giữ riêng tư).
-    *   Bất kỳ ai cũng có thể xem và tương tác với artifact mà không cần tài
-khoản Claude.
-    *   Những người khác có thể **"remix"** artifact của bạn—mở nó trong cuộc
-hội thoại Claude của riêng họ để sửa đổi và phát triển thêm.
+xuất bản artifact để bất kỳ ai có liên kết đều có thể truy cập được.
 
-Để xuất bản, hãy nhấp vào nút "Share" hoặc "Publish" ở góc trên bên phải của
-artifact. Bạn có thể hủy xuất bản bất kỳ lúc nào bằng cách quay lại artifact
-đó và gỡ bỏ quyền truy cập công khai. **Lưu ý:** Khi bạn xuất bản, bất kỳ ai
-có liên kết đều có thể xem được, nhưng các công cụ tìm kiếm như Google sẽ không
-lập chỉ mục các artifact này, vì vậy chúng sẽ không xuất hiện trong kết quả tìm
-kiếm.
+Khi bạn xuất bản:
+*   Chỉ phiên bản được chọn mới trở thành công khai (cuộc trò chuyện của bạn vẫn
+được giữ riêng tư).
+*   Bất kỳ ai cũng có thể xem và tương tác với artifact mà không cần tài khoản
+Claude.
+*   Những người khác có thể **"remix"** artifact của bạn—mở nó trong cuộc hội
+thoại Claude của riêng họ để sửa đổi và phát triển thêm.
+
+Để xuất bản, hãy nhấp vào nút **"Share"** hoặc **"Publish"** ở góc trên bên phải
+của artifact. Bạn có thể hủy xuất bản bất kỳ lúc nào bằng cách quay lại
+artifact đó và gỡ bỏ quyền truy cập công khai. **Lưu ý:** Khi bạn xuất bản,
+bất kỳ ai có liên kết đều có thể xem được, nhưng các công cụ tìm kiếm như Google
+sẽ không lập chỉ mục các artifact này, vì vậy chúng sẽ không xuất hiện trong kết
+quả tìm kiếm.
 
 ## Mẹo để tận dụng tối đa Artifact
 
@@ -130,9 +133,10 @@ trình bày dưới dạng sơ đồ luồng hoặc biểu đồ không?
 *   Bản mẫu thử nghiệm hoặc công cụ nào sẽ giúp bạn kiểm tra một ý tưởng một
 cách nhanh chóng?
 
-**Bước tiếp theo:** Trong bài học tới, bạn sẽ tìm hiểu về **Skills (Kỹ năng)** —
-các bộ hướng dẫn có thể tái sử dụng để dạy cho Claude các quy trình làm việc
-chuyên biệt.
+## Bước tiếp theo
+
+Trong bài học tới, bạn sẽ tìm hiểu về **Skills (Kỹ năng)** — các bộ hướng dẫn có
+thể tái sử dụng để dạy cho Claude các quy trình làm việc chuyên biệt.
 
 Resumed conversation: 864f8f33-91b4-4025-8aef-11b5e69d5991
 

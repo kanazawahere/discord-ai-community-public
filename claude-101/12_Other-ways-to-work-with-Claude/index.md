@@ -1,5 +1,5 @@
 ---
-title: "Other ways to work with Claude"
+title: "Other ways to work with Claude (Các cách khác để làm việc với Claude)"
 parent: Claude 101
 nav_order: 12
 ---
@@ -8,17 +8,16 @@ nav_order: 12
 
 ## Các cách khác để làm việc với Claude
 
-Claude là một trí tuệ nhân tạo và Claude.ai chỉ là một cách để làm việc với nó. Claude hiện có sẵn trong một số **công cụ chuyên dụng** được thiết kế để hỗ
-trợ bạn ngay tại nơi bạn đang làm việc. Bài học này giới thiệu năm cách bổ
-sung để làm việc với Claude, mỗi cách được điều chỉnh cho các quy trình làm việc
-và trường hợp sử dụng cụ thể.
+Claude là một trí tuệ nhân tạo và Claude.ai chỉ là một cách để làm việc với nó. Claude hiện có sẵn trong một số công cụ chuyên dụng được thiết kế để hỗ trợ
+bạn ngay tại nơi bạn đang làm việc. Nội dung này giới thiệu năm cách bổ sung
+để làm việc với Claude, mỗi cách được điều chỉnh cho các quy trình làm việc và
+trường hợp sử dụng cụ thể.
 
 ## Claude Code
 
-**Claude Code** là một công cụ lập trình mang tính đại lý (agentic) hoạt động
-trong **terminal, IDE, trình duyệt hoặc thậm chí trong Slack**. Nó hiểu mã
-nguồn (codebase) của bạn, thực hiện các lệnh và xử lý toàn bộ quy trình phát
-triển thông qua ngôn ngữ tự nhiên.
+Claude Code là một công cụ lập trình mang tính đại lý (agentic) hoạt động tại
+nơi bạn làm việc — trong terminal, IDE, trình duyệt hoặc thậm chí trong Slack. Nó hiểu mã nguồn (codebase) của bạn, thực hiện các lệnh và xử lý toàn bộ
+quy trình phát triển thông qua ngôn ngữ tự nhiên.
 
 Bạn nên sử dụng Claude Code khi:
 *   Bạn muốn **xây dựng các tính năng** bằng cách mô tả những gì bạn cần bằng
@@ -31,14 +30,14 @@ nhau hoạt động cùng nhau.
 *   Bạn muốn **tự động hóa các tác vụ tẻ nhạt** như sửa lỗi định dạng (lint
 errors), giải quyết xung đột khi gộp mã (merge conflicts) hoặc viết ghi chú phát
 hành.
-*   Bạn thích làm việc trong terminal cùng với các công cụ phát triển hiện có
-của mình thay vì chuyển sang một giao diện riêng biệt.
+*   Bạn thích làm việc trong terminal cùng với các IDE và công cụ phát triển
+hiện có của mình thay vì chuyển sang một giao diện riêng biệt.
 
 ## Claude trong Slack
 
-Claude tích hợp trực tiếp với **Slack**, cho phép bạn nhận được sự trợ giúp
-trong các kênh (channels) và luồng hội thoại (threads), hoặc đưa ngữ cảnh từ
-Slack vào các cuộc trò chuyện với Claude.
+Claude tích hợp trực tiếp với Slack, cho phép bạn nhận được sự trợ giúp trong
+các kênh (channels) và luồng hội thoại (threads), hoặc đưa ngữ cảnh từ Slack vào
+các cuộc trò chuyện với Claude.
 
 Bạn nên sử dụng Claude trong Slack khi:
 *   Bạn muốn **dự thảo câu trả lời** cho tin nhắn, tóm tắt các luồng tin nhắn
@@ -56,9 +55,9 @@ hoặc thông tin công ty trong một cuộc trò chuyện.
 
 ## Claude cho Excel
 
-**Claude cho Excel** đưa Claude trực tiếp vào Microsoft Excel thông qua một
-thanh bên, cho phép bạn **phân tích, tìm hiểu và sửa đổi bảng tính** thông qua
-trò chuyện.
+Claude cho Excel đưa Claude trực tiếp vào Microsoft Excel thông qua một thanh
+bên, cho phép bạn **phân tích, tìm hiểu và sửa đổi bảng tính** thông qua trò
+chuyện.
 
 Bạn nên sử dụng Claude cho Excel khi:
 *   Bạn đang làm việc với một sổ làm việc phức tạp có nhiều tab và muốn hiểu
@@ -74,8 +73,8 @@ liệu của mình.
 
 ## Claude cho PowerPoint
 
-**Claude cho PowerPoint** đưa Claude vào Microsoft PowerPoint dưới dạng thanh
-bên, vì vậy bạn có thể **soạn thảo, chỉnh sửa và cấu trúc lại bài thuyết trình**
+Claude cho PowerPoint đưa Claude vào Microsoft PowerPoint dưới dạng thanh bên,
+vì vậy bạn có thể **soạn thảo, chỉnh sửa và cấu trúc lại bài thuyết trình**
 thông qua trò chuyện trong khi vẫn giữ nguyên mẫu (template) và phong cách
 thương hiệu hiện có của bạn.
 
@@ -94,11 +93,12 @@ cục hoặc loại biểu đồ nào phù hợp nhất với ý tưởng bạn 
 
 ## Claude cho Chrome
 
-**Claude cho Chrome** là một tiện ích mở rộng trình duyệt giúp thêm Claude vào
-thanh bên trong Google Chrome. Nó có thể quan sát những gì bạn đang làm và
-**thực hiện hành động trực tiếp trong trình duyệt**. Ví dụ, Claude có thể
-giúp sắp xếp ngân sách sửa chữa nhà bằng cách thu thập thông tin từ các tài liệu
-hoạch định và email, sau đó cập nhật trực tiếp vào bảng tính của bạn.
+Claude cho Chrome là một tiện ích mở rộng trình duyệt giúp thêm Claude vào thanh
+bên trong Google Chrome. Nó có thể quan sát những gì bạn đang làm và **thực
+hiện hành động trực tiếp trong trình duyệt** của bạn. Ví dụ, nó có thể giúp
+tổ chức ngân sách cải tạo nhà bằng cách thu thập ngữ cảnh từ các tài liệu lập kế
+hoạch và email, cập nhật bảng tính trong thời gian thực, và sau đó dự thảo email
+để chia sẻ kế hoạch.
 
 Bạn nên sử dụng Claude cho Chrome khi:
 *   Bạn muốn **tóm tắt các bài báo**, bài nghiên cứu hoặc trang web khi đang
@@ -108,14 +108,15 @@ duyệt.
 *   Bạn muốn kiểm tra các tính năng của trang web hoặc điều hướng các quy trình
 làm việc nhiều bước mà không cần nhấp chuột thủ công qua từng bước.
 *   Bạn cần một trợ lý duyệt web duy trì ngữ cảnh khi bạn di chuyển giữa các tab
-và tác vụ, điều này rất tốt để lấy ngữ cảnh từ các công cụ nội bộ chuyên dụng,
-CRM hoặc bảng điều khiển (dashboards).
+và tác vụ, giúp lấy ngữ cảnh từ các công cụ nội bộ chuyên dụng, CRM hoặc bảng
+điều khiển (dashboards).
 
 **Lưu ý quan trọng:** Claude cho Chrome hiện đang trong giai đoạn xem trước
 nghiên cứu (research preview). Anthropic khuyên bạn nên sử dụng nó cho các
-tác vụ ít rủi ro trên các trang web đáng tin cậy. Tiện ích này sẽ yêu cầu
-quyền trước khi thực hiện các hành động có rủi ro cao và một số loại trang web
-(tài chính, nội dung người lớn) bị chặn theo mặc định.
+tác vụ ít rủi ro trên các trang web đáng tin cậy. Tiện ích này yêu cầu quyền
+trước khi thực hiện các hành động có rủi ro cao (như mua hàng hoặc chia sẻ dữ
+liệu cá nhân) và một số loại trang web (tài chính, nội dung người lớn) bị chặn
+theo mặc định.
 
 ## Tóm tắt các công cụ và môi trường hoạt động
 
@@ -127,10 +128,9 @@ chúng:
 | **Claude.ai** | Các tác vụ chung, nghiên cứu, viết lách, phân tích, tạo tệp |
 Web, ứng dụng máy tính và di động |
 | **Claude Code** | Phát triển phần mềm, điều hướng mã nguồn, quy trình làm việc
-với git | Terminal/dòng lệnh, IDE, hoặc trình duyệt |
+với git | Terminal, IDE, hoặc trình duyệt |
 | **Claude Cowork** | Các tác vụ phức tạp, nhiều bước: tóm tắt nghiên cứu, tạo
-tài liệu, tổ chức tệp, phân tích dữ liệu | Máy tính (và ứng dụng di động qua
-Dispatch) |
+tài liệu, phân tích dữ liệu | Máy tính (và di động qua Dispatch) |
 | **Claude/Claude Code trong Slack** | Cộng tác nhóm, chuẩn bị họp, trả lời
 nhanh theo ngữ cảnh | Không gian làm việc Slack |
 | **Claude cho Excel** | Phân tích bảng tính, mô hình tài chính, gỡ lỗi công
@@ -140,8 +140,8 @@ thiết kế | Thanh bên Microsoft PowerPoint |
 | **Claude cho Chrome** | Nghiên cứu web, quản lý email, tự động hóa trình duyệt
 | Thanh bên trình duyệt Chrome |
 
-Bạn có muốn tôi tạo một bộ thẻ học (flashcards) để giúp bạn ghi nhớ các trường
-hợp sử dụng của từng công cụ này không?
+Bạn có muốn tôi tạo một bộ thẻ học (flashcards) bằng tiếng Việt để giúp bạn ghi
+nhớ các trường hợp sử dụng của từng công cụ này không?
 
 Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
 ## Video

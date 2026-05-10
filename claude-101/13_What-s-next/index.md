@@ -1,93 +1,98 @@
 ---
-title: "What's next?"
+title: "What's next? (Tiếp theo là gì?)"
 parent: Claude 101
 nav_order: 13
 ---
 
 # What's next?
 
-## Làm quen với Claude
+## Những gì bạn đã học được
 
-Claude không chỉ đơn thuần là một chatbot; đây là một trợ lý AI được xây dựng
-trên nguyên tắc hữu ích, vô hại và trung thực. Nó đóng vai trò như một **đối tác
-tư duy** cho các công việc phức tạp.
+Chúc mừng bạn đã hoàn thành khóa học Claude 101. Bạn đã xây dựng được một
+nền tảng vững chắc để làm việc hiệu quả với Claude. Dưới đây là những nội
+dung cốt lõi mà bạn đã được tiếp cận:
 
-Bạn có thể truy cập Claude thông qua các ứng dụng web, máy tính để bàn và thiết
-bị di động. Các cuộc hội thoại của bạn sẽ được đồng bộ hóa liền mạch trên tất cả
-các thiết bị này.
+### Bắt đầu với Claude
+*   **Claude là một trợ lý AI** được xây dựng để trở nên có ích, vô hại và trung
+thực. Nó không chỉ đơn thuần là một chatbot mà còn là một **đối tác tư duy**
+cho các công việc phức tạp.
+*   Bạn có thể truy cập Claude thông qua các ứng dụng web, máy tính để bàn và
+thiết bị di động, đồng thời các cuộc hội thoại của bạn sẽ được **đồng bộ hóa
+giữa các thiết bị**.
+*   Việc tạo ra các **lời nhắc (prompt) hiệu quả** bao gồm việc thiết lập bối
+cảnh (context), xác định rõ nhiệm vụ (action) và chỉ định các quy tắc cụ thể về
+định dạng cũng như phong cách (format and style).
 
-Để đạt được hiệu quả cao, các lời nhắc (prompts) cần được thiết lập theo cấu
-trúc:
-*   **Bối cảnh (Context):** Thiết lập nền tảng cho cuộc hội thoại.
-*   **Nhiệm vụ (Action):** Xác định rõ ràng công việc cần thực hiện.
-*   **Quy tắc (Format and Style):** Chỉ định cụ thể về định dạng và phong cách
-trình bày.
-
-## Cách để đạt được kết quả tốt hơn
-
-Sự lặp lại là yếu tố then chốt khi làm việc với AI. Bạn nên coi những phản hồi
-đầu tiên của Claude chỉ là điểm bắt đầu và tiếp tục tinh chỉnh chúng thông qua
-quá trình trò chuyện.
-
-Nếu gặp phải các thách thức phổ biến như phản hồi quá chung chung hoặc giọng
-điệu không phù hợp, bạn có thể khắc phục bằng cách cung cấp thêm các thông tin
-bối cảnh cụ thể hơn.
-
-Năng lực sử dụng AI (AI Fluency) được cấu thành từ bốn kỹ năng cốt lõi:
-*   **Ủy thác (Delegation):** Biết giao việc phù hợp.
-*   **Mô tả (Description):** Biết cách diễn đạt yêu cầu.
-*   **Sáng suốt (Discernment):** Biết đánh giá chất lượng kết quả.
-*   **Cần mẫn (Diligence):** Kiểm soát và chịu trách nhiệm về đầu ra.
-
-## Tổ chức và tối ưu hóa công việc
-
-Bạn có thể quản lý công việc một cách khoa học thông qua các tính năng:
-*   **Dự án (Projects):** Tạo ra các không gian làm việc chuyên dụng với kho
-kiến thức lưu trữ lâu dài, các hướng dẫn tùy chỉnh và khả năng cộng tác cùng
-nhóm.
-*   **Sản phẩm (Artifacts):** Đây là các đầu ra độc lập như tài liệu, mã nguồn,
-sơ đồ hoặc các công cụ tương tác mà Claude tạo ra ngay bên cạnh cửa sổ trò
+### Đạt được kết quả tốt hơn
+*   **Sự lặp lại là yếu tố then chốt**—hãy coi những phản hồi đầu tiên của
+Claude là điểm bắt đầu và tiếp tục tinh chỉnh chúng thông qua quá trình trò
 chuyện.
-*   **Kỹ năng (Skills):** Là các gói hướng dẫn dạy cho Claude các quy trình làm
-việc chuyên biệt, bao gồm cả khả năng tạo tài liệu có sẵn và các kỹ năng tùy
-chỉnh do bạn tự thiết lập.
+*   Các thách thức thường gặp như phản hồi quá chung chung hoặc sai giọng điệu
+có thể được khắc phục bằng cách cung cấp **ngữ cảnh cụ thể hơn**.
+*   **Năng lực AI (AI Fluency)** bao gồm bốn kỹ năng cốt lõi: Ủy thác
+(Delegation), Mô tả (Description), Sáng suốt (Discernment) và Cần mẫn
+(Diligence).
 
-## Mở rộng phạm vi hoạt động của Claude
+### Tổ chức công việc của bạn
+*   **Dự án (Projects)** tạo ra các không gian làm việc chuyên dụng với kho tri
+thức lưu trữ lâu dài, các hướng dẫn tùy chỉnh và khả năng cộng tác cùng nhóm.
+*   **Sản phẩm (Artifacts)** là các đầu ra độc lập như tài liệu, mã nguồn, sơ đồ
+và các công cụ tương tác mà Claude tạo ra ngay bên cạnh cửa sổ trò chuyện của
+bạn.
+*   **Kỹ năng (Skills)** là các gói hướng dẫn dạy cho Claude các quy trình làm
+việc chuyên biệt—bao gồm cả tính năng tạo tài liệu tích hợp sẵn và các kỹ năng
+tùy chỉnh mà bạn có thể tự tạo ra.
 
-Claude có khả năng kết nối mạnh mẽ với hệ sinh thái công việc của bạn:
-*   **Trình kết nối (Connectors):** Liên kết Claude với các công cụ như Google
-Workspace, Slack, Notion... giúp AI có thể làm việc trực tiếp với dữ liệu thực
-tế của bạn.
-*   **Tìm kiếm doanh nghiệp (Enterprise Search):** Cung cấp một dự án chuyên
-biệt để tìm kiếm thông tin xuyên suốt các nguồn kiến thức trong tổ chức của bạn.
-*   **Chế độ Nghiên cứu (Research mode):** Thực hiện các cuộc điều tra hệ thống,
+### Mở rộng phạm vi hoạt động của Claude
+*   **Trình kết nối (Connectors)** liên kết Claude với các công cụ bạn đang dùng
+(như Google Workspace, Slack, Notion và nhiều công cụ khác) để nó có thể làm
+việc trực tiếp với **dữ liệu thực tế** của bạn.
+*   **Tìm kiếm doanh nghiệp (Enterprise Search)** cung cấp một dự án chuyên biệt
+để tìm kiếm thông tin xuyên suốt các nguồn kiến thức trong tổ chức của bạn.
+*   **Chế độ Nghiên cứu (Research mode)** thực hiện các cuộc điều tra hệ thống,
 đa nguồn mà nếu làm thủ công có thể tiêu tốn của bạn hàng giờ đồng hồ.
 
-## Ứng dụng thực tế trong đa dạng vai trò
+## Ứng dụng thực tế và các nguồn lực bổ sung
 
-Claude có thể được áp dụng rộng rãi trong nhiều bộ phận khác nhau như bán hàng,
-tiếp thị, tài chính, nhân sự, pháp lý, nghiên cứu và nhiều lĩnh vực khác.
+### Kết hợp tất cả lại với nhau
+*   Claude có thể được ứng dụng trong **nhiều vai trò khác nhau** như bán hàng,
+tiếp thị, tài chính, nhân sự, pháp lý, nghiên cứu và hơn thế nữa.
+*   Ngoài giao diện claude.ai, bạn còn có thể tương tác với Claude thông qua
+**Claude Code, Slack, Excel và tiện ích mở rộng trên Chrome**.
 
-Ngoài giao diện tại claude.ai, bạn còn có thể tương tác với Claude thông qua:
-*   Claude Code (cho lập trình).
-*   Các tích hợp trên Slack và Microsoft Excel.
-*   Tiện ích mở rộng trên trình duyệt Chrome.
+### Các nguồn tài liệu để tiếp tục phát triển
+*   **Các khóa học về Năng lực AI:** Các khóa học miễn phí về cách cộng tác hiệu
+quả với AI.
+*   **Khả năng và Hạn chế của AI:** Khóa học nhập môn miễn phí về những gì AI có
+thể và không thể làm.
+*   **Thư viện Trường hợp sử dụng (Use Case Gallery):** Các hướng dẫn từng bước
+và lời nhắc cho các quy trình làm việc mạnh mẽ.
+*   **Trung tâm Trợ giúp Anthropic:** Các tài liệu chi tiết và hướng dẫn khắc
+phục sự cố.
+*   **Tài liệu về cách viết lời nhắc (Prompting documentation):** Hướng dẫn toàn
+diện để đạt được kết quả tốt nhất.
+*   **Claude Code hành động:** Khóa học miễn phí về cách sử dụng Claude cho quy
+trình phát triển phần mềm.
+*   **Giới thiệu về Claude Cowork:** Khóa học miễn phí về cách sử dụng ứng dụng
+Claude trên máy tính cho các công việc nhiều bước.
+*   **Danh mục Trình kết nối:** Duyệt và kết nối các công cụ làm việc của bạn.
 
-## Lời khuyên để bắt đầu hiệu quả
+## Lời khuyên để bắt đầu
 
-Cách tốt nhất để tiến bộ là bắt đầu ngay từ bây giờ. Các kỹ năng sẽ sắc bén hơn
-thông qua thực hành và bạn sẽ dần hình thành trực giác về việc khi nào và làm
-thế nào Claude có thể hỗ trợ mình tốt nhất.
+Điều quan trọng nhất bạn có thể làm ngay lúc này là **hãy bắt đầu**! Các kỹ
+năng bạn học được sẽ trở nên sắc bén hơn thông qua thực hành, và bạn sẽ dần hình
+thành trực giác về việc khi nào và làm thế nào Claude có thể hỗ trợ mình.
 
-Bạn hãy bắt đầu từ những việc đơn giản nhất:
-*   Chọn một nhiệm vụ định kỳ trong tuần này để thử nghiệm với Claude.
-*   Ví dụ: Soạn thảo một email, tóm tắt biên bản cuộc họp hoặc phân tích một
-bảng tính.
+Hãy bắt đầu từ những việc đơn giản: Chọn **một nhiệm vụ lặp lại** trong tuần này
+và thử thực hiện nó với Claude. Đó có thể là soạn thảo một email, tóm tắt
+biên bản cuộc họp hoặc phân tích một bảng tính. Hãy quan sát kết quả, lặp
+lại và học hỏi những gì phù hợp nhất với nhu cầu cụ thể của bạn.
 
-Hãy quan sát kết quả, lặp lại và học hỏi những gì phù hợp nhất với nhu cầu cụ
-thể của mình. Hãy luôn nhớ rằng: Claude được thiết kế để trở thành một **người
-cộng tác**, không phải là sự thay thế. Kết quả tối ưu nhất sẽ đến khi bạn kết
-hợp chuyên môn, bối cảnh và sự đánh giá cá nhân của mình vào cuộc hội thoại.
+Hãy luôn nhớ rằng: Claude được thiết kế để trở thành một **người cộng tác**,
+không phải là sự thay thế. Kết quả tối ưu nhất sẽ đến khi bạn kết hợp chuyên
+môn, bối cảnh và sự đánh giá cá nhân của mình vào cuộc hội thoại. Bạn đã có
+nền tảng vững chắc, phần còn lại sẽ đến từ việc bạn bắt tay vào thực hiện công
+việc.
 
 Resumed conversation: 83515854-abd2-450c-96a2-214402b8dd47
 

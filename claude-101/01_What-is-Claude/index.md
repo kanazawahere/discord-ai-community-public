@@ -1,5 +1,5 @@
 ---
-title: "What is Claude?"
+title: "What is Claude? (Claude là gì?)"
 parent: Claude 101
 nav_order: 1
 ---
@@ -8,15 +8,15 @@ nav_order: 1
 
 ## Lộ trình khóa học
 
-Khóa học này được chia thành các phần chính sau:
+Khóa học này bao gồm các phần chính sau:
 *   **Gặp gỡ Claude:** Tìm hiểu Claude là gì, cách trò chuyện với Claude và cách
 để đạt được kết quả tuyệt vời.
-*   **Tổ chức công việc của bạn:** Khám phá cách các tính năng Dự án (Projects),
-Thành phẩm (Artifacts) và Kỹ năng (Skills) mang lại cấu trúc và kiến thức có thể
-tái sử dụng cho Claude.
-*   **Mở rộng phạm vi tiếp cận của Claude:** Tìm hiểu cách các Trình kết nối
-(Connectors), Tìm kiếm doanh nghiệp (Enterprise Search) và Nghiên cứu (Research)
-đưa các công cụ và dữ liệu web của bạn vào cuộc trò chuyện.
+*   **Tổ chức công việc của bạn:** Khám phá cách các tính năng **Dự án
+(Projects)**, **Thành phẩm (Artifacts)** và **Kỹ năng (Skills)** mang lại cấu
+trúc và kiến thức có thể tái sử dụng cho Claude.
+*   **Mở rộng phạm vi tiếp cận của Claude:** Tìm hiểu cách các **Trình kết nối
+(Connectors)**, **Tìm kiếm doanh nghiệp (Enterprise Search)** và **Nghiên cứu
+(Research)** đưa các công cụ và dữ liệu web của bạn vào cuộc trò chuyện.
 *   **Kết hợp tất cả lại với nhau:** Xem Claude hoạt động như thế nào trong các
 vai trò khác nhau và bạn có thể làm việc với Claude ở đâu khác.
 *   **Kết luận & chứng chỉ:** Thông tin về các bước tiếp theo và cách để nhận
@@ -29,75 +29,77 @@ chứng chỉ của bạn.
 cụ AI khác ở khả năng hỗ trợ đa dạng các tác vụ công việc từ đơn giản đến phức
 tạp.
 
-## Các nguyên tắc cốt lõi
+## Các đặc điểm then chốt
 
-Claude được xây dựng dựa trên các nguyên tắc then chốt:
+Claude được xây dựng dựa trên các nguyên tắc và đặc tính sau:
 *   **Hữu ích, vô hại và trung thực:** Claude được dẫn dắt bởi các nguyên tắc
-giúp tránh tạo ra các nội dung độc hại hoặc phân biệt đối xử, không hỗ trợ các
-hoạt động bất hợp pháp hoặc phi đạo đức.
-*   **AI Hiến pháp (Constitutional AI):** Phương pháp tiếp cận này có nghĩa là
-Claude được đào tạo để phù hợp với các giá trị của con người và hoạt động một
-cách minh bạch.
-*   **Độ tin cậy và khả năng dự đoán cao:** Claude có khả năng xử lý văn bản và
-hội thoại đa dạng như tóm tắt, tìm kiếm, viết lách sáng tạo, cộng tác, giải đáp
-thắc mắc, lập trình và nhiều hơn thế nữa.
-*   **Dễ điều khiển và có tính cộng tác:** Bạn có thể hướng dẫn Claude về tính
-cách, giọng điệu và hành vi. Người dùng nhận xét rằng Claude ít có khả năng
+giúp nó tránh tạo ra các nội dung độc hại hoặc phân biệt đối xử, tránh hỗ trợ
+các hoạt động bất hợp pháp hoặc phi đạo đức, và nhìn chung hành xử như một hệ
+thống AI hữu ích, trung thực. Phương pháp này được gọi là **AI Hiến pháp
+(Constitutional AI)**, nghĩa là Claude được đào tạo để phù hợp với các giá trị
+của con người và hoạt động một cách minh bạch.
+*   **Hơn cả một chatbot:** Claude có khả năng thực hiện nhiều tác vụ hội thoại
+và xử lý văn bản với độ tin cậy và khả năng dự đoán cao, bao gồm tóm tắt, tìm
+kiếm, viết lách sáng tạo và cộng tác, giải đáp thắc mắc, lập trình và nhiều hơn
+thế nữa. Bạn nên coi Claude là một đối tác tư duy giúp giải quyết các vấn đề
+phức tạp và các tình huống thử thách, chứ không chỉ đơn thuần trả lời các câu
+hỏi đơn giản.
+*   **Dễ điều khiển và có tính cộng tác:** Claude có thể nhận chỉ dẫn về tính
+cách, tông giọng và hành vi. Khách hàng phản hồi rằng Claude ít có khả năng
 tạo ra kết quả gây hại, dễ trò chuyện hơn và dễ điều khiển hơn để đạt được kết
-quả mong muốn với ít công sức hơn.
-
-## Khả năng truy cập mọi lúc mọi nơi
-
-Bạn có thể truy cập Claude thông qua web, ứng dụng trên máy tính và thiết bị di
-động. Các cuộc trò chuyện, dự án, trí nhớ và tùy chọn của bạn sẽ được đồng
-bộ hóa trên tất cả các thiết bị khi bạn đăng nhập. Claude hiện có sẵn cho
-tất cả các loại gói dịch vụ: Miễn phí (Free), Pro, Max, Team và Enterprise.
+quả mong muốn với ít nỗ lực hơn.
+*   **Truy cập mọi nơi:** Các ứng dụng Claude có sẵn cho tất cả các loại gói
+dịch vụ—Miễn phí, Pro, Max, Team và Enterprise. Các cuộc trò chuyện, dự án,
+trí nhớ và tùy chọn của bạn sẽ được đồng bộ hóa trên tất cả các thiết bị khi bạn
+đăng nhập qua web, ứng dụng máy tính hoặc di động.
 
 ## Hiểu về khả năng của Claude
 
-Claude không chỉ trả lời câu hỏi mà còn có thể tự động hóa và tăng cường hiệu
-quả công việc của bạn:
-
+Claude có thể hỗ trợ một loạt các nhiệm vụ vượt xa tương tác hỏi đáp thông
+thường, đóng vai trò như một đối tác giúp tự động hóa và tăng cường hiệu quả
+công việc:
 *   **Viết lách và sáng tạo nội dung:** Claude có thể cộng tác với bạn để tạo
-bài đăng trên mạng xã hội, email chuyên nghiệp và các báo cáo phức tạp. Bạn
-có thể cùng Claude tinh chỉnh cấu trúc và sự rõ ràng cho đến khi thể hiện đúng
-phong cách cá nhân của mình.
+bài đăng mạng xã hội, email chuyên nghiệp và các báo cáo phức tạp. Vì Claude
+được đào tạo để nhận chỉ dẫn về tính cách và tông giọng, bạn có thể cùng Claude
+tinh chỉnh cấu trúc và sự rõ ràng cho đến khi thể hiện đúng phong cách của mình.
 *   **Nghiên cứu và phân tích:** Claude giúp khám phá các góc độ nghiên cứu,
 tổng hợp kết quả và phân tích dữ liệu để đưa ra những thông tin chi tiết có ý
-nghĩa. Nhờ **cửa sổ ngữ cảnh lớn** (200.000+ mã thông báo, tương đương
-khoảng 500 trang văn bản; lên đến 1 triệu mã thông báo trên các gói Pro, Max,
-Team và Enterprise khi dùng Opus 4.7), Claude có thể xem xét lượng tài liệu
-khổng lồ trong một cuộc trò chuyện duy nhất.
+nghĩa. Bạn có thể tải tài liệu lên và Claude sẽ giúp hiểu các thông tin phức
+tạp nhờ vào **cửa sổ ngữ cảnh lớn** (xử lý được hơn 200.000 mã thông báo - tương
+đương khoảng 500 trang văn bản; và lên đến 1 triệu mã thông báo trên các gói
+Pro, Max, Team và Enterprise khi dùng Opus 4.7). Điều này cho phép Claude
+xem xét lượng tài liệu khổng lồ trong một cuộc trò chuyện duy nhất.
 *   **Hỗ trợ lập trình:** Claude Opus 4.7 là mô hình mạnh mẽ nhất hiện nay và là
-mô hình lập trình tốt nhất thế giới. Nó có thể giúp bạn viết, gỡ lỗi và giải
-thích mã nguồn trên nhiều ngôn ngữ lập trình khác nhau.
+mô hình lập trình tốt nhất thế giới. Hiệu suất mạnh mẽ này trong các tác vụ
+lập trình thực tế giúp Claude có thể viết, gỡ lỗi và giải thích mã nguồn trên
+nhiều ngôn ngữ lập trình khác nhau.
 *   **Giải quyết vấn đề và suy luận:** Claude xử lý các tác vụ nhận thức phức
-tạp, bài toán toán học, tư duy chiến lược và phân tích. Các mô hình
-Claude Opus 4.7 và Sonnet 4.7 cung cấp hai chế độ: phản hồi tức thì và **suy
-luận mở rộng (extended thinking)**. Chế độ suy luận mở rộng cho phép Claude
-giải quyết vấn đề từng bước một, phù hợp cho các nhiệm vụ đòi hỏi phân tích cẩn
-thận.
+tạp, bài toán toán học, tư duy chiến lược, phân tích và nghiên cứu. Các mô
+hình Claude Opus 4.7 và Sonnet 4.7 cung cấp hai chế độ: phản hồi tức thì và
+**suy luận mở rộng (extended thinking)**. Chế độ suy luận mở rộng cho phép
+Claude giải quyết vấn đề từng bước một, phù hợp cho các nhiệm vụ đòi hỏi phân
+tích cẩn thận.
 *   **Học hỏi những điều mới:** Claude có thể thích ứng với phong cách và tốc độ
-học tập của bạn. **Chế độ Học tập (Learning mode)** là một trải nghiệm mới
-giúp hướng dẫn quy trình suy luận của bạn thay vì chỉ cung cấp câu trả lời, từ
-đó giúp phát triển kỹ năng tư duy phản biện.
+học tập của bạn dù bạn đang học kỹ năng mới hay khám phá lĩnh vực lạ. **Chế
+độ Học tập (Learning mode)** là một trải nghiệm mới giúp hướng dẫn quy trình suy
+luận của bạn thay vì chỉ cung cấp câu trả lời, từ đó giúp phát triển kỹ năng tư
+duy phản biện.
 
-## Các cách để truy cập và sử dụng Claude
+## Các cách để truy cập Claude
 
 Cùng một trí tuệ nhân tạo Claude nhưng bạn có thể tương tác qua nhiều giao diện
-khác nhau:
-
-*   **Claude.ai:** Đây là giao diện chính (bao gồm cả web, ứng dụng máy tính và
-di động) để trò chuyện, động não ý tưởng, tạo và chỉnh sửa tài liệu, nghiên cứu
-và phân tích.
+khác nhau, phù hợp cho từng loại tác vụ:
+*   **Claude.ai:** (bao gồm ứng dụng web, máy tính và di động) là cách chính để
+tương tác để hỏi đáp, động não ý tưởng, tạo/chỉnh sửa tài liệu, nghiên cứu và
+phân tích. Đây là trọng tâm của khóa học này.
 *   **Claude Code:** Một công cụ lập trình mang tính tác nhân (agentic) dành cho
-các nhà phát triển. Nó có thể trực tiếp chỉnh sửa tệp, chạy lệnh và tạo các
-bản lưu mã nguồn (commits) ngay trên máy tính của bạn.
+lập trình viên, có thể trực tiếp chỉnh sửa tệp, chạy lệnh và tạo các bản lưu mã
+nguồn (commits) ngay trên máy tính của bạn.
 *   **Claude và Slack:** Đưa Claude vào công cụ giao tiếp của nhóm. Bạn có
 thể trò chuyện với Claude trong phần tiêu đề trợ lý AI từ bất kỳ kênh nào hoặc
 nhắc đến @Claude trong các luồng thảo luận. Khi kết nối, Claude có thể tìm
-kiếm trong các kênh, tin nhắn trực tiếp và tệp được chia sẻ để tìm ngữ cảnh cần
-thiết.
+kiếm trong các kênh, tin nhắn trực tiếp và tệp được chia sẻ của không gian làm
+việc để tìm ngữ cảnh cần thiết.
 *   **Claude cho Excel:** Hoạt động trực tiếp trong thanh bên của Microsoft
 Excel. Claude có thể đọc, phân tích, sửa đổi và tạo các bảng tính mới.
 Nó hỗ trợ phân tích mô hình, cập nhật giả định, gỡ lỗi sai, điền mẫu, giải thích
@@ -106,10 +108,11 @@ công thức và điều hướng đa tab.
 ## Suy ngẫm và Bước tiếp theo
 
 Hãy xem xét những nhiệm vụ nào trong công việc hiện tại của bạn có thể hưởng lợi
-từ việc có Claude làm đối tác tư duy. Bạn có thể nhìn vào lịch làm việc và
-xác định một vài tác vụ để Claude hỗ trợ. Trong bài học tiếp theo, bạn sẽ
-học cách điều hướng giao diện Claude, bắt đầu cuộc trò chuyện đầu tiên và hiểu
-các kiến thức cơ bản về cách Claude phản hồi tin nhắn.
+từ việc có Claude làm đối tác tư duy. Bạn có thể nhìn vào lịch làm việc
+(hoặc nhờ Claude làm việc đó) và xác định một vài tác vụ muốn Claude hỗ trợ.
+Trong bài học tiếp theo, bạn sẽ học cách điều hướng giao diện Claude, bắt đầu
+cuộc trò chuyện đầu tiên và hiểu các kiến thức cơ bản về cách Claude phản hồi
+tin nhắn.
 
 Resumed conversation: 2611288e-b1aa-4437-b6f7-9361e4d502e5
 

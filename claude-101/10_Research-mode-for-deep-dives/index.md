@@ -1,16 +1,16 @@
 ---
-title: "Research mode for deep dives"
+title: "Research mode for deep dives (Chế độ Nghiên cứu cho các nghiên cứu chuyên sâu)"
 parent: Claude 101
 nav_order: 10
 ---
 
 # Research mode for deep dives
 
-## Những điểm mấu chốt của Chế độ Nghiên cứu
-Chế độ Nghiên cứu thay đổi hoàn toàn cách Claude tìm kiếm và phân tích thông tin. Thay vì chỉ thực hiện một lần tìm kiếm duy nhất, Claude hoạt động theo cơ
-chế đại lý (agentic) — thực hiện nhiều tìm kiếm gối đầu lên nhau đồng thời xác
-định chính xác những gì cần điều tra tiếp theo. Nó tự động khám phá các khía
-cạnh khác nhau của câu hỏi và giải quyết các câu hỏi mở một cách có hệ thống.
+## Những điểm mấu chốt về Chế độ Nghiên cứu
+Chế độ Nghiên cứu thay đổi hoàn toàn cách Claude tìm kiếm và phân tích thông tin. Thay vì thực hiện một lần tìm kiếm duy nhất, Claude hoạt động theo cơ chế
+đại lý (agentic) — thực hiện nhiều tìm kiếm gối đầu lên nhau, đồng thời xác định
+chính xác những gì cần điều tra tiếp theo. Nó tự động khám phá các khía cạnh
+khác nhau của câu hỏi và giải quyết các câu hỏi mở một cách có hệ thống.
 
 Chế độ Nghiên cứu mang lại câu trả lời toàn diện trong vài phút. Hầu hết các
 báo cáo hoàn thành trong vòng 5 đến 15 phút, mặc dù các cuộc điều tra phức tạp
@@ -41,9 +41,9 @@ tập hợp thông tin từ nhiều nguồn, so sánh các quan điểm khác nh
 các phát hiện thành những hiểu biết có thể hành động.
 
 ## Khi nào nên sử dụng Chế độ Nghiên cứu
-Hiểu khi nào nên sử dụng Nghiên cứu so với các khả năng khác của Claude sẽ giúp
-bạn có được kết quả tốt nhất cho các nhu cầu cụ thể của mình. Hãy sử dụng
-Chế độ Nghiên cứu khi bạn cần:
+Việc hiểu khi nào nên sử dụng Chế độ Nghiên cứu so với các khả năng khác của
+Claude sẽ giúp bạn có được kết quả tốt nhất cho các nhu cầu cụ thể. Hãy sử
+dụng Chế độ Nghiên cứu khi bạn cần:
 *   Các báo cáo toàn diện tổng hợp thông tin từ nhiều nguồn.
 *   Phân tích chuyên sâu trên web và các tích hợp đã kết nối của bạn (như Google
 Workspace).
@@ -55,7 +55,7 @@ lựa chọn nhà cung cấp.
 Chế độ Nghiên cứu lý tưởng cho các nhiệm vụ như:
 *   Phân tích thị trường và nghiên cứu đối thủ cạnh tranh.
 *   Lập kế hoạch cho các dự án phức tạp, chẳng hạn như các buổi họp mặt nhóm
-(offsites) hoặc ra mắt sản phẩm.
+(team offsites) hoặc ra mắt sản phẩm.
 *   Tổng hợp thông tin từ email, lịch và tài liệu của bạn.
 *   Tạo tài liệu kỹ thuật dựa trên nhiều nguồn.
 *   Chuẩn bị các bản tóm tắt yêu cầu thông tin hiện tại, đã được xác minh.
@@ -76,9 +76,9 @@ ngoài.
 Hãy cân nhắc sử dụng **tìm kiếm doanh nghiệp (enterprise search)** khi:
 *   Bạn cần các câu trả lời dựa trên kiến thức nội bộ của tổ chức — tài liệu,
 các luồng Slack, email, ghi chú cuộc họp.
-*   Bạn đang trong quá trình tiếp nhận nhân viên mới và muốn nhanh chóng tìm
-hiểu cách công ty xử lý một vấn đề nào đó (như chính sách, quy trình hoặc các
-quyết định trong quá khứ).
+*   Bạn đang trong quá trình tiếp nhận nhân viên mới (onboarding) và muốn nhanh
+chóng tìm hiểu cách công ty xử lý một vấn đề nào đó (như chính sách, quy trình
+hoặc các quyết định trong quá khứ).
 *   Bạn đang đặt một câu hỏi đặc thù cho công ty của mình, không phải trên web
 công cộng.
 
@@ -97,60 +97,74 @@ kiếm duy nhất, Claude thực hiện nhiều cuộc tìm kiếm gối đầu 
 nhiều nguồn — bao gồm cả web và bất kỳ tích hợp nào như Gmail, Lịch hoặc Drive —
 Claude biên soạn mọi thứ thành một báo cáo toàn diện, được tổ chức chặt chẽ.
 *   **Bước 4: Claude cung cấp các trích dẫn.** Mọi tuyên bố đều được liên kết
-ngược lại nguồn của nó, giúp dễ dàng xác minh thông tin.
+ngược lại nguồn của nó, giúp dễ dàng xác minh thông tin và đào sâu hơn khi cần
+thiết.
 
 ## Sử dụng Chế độ Nghiên cứu trong thực tế
-Để bật và sử dụng Nghiên cứu:
+Dưới đây là cách bật và sử dụng Nghiên cứu:
 1.  Nhấp vào nút **+** ở góc dưới bên trái giao diện trò chuyện.
 2.  Chọn **Research** từ menu — nó sẽ hiện nổi bật khi đã kích hoạt.
 3.  Nhập câu lệnh (prompt) và gửi đi.
 4.  Claude sẽ làm việc ở chế độ nền và bạn sẽ thấy các chỉ báo tiến trình khi nó
 tìm kiếm và phân tích.
 
-*Lưu ý quan trọng: Tìm kiếm web phải được bật để Chế độ Nghiên cứu hoạt động.*
+**Lưu ý quan trọng:** Tìm kiếm web phải được bật để Chế độ Nghiên cứu hoạt động.
+Nếu bạn chưa bật tìm kiếm web, bạn có thể thực hiện từ cùng menu dấu **+**.
 
 ## Mẹo để viết câu lệnh Nghiên cứu hiệu quả
-Vì Nghiên cứu có thể mất nhiều thời gian, việc đầu tư vào câu lệnh sẽ mang lại
-kết quả tốt hơn:
+Vì Nghiên cứu có thể mất từ 5 đến 45 phút tùy độ phức tạp, việc đầu tư vào câu
+lệnh sẽ mang lại kết quả xứng đáng:
 *   **Cụ thể về mục tiêu:** Thay vì "Kể tôi nghe về thị trường xe điện," hãy thử
 "Phân tích thị trường pin xe điện — xác định các bên tham gia chính, xu hướng
-công nghệ và các thách thức chuỗi cung ứng ảnh hưởng đến quyết định đầu tư".
-*   **Chỉ định cấu trúc:** Ví dụ: "So sánh các lựa chọn địa điểm họp nhóm bao
-gồm: vị trí, không gian họp, tiện nghi, ăn uống và giá cả".
-*   **Bao gồm các ràng buộc:** Ngân sách, mốc thời gian, yêu cầu địa lý giúp
-Claude tập trung vào các lựa chọn phù hợp.
-*   **Yêu cầu Claude giúp tinh chỉnh câu lệnh:** Bạn có thể hỏi Claude cách viết
-một câu lệnh Nghiên cứu tốt hơn trước khi bật tính năng này.
+công nghệ và các thách thức chuỗi cung ứng có thể ảnh hưởng đến quyết định đầu
+tư".
+*   **Chỉ định các phần hoặc cấu trúc mong muốn:** Claude sẽ tổ chức các phát
+hiện theo cấu trúc bạn cung cấp. Ví dụ: "So sánh các lựa chọn địa điểm cho một
+buổi họp nhóm bao gồm: vị trí và khả năng tiếp cận, không gian họp và tiện nghi,
+các lựa chọn ăn uống và các cân nhắc về giá cả".
+*   **Bao gồm các ràng buộc liên quan:** Khoảng ngân sách, mốc thời gian, yêu
+cầu địa lý và các thông số khác giúp Claude tập trung nghiên cứu vào các lựa
+chọn phù hợp.
+*   **Yêu cầu Claude giúp tinh chỉnh câu lệnh:** Nếu bạn không chắc chắn cách
+đóng khung câu hỏi nghiên cứu, bạn có thể yêu cầu Claude viết một câu lệnh
+Nghiên cứu tốt hơn trước khi bật tính năng này.
 
 ## Làm việc với các tích hợp đã kết nối
-Với các tích hợp như Google Workspace, Nghiên cứu trở nên mạnh mẽ hơn bằng cách
-kéo ngữ cảnh từ email, lịch và tài liệu. Ví dụ:
-*   "Tóm tắt thảo luận về Dự án X trong email và Slack, sau đó nghiên cứu các
-phương pháp hay nhất trong ngành cho sáng kiến tương tự".
-*   "Xem lịch tuần tới và nghiên cứu từng công ty mà tôi sẽ gặp".
-*   "Tìm tài liệu nội bộ về chiến lược định giá và so sánh với đối thủ cạnh
-tranh".
+Khi bạn có Google Workspace hoặc các tích hợp khác được kết nối, Nghiên cứu trở
+nên mạnh mẽ hơn bằng cách lấy ngữ cảnh từ email, lịch và tài liệu của bạn cùng
+với nghiên cứu web. Ví dụ, bạn có thể yêu cầu Claude:
+*   "Tóm tắt những gì đã được thảo luận về Dự án X trong email và Slack của tôi,
+sau đó nghiên cứu các phương pháp hay nhất trong ngành cho các sáng kiến tương
+tự".
+*   "Xem xét các cam kết trong lịch của tôi cho tuần tới và nghiên cứu từng công
+ty mà tôi sẽ gặp".
+*   "Tìm tất cả các tài liệu nội bộ về chiến lược định giá của chúng tôi và so
+sánh với cách các đối thủ cạnh tranh đang định vị chính họ".
 
-*Mẹo chuyên nghiệp: Bạn có thể tắt tìm kiếm web để thực hiện nghiên cứu chỉ dành
-cho nội bộ (ví dụ: "Nhóm đã thảo luận gì về đợt ra mắt quý 3 trên Slack và Tài
-liệu?").*
+Khi sử dụng Nghiên cứu với các tích hợp, bạn có thể điều hướng Claude bằng cách
+nói những câu như "Lấy ngữ cảnh liên quan từ Google Drive của tôi" hoặc "Bao gồm
+các thông tin chi tiết từ các email gần đây của tôi về chủ đề này".
+
+**Mẹo chuyên nghiệp:** Bạn cũng có thể tắt tìm kiếm web để thực hiện nghiên cứu
+chỉ dành cho nội bộ trên các công cụ đã kết nối — rất tốt cho các câu hỏi như
+"Nhóm của chúng ta đã thảo luận gì về đợt ra mắt quý 3 trên Slack và Tài liệu?".
 
 ## Suy ngẫm về bài học
 Trước khi kết thúc, hãy cân nhắc:
 *   Những nhiệm vụ nghiên cứu nào trong công việc của bạn thường đòi hỏi thu
 thập thông tin từ nhiều nguồn?
-*   Việc kết hợp Nghiên cứu với các tích hợp (như Google Workspace) thay đổi quy
-trình làm việc của bạn ra sao?
+*   Việc kết hợp Nghiên cứu với các tích hợp đã kết nối (như Google Workspace)
+có thể thay đổi quy trình làm việc của bạn ra sao?
 *   Câu hỏi phức tạp nào bạn đang trì hoãn vì nó tốn quá nhiều thời gian nghiên
 cứu?
 
 ## Bước tiếp theo
 Trong phần tiếp theo, chúng ta sẽ tổng hợp tất cả kiến thức thông qua các trường
-hợp sử dụng thực tế theo từng vai trò và khám phá các cách tương tác khác với
-Claude ngoài giao diện web. Để biết thêm thông tin và video hướng dẫn, hãy
-truy cập Trung tâm Trợ giúp của Anthropic.
+hợp sử dụng thực tế theo từng vai trò, và khám phá các cách tương tác bổ sung
+với Claude ngoài giao diện web. Để biết thêm thông tin về Nghiên cứu, bao
+gồm cả video hướng dẫn, hãy truy cập Trung tâm Trợ giúp của Anthropic.
 
----
+***
 *Bản quyền 2025 Anthropic. Mọi quyền được bảo lưu.*
 
 Resumed conversation: c058a465-d3be-488d-96d9-af88ee1c51c7
