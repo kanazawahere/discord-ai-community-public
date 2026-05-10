@@ -6,11 +6,6 @@ nav_order: 8
 
 # Connecting your tools
 
-Connecting your tools
-Estimated time:
-20 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what connectors are and why they matter for your work with Claude
 Navigate the connectors directory and set up your first connection
 Use connected tools effectively in your conversations with Claude

@@ -6,11 +6,6 @@ nav_order: 7
 
 # Working with skills
 
-Working with skills
-Estimated time:
-15 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what Skills are and how Claude uses them
 Identify Anthropic's built-in Skills for document creation
 Enable and manage Skills in your settings

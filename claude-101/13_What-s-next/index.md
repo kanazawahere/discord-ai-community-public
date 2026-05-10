@@ -6,8 +6,6 @@ nav_order: 13
 
 # What's next?
 
-What's next?
-Estimated time: 5 minutes
 Congratulations on completing Claude 101! You've built a solid foundation for working with Claude effectively. Let's recap what you've learned and point you toward resources for continued growth.
 What you've learned
 Getting started with Claude

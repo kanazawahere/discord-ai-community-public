@@ -6,11 +6,6 @@ nav_order: 2
 
 # Your first conversation with Claude
 
-Your first conversation with Claude
-Estimated time:
-20 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Start a new conversation with Claude and navigate the interface
 Write effective prompts using clear, specific language
 Upload files and images to provide Claude with additional context

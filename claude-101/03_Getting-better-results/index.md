@@ -6,11 +6,6 @@ nav_order: 3
 
 # Getting better results
 
-Getting better results
-Estimated time:
-15 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Recognize common challenges when starting out with AI and use troubleshooting techniques to overcome them
 Define AI Fluency and know where to go to learn more about working with AI in a fluent way
 Explain how you might set up evals to better understand how Claude might perform with your unique workflows

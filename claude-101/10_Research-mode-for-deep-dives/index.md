@@ -6,11 +6,6 @@ nav_order: 10
 
 # Research mode for deep dives
 
-Research mode for deep dives
-Estimated time:
-15 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what Research does: systematic, multi-source investigation
 Identify when to use Research for comprehensive information gathering
 Understand how Research works with extended thinking to deliver thorough reports

@@ -6,11 +6,6 @@ nav_order: 9
 
 # Enterprise search
 
-Enterprise search
-Estimated time:
-15 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what Enterprise Search is and the types of questions Enterprise Search can answer
 Understand how the setup process works for both admins and users
 Recognize how security and permissions protect organizational data

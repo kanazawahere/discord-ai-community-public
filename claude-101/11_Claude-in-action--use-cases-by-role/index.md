@@ -6,11 +6,6 @@ nav_order: 11
 
 # Claude in action: use-cases by role
 
-Claude in action: use-cases by role
-Estimated time:
-10 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Describe 2-3 use-cases for claude.ai that you can try right away
 Know where to go to find additional use-case inspiration
 No matter what you do, Claude can help streamline your work. This lesson highlights practical use cases organized by role, so you can see how Claude applies to your specific work context.

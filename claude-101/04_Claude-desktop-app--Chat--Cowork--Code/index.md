@@ -6,7 +6,6 @@ nav_order: 4
 
 # Claude desktop app: Chat, Cowork, Code
 
-Claude desktop app: Chat, Cowork, Code
 What you'll learn
 Estimated time: 6 minutes
 By the end of this lesson you'll be able to:

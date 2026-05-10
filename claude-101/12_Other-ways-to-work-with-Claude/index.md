@@ -6,11 +6,6 @@ nav_order: 12
 
 # Other ways to work with Claude
 
-Other ways to work with Claude
-Estimated time:
-10 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Understand when to use additional Claude products including Claude Code, Claude for Slack, Claude for Excel, Claude for PowerPoint, and Claude for Chrome
 As we mentioned at the start of this course, Claude is an intelligence.
 Claude.ai

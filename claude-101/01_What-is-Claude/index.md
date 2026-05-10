@@ -6,11 +6,6 @@ nav_order: 1
 
 # What is Claude?
 
-What is Claude?
-Estimated time:
-15 minutes
-Learning objectives
-By the end of this lesson you'll be able to:
 Explain what Claude is and the principles that guide its design
 Describe Claude's core capabilities and how it differs from a simple chatbot
 Identify the different ways to access Claude (web, desktop, and mobile)

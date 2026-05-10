@@ -6,11 +6,6 @@ nav_order: 6
 
 # Creating with artifacts
 
-Creating with artifacts
-Estimated time:
-20 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what artifacts are and when Claude creates them
 Share artifacts with colleagues and publish them publicly
 Troubleshoot common artifact issues

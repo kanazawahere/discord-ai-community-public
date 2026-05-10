@@ -6,11 +6,6 @@ nav_order: 5
 
 # Introduction to projects
 
-Introduction to projects
-Estimated time:
-20 minutes
-Learning objectives
-By the end of this lesson, you will be able to:
 Explain what projects are and when to use them
 Create a new project with a name, description, and visibility settings
 Add documents and files to your project's knowledge base

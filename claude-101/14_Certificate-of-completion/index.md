@@ -6,7 +6,6 @@ nav_order: 14
 
 # Certificate of completion
 
-Certificate of completion
 You have passed!
 Your score:
 10 of 10 Correct (100%)
