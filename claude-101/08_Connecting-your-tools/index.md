@@ -357,59 +357,9 @@ Nguồn tài liệu này hướng dẫn cách sử dụng **Connectors**, một 
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Hệ sinh thái Anthropic & Claude
-## Sản phẩm & Mô hình
-### Ứng dụng Claude
-#### Claude Web & Mobile (iOS/Android)
-#### Claude Desktop
-#### Claude Code (CLI)
-#### Claude Cowork
-### Mô hình AI
-#### Opus (Mạnh nhất)
-#### Sonnet (Cân bằng)
-#### Haiku (Nhanh/Nhẹ)
-#### Mythos preview
-### Gói dịch vụ
-#### Free & Pro
-#### Max & Team
-#### Enterprise
-## Tính năng Kết nối (Connectors)
-### Phân loại
-#### Web Connectors (Google Drive, Slack, Notion)
-#### Desktop Extensions (File cục bộ, Figma)
-#### Custom Connectors (Remote MCP)
-### Giao thức MCP
-#### Tiêu chuẩn mở cho AI
-#### Kết nối ứng dụng nhất quán
-### Quản lý & Bảo mật
-#### Phân quyền theo người dùng
-#### Kiểm soát hành động (Read/Write)
-#### Dữ liệu mã hóa
-## Đào tạo & Tài nguyên
-### Anthropic Academy
-#### Khóa học Claude 101
-#### Hướng dẫn API & MCP
-#### Chứng chỉ hoàn thành
-### Hỗ trợ
-#### Trung tâm trợ giúp (Help Center)
-#### Cộng đồng & Blog
-#### Bản tin AI Fluency
-## Giải pháp & Ngành nghề
-### Lĩnh vực
-#### Giáo dục & Nghiên cứu
-#### Tài chính & Y tế
-#### Chính phủ & Phi lợi nhuận
-### Công việc chuyên môn
-#### Lập trình & Hiện đại hóa code
-#### Hỗ trợ khách hàng
-#### Đại lý AI (AI Agents)
-## Triết lý & Chính sách
-### Hiến pháp Claude (Constitution)
-### Chính sách mở rộng có trách nhiệm
-### Quyền riêng tư & Minh bạch
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Hệ sinh thái Anthropic &amp; Claude</strong>
+<ul><li>Sản phẩm &amp; Mô hình<ul><li>Ứng dụng Claude<ul><li>Claude Web &amp; Mobile (iOS/Android)</li><li>Claude Desktop</li><li>Claude Code (CLI)</li><li>Claude Cowork</li></ul></li><li>Mô hình AI<ul><li>Opus (Mạnh nhất)</li><li>Sonnet (Cân bằng)</li><li>Haiku (Nhanh/Nhẹ)</li><li>Mythos preview</li></ul></li><li>Gói dịch vụ<ul><li>Free &amp; Pro</li><li>Max &amp; Team</li><li>Enterprise</li></ul></li></ul></li><li>Tính năng Kết nối (Connectors)<ul><li>Phân loại<ul><li>Web Connectors (Google Drive, Slack, Notion)</li><li>Desktop Extensions (File cục bộ, Figma)</li><li>Custom Connectors (Remote MCP)</li></ul></li><li>Giao thức MCP<ul><li>Tiêu chuẩn mở cho AI</li><li>Kết nối ứng dụng nhất quán</li></ul></li><li>Quản lý &amp; Bảo mật<ul><li>Phân quyền theo người dùng</li><li>Kiểm soát hành động (Read/Write)</li><li>Dữ liệu mã hóa</li></ul></li></ul></li><li>Đào tạo &amp; Tài nguyên<ul><li>Anthropic Academy<ul><li>Khóa học Claude 101</li><li>Hướng dẫn API &amp; MCP</li><li>Chứng chỉ hoàn thành</li></ul></li><li>Hỗ trợ<ul><li>Trung tâm trợ giúp (Help Center)</li><li>Cộng đồng &amp; Blog</li><li>Bản tin AI Fluency</li></ul></li></ul></li><li>Giải pháp &amp; Ngành nghề<ul><li>Lĩnh vực<ul><li>Giáo dục &amp; Nghiên cứu</li><li>Tài chính &amp; Y tế</li><li>Chính phủ &amp; Phi lợi nhuận</li></ul></li><li>Công việc chuyên môn<ul><li>Lập trình &amp; Hiện đại hóa code</li><li>Hỗ trợ khách hàng</li><li>Đại lý AI (AI Agents)</li></ul></li></ul></li><li>Triết lý &amp; Chính sách<ul><li>Hiến pháp Claude (Constitution)</li><li>Chính sách mở rộng có trách nhiệm</li><li>Quyền riêng tư &amp; Minh bạch</li></ul></li></ul>
 </div>
 
 

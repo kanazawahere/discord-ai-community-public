@@ -390,54 +390,9 @@ This document serves as an instructional guide on **Skills**, a dynamic feature 
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Anthropic AI Learning & Resources
-## Anthropic Academy
-### Featured Courses
-#### Claude 101
-#### Claude Code in Action
-#### AI Fluency
-#### Model Context Protocol
-### Learning Paths
-#### Build with Claude (API)
-#### Claude for Work (Enterprise)
-#### Claude for Personal
-## Skills Feature
-### Definition
-#### Procedural Knowledge
-#### Dynamic Loading
-#### Instruction Folders
-### Types of Skills
-#### Anthropic Built-in (Docs/Excel)
-#### Custom (User-created)
-#### Organization Provisioned
-#### Partner (Notion/Figma)
-### Management
-#### Enable Code Execution
-#### Skills Directory
-#### Agent Skills Open Standard
-### Comparison
-#### Skills vs Projects (Process vs Knowledge)
-#### Skills vs MCP (Procedural vs Connectivity)
-#### Skills vs Custom Instructions (Task-specific)
-## Product Ecosystem
-### Models
-#### Opus
-#### Sonnet
-#### Haiku
-#### Mythos
-### Platforms
-#### Claude Code
-#### Claude Cowork
-#### Claude for Slack/Chrome
-#### API Console
-## Resources & Support
-### AI Fluency Newsletter
-### Developer Docs
-### Claude 101 Feedback Form
-### Help Center & Tutorials
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Anthropic AI Learning &amp; Resources</strong>
+<ul><li>Anthropic Academy<ul><li>Featured Courses<ul><li>Claude 101</li><li>Claude Code in Action</li><li>AI Fluency</li><li>Model Context Protocol</li></ul></li><li>Learning Paths<ul><li>Build with Claude (API)</li><li>Claude for Work (Enterprise)</li><li>Claude for Personal</li></ul></li></ul></li><li>Skills Feature<ul><li>Definition<ul><li>Procedural Knowledge</li><li>Dynamic Loading</li><li>Instruction Folders</li></ul></li><li>Types of Skills<ul><li>Anthropic Built-in (Docs/Excel)</li><li>Custom (User-created)</li><li>Organization Provisioned</li><li>Partner (Notion/Figma)</li></ul></li><li>Management<ul><li>Enable Code Execution</li><li>Skills Directory</li><li>Agent Skills Open Standard</li></ul></li><li>Comparison<ul><li>Skills vs Projects (Process vs Knowledge)</li><li>Skills vs MCP (Procedural vs Connectivity)</li><li>Skills vs Custom Instructions (Task-specific)</li></ul></li></ul></li><li>Product Ecosystem<ul><li>Models<ul><li>Opus</li><li>Sonnet</li><li>Haiku</li><li>Mythos</li></ul></li><li>Platforms<ul><li>Claude Code</li><li>Claude Cowork</li><li>Claude for Slack/Chrome</li><li>API Console</li></ul></li></ul></li><li>Resources &amp; Support<ul><li>AI Fluency Newsletter</li><li>Developer Docs</li><li>Claude 101 Feedback Form</li><li>Help Center &amp; Tutorials</li></ul></li></ul>
 </div>
 
 

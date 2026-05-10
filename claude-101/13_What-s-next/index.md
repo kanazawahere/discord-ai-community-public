@@ -311,67 +311,9 @@ Tài liệu này đóng vai trò như một bản tổng kết toàn diện và 
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Hệ sinh thái Anthropic & Claude
-## Sản phẩm & Model
-### Ứng dụng Claude
-#### Claude.ai (Web/Mobile/Desktop)
-#### Claude Code
-#### Claude Cowork
-#### Claude for Chrome/Slack/M365
-### Các dòng Model
-#### Opus (Mạnh nhất)
-#### Sonnet (Cân bằng)
-#### Haiku (Nhanh, nhẹ)
-#### Mythos preview
-### Gói dịch vụ
-#### Free/Pro/Max (Cá nhân)
-#### Team & Enterprise (Tổ chức)
-## Tài nguyên học tập (Anthropic Academy)
-### Khóa học chính
-#### Claude 101
-#### AI Fluency
-#### Model Context Protocol (MCP)
-#### Claude Code in Action
-### Kỹ năng AI Fluency
-#### Ủy thác (Delegation)
-#### Mô tả (Description)
-#### Phân biệt (Discernment)
-#### Cần mẫn (Diligence)
-### Kỹ thuật Prompt
-#### Thiết lập bối cảnh (Context)
-#### Xác định hành động (Action)
-#### Quy định định dạng (Format)
-#### Sử dụng cấu trúc XML
-## Nền tảng & Tích hợp
-### Connectors (Kết nối dữ liệu)
-#### Google Workspace
-#### Slack & Notion
-#### Airtable & Asana
-#### S&P Capital IQ
-### Claude Platform (Dành cho Dev)
-#### API Docs
-#### Amazon Bedrock
-#### Google Cloud Vertex AI
-#### Console Prompting Tools
-## Giải pháp & Use Cases
-### Theo ngành
-#### Tài chính & Ngân hàng
-#### Y tế & Khoa học đời sống
-#### Giáo dục & Phi lợi nhuận
-#### Chính phủ
-### Theo chức năng
-#### Lập trình & Hiện đại hóa code
-#### Hỗ trợ khách hàng
-#### Phân tích dữ liệu & Báo cáo
-#### Sáng tạo nội dung
-## Công ty & Chính sách
-### Nghiên cứu & Tương lai kinh tế
-### Hiến pháp Claude (Constitution)
-### Chính sách mở rộng có trách nhiệm (RSP)
-### An toàn & Minh bạch
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Hệ sinh thái Anthropic &amp; Claude</strong>
+<ul><li>Sản phẩm &amp; Model<ul><li>Ứng dụng Claude<ul><li>Claude.ai (Web/Mobile/Desktop)</li><li>Claude Code</li><li>Claude Cowork</li><li>Claude for Chrome/Slack/M365</li></ul></li><li>Các dòng Model<ul><li>Opus (Mạnh nhất)</li><li>Sonnet (Cân bằng)</li><li>Haiku (Nhanh, nhẹ)</li><li>Mythos preview</li></ul></li><li>Gói dịch vụ<ul><li>Free/Pro/Max (Cá nhân)</li><li>Team &amp; Enterprise (Tổ chức)</li></ul></li></ul></li><li>Tài nguyên học tập (Anthropic Academy)<ul><li>Khóa học chính<ul><li>Claude 101</li><li>AI Fluency</li><li>Model Context Protocol (MCP)</li><li>Claude Code in Action</li></ul></li><li>Kỹ năng AI Fluency<ul><li>Ủy thác (Delegation)</li><li>Mô tả (Description)</li><li>Phân biệt (Discernment)</li><li>Cần mẫn (Diligence)</li></ul></li><li>Kỹ thuật Prompt<ul><li>Thiết lập bối cảnh (Context)</li><li>Xác định hành động (Action)</li><li>Quy định định dạng (Format)</li><li>Sử dụng cấu trúc XML</li></ul></li></ul></li><li>Nền tảng &amp; Tích hợp<ul><li>Connectors (Kết nối dữ liệu)<ul><li>Google Workspace</li><li>Slack &amp; Notion</li><li>Airtable &amp; Asana</li><li>S&amp;P Capital IQ</li></ul></li><li>Claude Platform (Dành cho Dev)<ul><li>API Docs</li><li>Amazon Bedrock</li><li>Google Cloud Vertex AI</li><li>Console Prompting Tools</li></ul></li></ul></li><li>Giải pháp &amp; Use Cases<ul><li>Theo ngành<ul><li>Tài chính &amp; Ngân hàng</li><li>Y tế &amp; Khoa học đời sống</li><li>Giáo dục &amp; Phi lợi nhuận</li><li>Chính phủ</li></ul></li><li>Theo chức năng<ul><li>Lập trình &amp; Hiện đại hóa code</li><li>Hỗ trợ khách hàng</li><li>Phân tích dữ liệu &amp; Báo cáo</li><li>Sáng tạo nội dung</li></ul></li></ul></li><li>Công ty &amp; Chính sách<ul><li>Nghiên cứu &amp; Tương lai kinh tế</li><li>Hiến pháp Claude (Constitution)</li><li>Chính sách mở rộng có trách nhiệm (RSP)</li><li>An toàn &amp; Minh bạch</li></ul></li></ul>
 </div>
 
 

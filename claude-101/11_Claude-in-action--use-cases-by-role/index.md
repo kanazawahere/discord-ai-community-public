@@ -330,59 +330,9 @@ Tài liệu này đóng vai trò như một bản hướng dẫn thực hành nh
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Hệ sinh thái Anthropic & Claude
-## Sản phẩm & Mô hình
-### Ứng dụng Claude
-#### Claude.ai (Web)
-#### Claude Code
-#### Claude Cowork
-#### Claude cho Di động
-### Tích hợp & Tiện ích
-#### Claude cho Chrome
-#### Claude cho Slack
-#### Claude cho Microsoft 365
-#### Claude cho Excel
-### Các dòng Mô hình
-#### Opus (Thông minh nhất)
-#### Sonnet (Cân bằng)
-#### Haiku (Tốc độ cao)
-#### Mythos preview
-## Trường hợp sử dụng (Use Cases)
-### Kinh doanh & Chuyên nghiệp
-#### Báo cáo trạng thái dự án
-#### Phân tích phản hồi người dùng
-#### Đóng gói quy chuẩn thương hiệu
-### Bán hàng & Tiếp thị
-#### Xây dựng Battle card cạnh tranh
-#### Chuẩn bị giao dịch sales
-#### Phân tích hiệu quả chiến dịch
-#### Chuyển đổi nội dung đa nền tảng
-### Tài chính & Pháp lý
-#### Xây dựng mô hình tài chính
-#### Dự thảo bản ghi nhớ đầu tư
-#### Theo dõi dòng thời gian tố tụng
-### Nghiên cứu & Giáo dục
-#### Lập kế hoạch tổng quan tài liệu
-#### Xác minh số liệu từ dữ liệu thô
-#### Cá nhân hóa tài liệu học tập
-## Nguồn lực & Học tập
-### Anthropic Academy (Khóa học & Chứng chỉ)
-### Claude 101 (Nhập môn)
-### Thư viện Use Case Gallery
-### Bản tin AI Fluency
-## Tính năng chính
-### Artifacts (Giao diện tương tác)
-### Connectors (Google Drive, HubSpot, Slack, v.v.)
-### Extended Thinking (Suy nghĩ mở rộng)
-### Skills (Kỹ năng tùy chỉnh)
-### Projects (Quản lý dự án)
-## Nền tảng & Đối tác
-### Amazon Bedrock
-### Google Cloud Vertex AI
-### Microsoft Foundry
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Hệ sinh thái Anthropic &amp; Claude</strong>
+<ul><li>Sản phẩm &amp; Mô hình<ul><li>Ứng dụng Claude<ul><li>Claude.ai (Web)</li><li>Claude Code</li><li>Claude Cowork</li><li>Claude cho Di động</li></ul></li><li>Tích hợp &amp; Tiện ích<ul><li>Claude cho Chrome</li><li>Claude cho Slack</li><li>Claude cho Microsoft 365</li><li>Claude cho Excel</li></ul></li><li>Các dòng Mô hình<ul><li>Opus (Thông minh nhất)</li><li>Sonnet (Cân bằng)</li><li>Haiku (Tốc độ cao)</li><li>Mythos preview</li></ul></li></ul></li><li>Trường hợp sử dụng (Use Cases)<ul><li>Kinh doanh &amp; Chuyên nghiệp<ul><li>Báo cáo trạng thái dự án</li><li>Phân tích phản hồi người dùng</li><li>Đóng gói quy chuẩn thương hiệu</li></ul></li><li>Bán hàng &amp; Tiếp thị<ul><li>Xây dựng Battle card cạnh tranh</li><li>Chuẩn bị giao dịch sales</li><li>Phân tích hiệu quả chiến dịch</li><li>Chuyển đổi nội dung đa nền tảng</li></ul></li><li>Tài chính &amp; Pháp lý<ul><li>Xây dựng mô hình tài chính</li><li>Dự thảo bản ghi nhớ đầu tư</li><li>Theo dõi dòng thời gian tố tụng</li></ul></li><li>Nghiên cứu &amp; Giáo dục<ul><li>Lập kế hoạch tổng quan tài liệu</li><li>Xác minh số liệu từ dữ liệu thô</li><li>Cá nhân hóa tài liệu học tập</li></ul></li></ul></li><li>Nguồn lực &amp; Học tập<ul><li>Anthropic Academy (Khóa học &amp; Chứng chỉ)</li><li>Claude 101 (Nhập môn)</li><li>Thư viện Use Case Gallery</li><li>Bản tin AI Fluency</li></ul></li><li>Tính năng chính<ul><li>Artifacts (Giao diện tương tác)</li><li>Connectors (Google Drive, HubSpot, Slack, v.v.)</li><li>Extended Thinking (Suy nghĩ mở rộng)</li><li>Skills (Kỹ năng tùy chỉnh)</li><li>Projects (Quản lý dự án)</li></ul></li><li>Nền tảng &amp; Đối tác<ul><li>Amazon Bedrock</li><li>Google Cloud Vertex AI</li><li>Microsoft Foundry</li></ul></li></ul>
 </div>
 
 

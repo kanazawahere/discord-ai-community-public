@@ -380,63 +380,9 @@ This guide introduces **Research for Claude**, an advanced feature that evolves 
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Anthropic AI Ecosystem
-## Anthropic Academy
-### Courses
-#### Claude 101
-#### Claude Code in Action
-#### AI Fluency
-#### Model Context Protocol
-### Learning Paths
-#### Build with Claude (API)
-#### Claude for Work
-#### Claude for Personal
-### AI Fluency Newsletter
-## Claude Products
-### Applications
-#### Claude Code
-#### Claude Cowork
-#### Claude for Chrome/Slack/365
-### Plans
-#### Free/Max
-#### Team
-#### Enterprise
-### Models
-#### Opus
-#### Sonnet
-#### Haiku
-#### Mythos preview
-## Research Mode
-### Key Features
-#### Agentic Search
-#### Multi-source Synthesis
-#### Automatic Extended Thinking
-#### Verifiable Citations
-### Use Cases
-#### Market Analysis
-#### Complex Project Planning
-#### Technical Documentation
-#### Competitive Research
-### Integrations
-#### Google Workspace (Drive/Gmail/Calendar)
-#### Internal-only Research
-### Requirements
-#### Paid Plan (Pro/Max/Team/Enterprise)
-#### Web Search Enabled
-## Claude Platform
-### Developer Docs
-### Cloud Providers
-#### Amazon Bedrock
-#### Google Cloud Vertex AI
-#### Microsoft Foundry
-## Company & Governance
-### Claude's Constitution
-### Responsible Scaling Policy
-### Transparency Reports
-### Economic Futures
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Anthropic AI Ecosystem</strong>
+<ul><li>Anthropic Academy<ul><li>Courses<ul><li>Claude 101</li><li>Claude Code in Action</li><li>AI Fluency</li><li>Model Context Protocol</li></ul></li><li>Learning Paths<ul><li>Build with Claude (API)</li><li>Claude for Work</li><li>Claude for Personal</li></ul></li><li>AI Fluency Newsletter</li></ul></li><li>Claude Products<ul><li>Applications<ul><li>Claude Code</li><li>Claude Cowork</li><li>Claude for Chrome/Slack/365</li></ul></li><li>Plans<ul><li>Free/Max</li><li>Team</li><li>Enterprise</li></ul></li><li>Models<ul><li>Opus</li><li>Sonnet</li><li>Haiku</li><li>Mythos preview</li></ul></li></ul></li><li>Research Mode<ul><li>Key Features<ul><li>Agentic Search</li><li>Multi-source Synthesis</li><li>Automatic Extended Thinking</li><li>Verifiable Citations</li></ul></li><li>Use Cases<ul><li>Market Analysis</li><li>Complex Project Planning</li><li>Technical Documentation</li><li>Competitive Research</li></ul></li><li>Integrations<ul><li>Google Workspace (Drive/Gmail/Calendar)</li><li>Internal-only Research</li></ul></li><li>Requirements<ul><li>Paid Plan (Pro/Max/Team/Enterprise)</li><li>Web Search Enabled</li></ul></li></ul></li><li>Claude Platform<ul><li>Developer Docs</li><li>Cloud Providers<ul><li>Amazon Bedrock</li><li>Google Cloud Vertex AI</li><li>Microsoft Foundry</li></ul></li></ul></li><li>Company &amp; Governance<ul><li>Claude&#x27;s Constitution</li><li>Responsible Scaling Policy</li><li>Transparency Reports</li><li>Economic Futures</li></ul></li></ul>
 </div>
 
 

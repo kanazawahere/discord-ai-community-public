@@ -361,54 +361,9 @@ Tài liệu này cung cấp một hướng dẫn toàn diện về **Artifacts**
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Hệ sinh thái Anthropic & Claude
-## Anthropic Academy
-### Khóa học nổi bật
-#### Claude 101
-#### Claude Code thực tế
-#### AI Fluency
-#### Model Context Protocol
-### Tài nguyên học tập
-#### Hướng dẫn phát triển API
-#### Thực hành triển khai doanh nghiệp
-#### Bản tin AI Fluency
-## Artifacts (Sản phẩm phụ)
-### Đặc điểm
-#### Nội dung độc lập
-#### Tính tương tác cao
-#### Cửa sổ chuyên dụng
-### Loại hình phổ biến
-#### Tài liệu (Markdown, PDF, Excel)
-#### Mã nguồn (Code snippets)
-#### Trang HTML & React components
-#### Sơ đồ Mermaid & Ảnh SVG
-### Quản lý & Chia sẻ
-#### Tải xuống/Sao chép
-#### Chia sẻ nội bộ (Claude for Work)
-#### Xuất bản công khai
-#### Remix (Chỉnh sửa lại)
-## Sản phẩm & Mô hình
-### Công cụ
-#### Claude Code
-#### Claude Cowork
-#### Tiện ích Chrome/Slack/M365
-### Dòng mô hình
-#### Opus (Mạnh nhất)
-#### Sonnet (Cân bằng)
-#### Haiku (Nhanh nhẹn)
-#### Mythos preview
-### Gói dịch vụ
-#### Free/Pro/Max
-#### Team & Enterprise
-## Giải pháp & Lĩnh vực
-### Đại lý AI (AI Agents)
-### Hiện đại hóa mã nguồn
-### Giáo dục & Nghiên cứu
-### Tài chính & Y tế
-### Chính phủ & Phi lợi nhuận
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Hệ sinh thái Anthropic &amp; Claude</strong>
+<ul><li>Anthropic Academy<ul><li>Khóa học nổi bật<ul><li>Claude 101</li><li>Claude Code thực tế</li><li>AI Fluency</li><li>Model Context Protocol</li></ul></li><li>Tài nguyên học tập<ul><li>Hướng dẫn phát triển API</li><li>Thực hành triển khai doanh nghiệp</li><li>Bản tin AI Fluency</li></ul></li></ul></li><li>Artifacts (Sản phẩm phụ)<ul><li>Đặc điểm<ul><li>Nội dung độc lập</li><li>Tính tương tác cao</li><li>Cửa sổ chuyên dụng</li></ul></li><li>Loại hình phổ biến<ul><li>Tài liệu (Markdown, PDF, Excel)</li><li>Mã nguồn (Code snippets)</li><li>Trang HTML &amp; React components</li><li>Sơ đồ Mermaid &amp; Ảnh SVG</li></ul></li><li>Quản lý &amp; Chia sẻ<ul><li>Tải xuống/Sao chép</li><li>Chia sẻ nội bộ (Claude for Work)</li><li>Xuất bản công khai</li><li>Remix (Chỉnh sửa lại)</li></ul></li></ul></li><li>Sản phẩm &amp; Mô hình<ul><li>Công cụ<ul><li>Claude Code</li><li>Claude Cowork</li><li>Tiện ích Chrome/Slack/M365</li></ul></li><li>Dòng mô hình<ul><li>Opus (Mạnh nhất)</li><li>Sonnet (Cân bằng)</li><li>Haiku (Nhanh nhẹn)</li><li>Mythos preview</li></ul></li><li>Gói dịch vụ<ul><li>Free/Pro/Max</li><li>Team &amp; Enterprise</li></ul></li></ul></li><li>Giải pháp &amp; Lĩnh vực<ul><li>Đại lý AI (AI Agents)</li><li>Hiện đại hóa mã nguồn</li><li>Giáo dục &amp; Nghiên cứu</li><li>Tài chính &amp; Y tế</li><li>Chính phủ &amp; Phi lợi nhuận</li></ul></li></ul>
 </div>
 
 

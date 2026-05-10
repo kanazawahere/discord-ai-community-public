@@ -379,51 +379,9 @@ Resumed conversation: 446ad0bb-986d-4f68-a739-12c699daddad
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Dự án trên Claude (Claude Projects)
-## Tổng quan & Tính năng chính
-### Môi trường tự chứa (Self-contained)
-### Bộ nhớ & Lịch sử chat riêng biệt
-### Cơ sở tri thức (Knowledge Base) tùy chỉnh
-### Hướng dẫn dự án (Project Instructions)
-### Công nghệ RAG (Tự động mở rộng quy mô)
-## Quản lý Dự án
-### Thiết lập ban đầu
-#### Đặt tên & Mô tả
-#### Cài đặt quyền riêng tư
-### Thao tác quản lý
-#### Gắn dấu sao (Starring)
-#### Lưu trữ (Archive)
-#### Xóa (Delete)
-#### Di chuyển hội thoại vào dự án
-## Cơ sở tri thức & Hướng dẫn
-### Tải lên nội dung
-#### Tài liệu (PDF, DOCX, CSV, TXT)
-#### Kết nối Google Drive
-#### Đoạn mã (Code snippets)
-### Nội dung hướng dẫn
-#### Xác định vai trò & Chuyên môn
-#### Giọng văn & Phong cách phản hồi
-#### Quy trình làm việc cụ thể
-## Cộng tác (Gói Team/Enterprise)
-### Mức độ quyền hạn
-#### Can view (Chỉ xem/chat)
-#### Can edit (Chỉnh sửa nội dung)
-#### Owner (Toàn quyền điều khiển)
-### Chia sẻ trong tổ chức
-### Tab 'Shared with me'
-## Ví dụ ứng dụng
-### Ra mắt sản phẩm mới
-### Hỗ trợ nghiên cứu & Phân tích
-### Phát triển khóa học giáo dục
-### Quản lý tài chính cá nhân
-### Lập kế hoạch cải tạo nhà
-## Hệ sinh thái Anthropic
-### Anthropic Academy (Khóa học)
-### Claude Platform (API, Dev docs)
-### Các dòng mô hình (Opus, Sonnet, Haiku)
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Dự án trên Claude (Claude Projects)</strong>
+<ul><li>Tổng quan &amp; Tính năng chính<ul><li>Môi trường tự chứa (Self-contained)</li><li>Bộ nhớ &amp; Lịch sử chat riêng biệt</li><li>Cơ sở tri thức (Knowledge Base) tùy chỉnh</li><li>Hướng dẫn dự án (Project Instructions)</li><li>Công nghệ RAG (Tự động mở rộng quy mô)</li></ul></li><li>Quản lý Dự án<ul><li>Thiết lập ban đầu<ul><li>Đặt tên &amp; Mô tả</li><li>Cài đặt quyền riêng tư</li></ul></li><li>Thao tác quản lý<ul><li>Gắn dấu sao (Starring)</li><li>Lưu trữ (Archive)</li><li>Xóa (Delete)</li><li>Di chuyển hội thoại vào dự án</li></ul></li></ul></li><li>Cơ sở tri thức &amp; Hướng dẫn<ul><li>Tải lên nội dung<ul><li>Tài liệu (PDF, DOCX, CSV, TXT)</li><li>Kết nối Google Drive</li><li>Đoạn mã (Code snippets)</li></ul></li><li>Nội dung hướng dẫn<ul><li>Xác định vai trò &amp; Chuyên môn</li><li>Giọng văn &amp; Phong cách phản hồi</li><li>Quy trình làm việc cụ thể</li></ul></li></ul></li><li>Cộng tác (Gói Team/Enterprise)<ul><li>Mức độ quyền hạn<ul><li>Can view (Chỉ xem/chat)</li><li>Can edit (Chỉnh sửa nội dung)</li><li>Owner (Toàn quyền điều khiển)</li></ul></li><li>Chia sẻ trong tổ chức</li><li>Tab &#x27;Shared with me&#x27;</li></ul></li><li>Ví dụ ứng dụng<ul><li>Ra mắt sản phẩm mới</li><li>Hỗ trợ nghiên cứu &amp; Phân tích</li><li>Phát triển khóa học giáo dục</li><li>Quản lý tài chính cá nhân</li><li>Lập kế hoạch cải tạo nhà</li></ul></li><li>Hệ sinh thái Anthropic<ul><li>Anthropic Academy (Khóa học)</li><li>Claude Platform (API, Dev docs)</li><li>Các dòng mô hình (Opus, Sonnet, Haiku)</li></ul></li></ul>
 </div>
 
 

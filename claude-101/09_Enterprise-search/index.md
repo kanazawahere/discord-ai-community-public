@@ -340,56 +340,9 @@ Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Tài nguyên Học tập và Hướng dẫn của Anthropic
-## Học viện Anthropic (Academy)
-### Các khóa học nổi bật
-#### AI Fluency
-#### API development
-#### Model Context Protocol
-#### Claude Code
-#### Claude 101
-### Cấp chứng chỉ hoàn thành
-## Tìm kiếm Doanh nghiệp (Enterprise Search)
-### Tính năng chính
-#### Dự án chuyên dụng "Ask Your Org"
-#### Tìm kiếm hợp nhất đa nguồn
-#### Hướng dẫn thiết lập cho Admin và User
-#### Trích dẫn nguồn cụ thể
-### Nguồn kết nối
-#### Google Drive & Drive
-#### Slack
-#### Microsoft 365 & SharePoint
-#### Gmail
-### Trường hợp sử dụng
-#### Báo cáo tóm tắt cho lãnh đạo
-#### Nghiên cứu dự án
-#### Giải đáp chính sách và quy trình
-#### Đào tạo nhân viên mới (Onboarding)
-### Bảo mật và Quyền riêng tư
-#### Phân quyền truy cập theo hệ thống gốc
-#### Xác thực cấp người dùng
-#### Không lập chỉ mục dữ liệu bên ngoài
-## Hệ sinh thái sản phẩm và dịch vụ
-### Sản phẩm
-#### Claude (App & Web)
-#### Claude Code & Security
-#### Tiện ích Chrome & Slack
-### Mô hình AI
-#### Opus
-#### Sonnet
-#### Haiku
-### Nền tảng phát triển
-#### Amazon Bedrock
-#### Google Cloud Vertex AI
-#### Microsoft Foundry
-## Tài nguyên khác
-### Bản tin AI Fluency (Quarterly)
-### Tài liệu cho nhà phát triển (Developer Docs)
-### Cộng đồng và đối tác
-### Blog và tin tức công ty
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Tài nguyên Học tập và Hướng dẫn của Anthropic</strong>
+<ul><li>Học viện Anthropic (Academy)<ul><li>Các khóa học nổi bật<ul><li>AI Fluency</li><li>API development</li><li>Model Context Protocol</li><li>Claude Code</li><li>Claude 101</li></ul></li><li>Cấp chứng chỉ hoàn thành</li></ul></li><li>Tìm kiếm Doanh nghiệp (Enterprise Search)<ul><li>Tính năng chính<ul><li>Dự án chuyên dụng &quot;Ask Your Org&quot;</li><li>Tìm kiếm hợp nhất đa nguồn</li><li>Hướng dẫn thiết lập cho Admin và User</li><li>Trích dẫn nguồn cụ thể</li></ul></li><li>Nguồn kết nối<ul><li>Google Drive &amp; Drive</li><li>Slack</li><li>Microsoft 365 &amp; SharePoint</li><li>Gmail</li></ul></li><li>Trường hợp sử dụng<ul><li>Báo cáo tóm tắt cho lãnh đạo</li><li>Nghiên cứu dự án</li><li>Giải đáp chính sách và quy trình</li><li>Đào tạo nhân viên mới (Onboarding)</li></ul></li><li>Bảo mật và Quyền riêng tư<ul><li>Phân quyền truy cập theo hệ thống gốc</li><li>Xác thực cấp người dùng</li><li>Không lập chỉ mục dữ liệu bên ngoài</li></ul></li></ul></li><li>Hệ sinh thái sản phẩm và dịch vụ<ul><li>Sản phẩm<ul><li>Claude (App &amp; Web)</li><li>Claude Code &amp; Security</li><li>Tiện ích Chrome &amp; Slack</li></ul></li><li>Mô hình AI<ul><li>Opus</li><li>Sonnet</li><li>Haiku</li></ul></li><li>Nền tảng phát triển<ul><li>Amazon Bedrock</li><li>Google Cloud Vertex AI</li><li>Microsoft Foundry</li></ul></li></ul></li><li>Tài nguyên khác<ul><li>Bản tin AI Fluency (Quarterly)</li><li>Tài liệu cho nhà phát triển (Developer Docs)</li><li>Cộng đồng và đối tác</li><li>Blog và tin tức công ty</li></ul></li></ul>
 </div>
 
 

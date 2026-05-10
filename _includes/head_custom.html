@@ -40,4 +40,3 @@ function fcKnow(id,known){var d=document.getElementById(id);var ks=JSON.parse(d.
 function fcShow(d,cards,idx){d.dataset.cur=idx;d.querySelector('.fc-front').textContent=cards[idx].front;d.querySelector('.fc-back').textContent=cards[idx].back;d.querySelector('.fc-scene').classList.remove('flipped');d.querySelector('.fc-progress').textContent=(idx+1)+' / '+cards.length;fcStats(d,cards,JSON.parse(d.dataset.known||'[]'))}
 function fcStats(d,cards,ks){d.querySelector('.fc-stats').textContent='Nhớ: '+ks.length+' / '+cards.length}
 </script>
-<script defer src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16.0/dist/browser/index.js"></script>

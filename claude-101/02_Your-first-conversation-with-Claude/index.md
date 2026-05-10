@@ -365,59 +365,9 @@ This comprehensive guide introduces users to effective collaboration with Claude
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Anthropic AI Learning & Resources
-## Anthropic Academy
-### AI Fluency
-### API Development
-### Model Context Protocol
-### Claude Code & 101 Courses
-## Core Products & Models
-### Models
-#### Opus (Complex Tasks)
-#### Sonnet (Everyday Use)
-#### Haiku (Fast/Light)
-#### Mythos Preview
-### Claude Interfaces
-#### Claude.ai Web
-#### Mobile Apps
-#### Chrome Extension
-#### Slack & Microsoft 365
-## Mastering Prompts
-### 4D Framework
-#### Delegation
-#### Description
-#### Discernment
-#### Diligence
-### Prompt Construction
-#### Setting the Stage
-#### Defining the Task
-#### Specifying Rules
-## Platform Features
-### Projects (Persistent Context)
-### Artifacts (Apps & Tools)
-### Memory & Styles
-### Extended Thinking Mode
-### Connectors (Google Drive/S&P)
-## Solutions & Use Cases
-### Industries
-#### Healthcare & Life Sciences
-#### Financial Services
-#### Education
-#### Nonprofits
-#### Government
-### Functional Areas
-#### Coding & Modernization
-#### Customer Support
-#### Marketing & Creative
-#### HR & Legal
-## Enterprise & Developer
-### API Plans
-### Amazon Bedrock
-### Google Cloud Vertex AI
-### Security & Compliance
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Anthropic AI Learning &amp; Resources</strong>
+<ul><li>Anthropic Academy<ul><li>AI Fluency</li><li>API Development</li><li>Model Context Protocol</li><li>Claude Code &amp; 101 Courses</li></ul></li><li>Core Products &amp; Models<ul><li>Models<ul><li>Opus (Complex Tasks)</li><li>Sonnet (Everyday Use)</li><li>Haiku (Fast/Light)</li><li>Mythos Preview</li></ul></li><li>Claude Interfaces<ul><li>Claude.ai Web</li><li>Mobile Apps</li><li>Chrome Extension</li><li>Slack &amp; Microsoft 365</li></ul></li></ul></li><li>Mastering Prompts<ul><li>4D Framework<ul><li>Delegation</li><li>Description</li><li>Discernment</li><li>Diligence</li></ul></li><li>Prompt Construction<ul><li>Setting the Stage</li><li>Defining the Task</li><li>Specifying Rules</li></ul></li></ul></li><li>Platform Features<ul><li>Projects (Persistent Context)</li><li>Artifacts (Apps &amp; Tools)</li><li>Memory &amp; Styles</li><li>Extended Thinking Mode</li><li>Connectors (Google Drive/S&amp;P)</li></ul></li><li>Solutions &amp; Use Cases<ul><li>Industries<ul><li>Healthcare &amp; Life Sciences</li><li>Financial Services</li><li>Education</li><li>Nonprofits</li><li>Government</li></ul></li><li>Functional Areas<ul><li>Coding &amp; Modernization</li><li>Customer Support</li><li>Marketing &amp; Creative</li><li>HR &amp; Legal</li></ul></li></ul></li><li>Enterprise &amp; Developer<ul><li>API Plans</li><li>Amazon Bedrock</li><li>Google Cloud Vertex AI</li><li>Security &amp; Compliance</li></ul></li></ul>
 </div>
 
 

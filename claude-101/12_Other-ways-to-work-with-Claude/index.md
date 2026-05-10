@@ -390,53 +390,9 @@ Beyond its primary web interface, Claude functions as a versatile **intelligence
 
 ## Sơ đồ tư duy
 
-<div class="mm-wrap">
-<div class="markmap" style="width:100%;height:440px">
-# Anthropic AI Ecosystem
-## Anthropic Academy
-### Courses
-#### Claude 101
-#### AI Fluency
-#### API Development
-#### Model Context Protocol
-#### Claude Code in Action
-### Certificates of Completion
-### Learning Resources
-#### API Guides
-#### Enterprise Best Practices
-#### AI Fluency Newsletter
-## Products & Tools
-### Claude Code
-#### Agentic Coding
-#### Terminal & IDE Integration
-#### Debug & Refactor
-### Browser & Productivity
-#### Claude for Chrome
-#### Claude for Slack
-#### Claude for Excel
-#### Claude for PowerPoint
-### Claude Platforms
-#### Web (Claude.ai)
-#### Mobile Apps
-#### Amazon Bedrock
-#### Google Vertex AI
-## Models
-### Sonnet 4.5
-### Opus
-### Haiku
-### Mythos Preview
-## Safety & Governance
-### Claude's Constitution
-### Responsible Scaling Policy
-### Granular Permissions
-### Prompt Injection Protection
-## Solutions
-### AI Agents
-### Customer Support
-### Financial Services
-### Healthcare & Life Sciences
-### Code Modernization
-</div>
+<div class="mm-wrap" style="padding:1rem">
+<strong>Anthropic AI Ecosystem</strong>
+<ul><li>Anthropic Academy<ul><li>Courses<ul><li>Claude 101</li><li>AI Fluency</li><li>API Development</li><li>Model Context Protocol</li><li>Claude Code in Action</li></ul></li><li>Certificates of Completion</li><li>Learning Resources<ul><li>API Guides</li><li>Enterprise Best Practices</li><li>AI Fluency Newsletter</li></ul></li></ul></li><li>Products &amp; Tools<ul><li>Claude Code<ul><li>Agentic Coding</li><li>Terminal &amp; IDE Integration</li><li>Debug &amp; Refactor</li></ul></li><li>Browser &amp; Productivity<ul><li>Claude for Chrome</li><li>Claude for Slack</li><li>Claude for Excel</li><li>Claude for PowerPoint</li></ul></li><li>Claude Platforms<ul><li>Web (Claude.ai)</li><li>Mobile Apps</li><li>Amazon Bedrock</li><li>Google Vertex AI</li></ul></li></ul></li><li>Models<ul><li>Sonnet 4.5</li><li>Opus</li><li>Haiku</li><li>Mythos Preview</li></ul></li><li>Safety &amp; Governance<ul><li>Claude&#x27;s Constitution</li><li>Responsible Scaling Policy</li><li>Granular Permissions</li><li>Prompt Injection Protection</li></ul></li><li>Solutions<ul><li>AI Agents</li><li>Customer Support</li><li>Financial Services</li><li>Healthcare &amp; Life Sciences</li><li>Code Modernization</li></ul></li></ul>
 </div>
 
 
