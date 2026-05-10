@@ -284,22 +284,59 @@ This comprehensive guide introduces users to effective collaboration with Claude
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-02_Your-first-conversation-with-Claude" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Anthropic AI Learning & Resources
+## Anthropic Academy
+### AI Fluency
+### API Development
+### Model Context Protocol
+### Claude Code & 101 Courses
+## Core Products & Models
+### Models
+#### Opus (Complex Tasks)
+#### Sonnet (Everyday Use)
+#### Haiku (Fast/Light)
+#### Mythos Preview
+### Claude Interfaces
+#### Claude.ai Web
+#### Mobile Apps
+#### Chrome Extension
+#### Slack & Microsoft 365
+## Mastering Prompts
+### 4D Framework
+#### Delegation
+#### Description
+#### Discernment
+#### Diligence
+### Prompt Construction
+#### Setting the Stage
+#### Defining the Task
+#### Specifying Rules
+## Platform Features
+### Projects (Persistent Context)
+### Artifacts (Apps & Tools)
+### Memory & Styles
+### Extended Thinking Mode
+### Connectors (Google Drive/S&P)
+## Solutions & Use Cases
+### Industries
+#### Healthcare & Life Sciences
+#### Financial Services
+#### Education
+#### Nonprofits
+#### Government
+### Functional Areas
+#### Coding & Modernization
+#### Customer Support
+#### Marketing & Creative
+#### HR & Legal
+## Enterprise & Developer
+### API Plans
+### Amazon Bedrock
+### Google Cloud Vertex AI
+### Security & Compliance
 </div>
-<script>
-(function(){
-  var data={"name": "Anthropic AI Learning & Resources", "children": [{"name": "Anthropic Academy", "children": [{"name": "AI Fluency"}, {"name": "API Development"}, {"name": "Model Context Protocol"}, {"name": "Claude Code & 101 Courses"}]}, {"name": "Core Products & Models", "children": [{"name": "Models", "children": [{"name": "Opus (Complex Tasks)"}, {"name": "Sonnet (Everyday Use)"}, {"name": "Haiku (Fast/Light)"}, {"name": "Mythos Preview"}]}, {"name": "Claude Interfaces", "children": [{"name": "Claude.ai Web"}, {"name": "Mobile Apps"}, {"name": "Chrome Extension"}, {"name": "Slack & Microsoft 365"}]}]}, {"name": "Mastering Prompts", "children": [{"name": "4D Framework", "children": [{"name": "Delegation"}, {"name": "Description"}, {"name": "Discernment"}, {"name": "Diligence"}]}, {"name": "Prompt Construction", "children": [{"name": "Setting the Stage"}, {"name": "Defining the Task"}, {"name": "Specifying Rules"}]}]}, {"name": "Platform Features", "children": [{"name": "Projects (Persistent Context)"}, {"name": "Artifacts (Apps & Tools)"}, {"name": "Memory & Styles"}, {"name": "Extended Thinking Mode"}, {"name": "Connectors (Google Drive/S&P)"}]}, {"name": "Solutions & Use Cases", "children": [{"name": "Industries", "children": [{"name": "Healthcare & Life Sciences"}, {"name": "Financial Services"}, {"name": "Education"}, {"name": "Nonprofits"}, {"name": "Government"}]}, {"name": "Functional Areas", "children": [{"name": "Coding & Modernization"}, {"name": "Customer Support"}, {"name": "Marketing & Creative"}, {"name": "HR & Legal"}]}]}, {"name": "Enterprise & Developer", "children": [{"name": "API Plans"}, {"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Security & Compliance"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-02_Your-first-conversation-with-Claude',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

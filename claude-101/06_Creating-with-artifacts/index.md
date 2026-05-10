@@ -277,22 +277,54 @@ Tài liệu này cung cấp một hướng dẫn toàn diện về **Artifacts**
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-06_Creating-with-artifacts" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái Anthropic & Claude
+## Anthropic Academy
+### Khóa học nổi bật
+#### Claude 101
+#### Claude Code thực tế
+#### AI Fluency
+#### Model Context Protocol
+### Tài nguyên học tập
+#### Hướng dẫn phát triển API
+#### Thực hành triển khai doanh nghiệp
+#### Bản tin AI Fluency
+## Artifacts (Sản phẩm phụ)
+### Đặc điểm
+#### Nội dung độc lập
+#### Tính tương tác cao
+#### Cửa sổ chuyên dụng
+### Loại hình phổ biến
+#### Tài liệu (Markdown, PDF, Excel)
+#### Mã nguồn (Code snippets)
+#### Trang HTML & React components
+#### Sơ đồ Mermaid & Ảnh SVG
+### Quản lý & Chia sẻ
+#### Tải xuống/Sao chép
+#### Chia sẻ nội bộ (Claude for Work)
+#### Xuất bản công khai
+#### Remix (Chỉnh sửa lại)
+## Sản phẩm & Mô hình
+### Công cụ
+#### Claude Code
+#### Claude Cowork
+#### Tiện ích Chrome/Slack/M365
+### Dòng mô hình
+#### Opus (Mạnh nhất)
+#### Sonnet (Cân bằng)
+#### Haiku (Nhanh nhẹn)
+#### Mythos preview
+### Gói dịch vụ
+#### Free/Pro/Max
+#### Team & Enterprise
+## Giải pháp & Lĩnh vực
+### Đại lý AI (AI Agents)
+### Hiện đại hóa mã nguồn
+### Giáo dục & Nghiên cứu
+### Tài chính & Y tế
+### Chính phủ & Phi lợi nhuận
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái Anthropic & Claude", "children": [{"name": "Anthropic Academy", "children": [{"name": "Khóa học nổi bật", "children": [{"name": "Claude 101"}, {"name": "Claude Code thực tế"}, {"name": "AI Fluency"}, {"name": "Model Context Protocol"}]}, {"name": "Tài nguyên học tập", "children": [{"name": "Hướng dẫn phát triển API"}, {"name": "Thực hành triển khai doanh nghiệp"}, {"name": "Bản tin AI Fluency"}]}]}, {"name": "Artifacts (Sản phẩm phụ)", "children": [{"name": "Đặc điểm", "children": [{"name": "Nội dung độc lập"}, {"name": "Tính tương tác cao"}, {"name": "Cửa sổ chuyên dụng"}]}, {"name": "Loại hình phổ biến", "children": [{"name": "Tài liệu (Markdown, PDF, Excel)"}, {"name": "Mã nguồn (Code snippets)"}, {"name": "Trang HTML & React components"}, {"name": "Sơ đồ Mermaid & Ảnh SVG"}]}, {"name": "Quản lý & Chia sẻ", "children": [{"name": "Tải xuống/Sao chép"}, {"name": "Chia sẻ nội bộ (Claude for Work)"}, {"name": "Xuất bản công khai"}, {"name": "Remix (Chỉnh sửa lại)"}]}]}, {"name": "Sản phẩm & Mô hình", "children": [{"name": "Công cụ", "children": [{"name": "Claude Code"}, {"name": "Claude Cowork"}, {"name": "Tiện ích Chrome/Slack/M365"}]}, {"name": "Dòng mô hình", "children": [{"name": "Opus (Mạnh nhất)"}, {"name": "Sonnet (Cân bằng)"}, {"name": "Haiku (Nhanh nhẹn)"}, {"name": "Mythos preview"}]}, {"name": "Gói dịch vụ", "children": [{"name": "Free/Pro/Max"}, {"name": "Team & Enterprise"}]}]}, {"name": "Giải pháp & Lĩnh vực", "children": [{"name": "Đại lý AI (AI Agents)"}, {"name": "Hiện đại hóa mã nguồn"}, {"name": "Giáo dục & Nghiên cứu"}, {"name": "Tài chính & Y tế"}, {"name": "Chính phủ & Phi lợi nhuận"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-06_Creating-with-artifacts',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

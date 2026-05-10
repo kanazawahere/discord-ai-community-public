@@ -303,22 +303,53 @@ Beyond its primary web interface, Claude functions as a versatile **intelligence
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-12_Other-ways-to-work-with-Claude" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Anthropic AI Ecosystem
+## Anthropic Academy
+### Courses
+#### Claude 101
+#### AI Fluency
+#### API Development
+#### Model Context Protocol
+#### Claude Code in Action
+### Certificates of Completion
+### Learning Resources
+#### API Guides
+#### Enterprise Best Practices
+#### AI Fluency Newsletter
+## Products & Tools
+### Claude Code
+#### Agentic Coding
+#### Terminal & IDE Integration
+#### Debug & Refactor
+### Browser & Productivity
+#### Claude for Chrome
+#### Claude for Slack
+#### Claude for Excel
+#### Claude for PowerPoint
+### Claude Platforms
+#### Web (Claude.ai)
+#### Mobile Apps
+#### Amazon Bedrock
+#### Google Vertex AI
+## Models
+### Sonnet 4.5
+### Opus
+### Haiku
+### Mythos Preview
+## Safety & Governance
+### Claude's Constitution
+### Responsible Scaling Policy
+### Granular Permissions
+### Prompt Injection Protection
+## Solutions
+### AI Agents
+### Customer Support
+### Financial Services
+### Healthcare & Life Sciences
+### Code Modernization
 </div>
-<script>
-(function(){
-  var data={"name": "Anthropic AI Ecosystem", "children": [{"name": "Anthropic Academy", "children": [{"name": "Courses", "children": [{"name": "Claude 101"}, {"name": "AI Fluency"}, {"name": "API Development"}, {"name": "Model Context Protocol"}, {"name": "Claude Code in Action"}]}, {"name": "Certificates of Completion"}, {"name": "Learning Resources", "children": [{"name": "API Guides"}, {"name": "Enterprise Best Practices"}, {"name": "AI Fluency Newsletter"}]}]}, {"name": "Products & Tools", "children": [{"name": "Claude Code", "children": [{"name": "Agentic Coding"}, {"name": "Terminal & IDE Integration"}, {"name": "Debug & Refactor"}]}, {"name": "Browser & Productivity", "children": [{"name": "Claude for Chrome"}, {"name": "Claude for Slack"}, {"name": "Claude for Excel"}, {"name": "Claude for PowerPoint"}]}, {"name": "Claude Platforms", "children": [{"name": "Web (Claude.ai)"}, {"name": "Mobile Apps"}, {"name": "Amazon Bedrock"}, {"name": "Google Vertex AI"}]}]}, {"name": "Models", "children": [{"name": "Sonnet 4.5"}, {"name": "Opus"}, {"name": "Haiku"}, {"name": "Mythos Preview"}]}, {"name": "Safety & Governance", "children": [{"name": "Claude's Constitution"}, {"name": "Responsible Scaling Policy"}, {"name": "Granular Permissions"}, {"name": "Prompt Injection Protection"}]}, {"name": "Solutions", "children": [{"name": "AI Agents"}, {"name": "Customer Support"}, {"name": "Financial Services"}, {"name": "Healthcare & Life Sciences"}, {"name": "Code Modernization"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-12_Other-ways-to-work-with-Claude',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

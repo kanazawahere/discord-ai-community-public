@@ -331,22 +331,51 @@ Copyright 2025 Anthropic. All rights reserved.
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-05_Introduction-to-projects" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Dự án trên Claude (Claude Projects)
+## Tổng quan & Tính năng chính
+### Môi trường tự chứa (Self-contained)
+### Bộ nhớ & Lịch sử chat riêng biệt
+### Cơ sở tri thức (Knowledge Base) tùy chỉnh
+### Hướng dẫn dự án (Project Instructions)
+### Công nghệ RAG (Tự động mở rộng quy mô)
+## Quản lý Dự án
+### Thiết lập ban đầu
+#### Đặt tên & Mô tả
+#### Cài đặt quyền riêng tư
+### Thao tác quản lý
+#### Gắn dấu sao (Starring)
+#### Lưu trữ (Archive)
+#### Xóa (Delete)
+#### Di chuyển hội thoại vào dự án
+## Cơ sở tri thức & Hướng dẫn
+### Tải lên nội dung
+#### Tài liệu (PDF, DOCX, CSV, TXT)
+#### Kết nối Google Drive
+#### Đoạn mã (Code snippets)
+### Nội dung hướng dẫn
+#### Xác định vai trò & Chuyên môn
+#### Giọng văn & Phong cách phản hồi
+#### Quy trình làm việc cụ thể
+## Cộng tác (Gói Team/Enterprise)
+### Mức độ quyền hạn
+#### Can view (Chỉ xem/chat)
+#### Can edit (Chỉnh sửa nội dung)
+#### Owner (Toàn quyền điều khiển)
+### Chia sẻ trong tổ chức
+### Tab 'Shared with me'
+## Ví dụ ứng dụng
+### Ra mắt sản phẩm mới
+### Hỗ trợ nghiên cứu & Phân tích
+### Phát triển khóa học giáo dục
+### Quản lý tài chính cá nhân
+### Lập kế hoạch cải tạo nhà
+## Hệ sinh thái Anthropic
+### Anthropic Academy (Khóa học)
+### Claude Platform (API, Dev docs)
+### Các dòng mô hình (Opus, Sonnet, Haiku)
 </div>
-<script>
-(function(){
-  var data={"name": "Dự án trên Claude (Claude Projects)", "children": [{"name": "Tổng quan & Tính năng chính", "children": [{"name": "Môi trường tự chứa (Self-contained)"}, {"name": "Bộ nhớ & Lịch sử chat riêng biệt"}, {"name": "Cơ sở tri thức (Knowledge Base) tùy chỉnh"}, {"name": "Hướng dẫn dự án (Project Instructions)"}, {"name": "Công nghệ RAG (Tự động mở rộng quy mô)"}]}, {"name": "Quản lý Dự án", "children": [{"name": "Thiết lập ban đầu", "children": [{"name": "Đặt tên & Mô tả"}, {"name": "Cài đặt quyền riêng tư"}]}, {"name": "Thao tác quản lý", "children": [{"name": "Gắn dấu sao (Starring)"}, {"name": "Lưu trữ (Archive)"}, {"name": "Xóa (Delete)"}, {"name": "Di chuyển hội thoại vào dự án"}]}]}, {"name": "Cơ sở tri thức & Hướng dẫn", "children": [{"name": "Tải lên nội dung", "children": [{"name": "Tài liệu (PDF, DOCX, CSV, TXT)"}, {"name": "Kết nối Google Drive"}, {"name": "Đoạn mã (Code snippets)"}]}, {"name": "Nội dung hướng dẫn", "children": [{"name": "Xác định vai trò & Chuyên môn"}, {"name": "Giọng văn & Phong cách phản hồi"}, {"name": "Quy trình làm việc cụ thể"}]}]}, {"name": "Cộng tác (Gói Team/Enterprise)", "children": [{"name": "Mức độ quyền hạn", "children": [{"name": "Can view (Chỉ xem/chat)"}, {"name": "Can edit (Chỉnh sửa nội dung)"}, {"name": "Owner (Toàn quyền điều khiển)"}]}, {"name": "Chia sẻ trong tổ chức"}, {"name": "Tab 'Shared with me'"}]}, {"name": "Ví dụ ứng dụng", "children": [{"name": "Ra mắt sản phẩm mới"}, {"name": "Hỗ trợ nghiên cứu & Phân tích"}, {"name": "Phát triển khóa học giáo dục"}, {"name": "Quản lý tài chính cá nhân"}, {"name": "Lập kế hoạch cải tạo nhà"}]}, {"name": "Hệ sinh thái Anthropic", "children": [{"name": "Anthropic Academy (Khóa học)"}, {"name": "Claude Platform (API, Dev docs)"}, {"name": "Các dòng mô hình (Opus, Sonnet, Haiku)"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-05_Introduction-to-projects',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

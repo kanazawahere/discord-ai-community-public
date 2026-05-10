@@ -259,22 +259,50 @@ Nguồn tài liệu này đóng vai trò như một bài học nhập môn giúp
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-01_What-is-Claude" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái Anthropic Claude
+## Sản phẩm & Giao diện
+### Claude.ai
+#### Ứng dụng Web
+#### Ứng dụng Desktop
+#### Ứng dụng Di động (iOS/Android)
+### Claude Code
+#### Công cụ lập trình Agentic
+#### Tích hợp Terminal & CLI
+#### Tiện ích IDE (VS Code, JetBrains)
+### Tích hợp Nơi làm việc
+#### Claude cho Slack
+#### Claude cho Microsoft 365 (Excel, Word, PPT, Outlook)
+#### Claude cho Chrome
+### Claude Cowork (Hợp tác nhóm)
+## Các Dòng Mô hình
+### Claude 3.5 / 4.5 Haiku (Nhanh, tối ưu chi phí)
+### Claude 3.5 / 4.6 Sonnet (Cân bằng, phổ biến)
+### Claude 3 / 4.7 Opus (Mạnh mẽ nhất, tư duy sâu)
+### Mythos (Bản xem trước)
+## Tính năng Cốt lõi
+### Constitutional AI (An toàn, trung thực, có ích)
+### Extended Thinking (Tư duy mở rộng/sâu)
+### Context Window (Lên đến 1 triệu token)
+### Dự án (Projects) & Thành phẩm (Artifacts)
+### Kỹ năng (Skills) & Kết nối (Connectors)
+## Giải pháp & Ngành nghề
+### Phát triển phần mềm (Coding)
+### Tài chính & Phân tích dữ liệu
+### Giáo dục & Nghiên cứu
+### Y tế & Khoa học đời sống
+### Chính phủ & Phi lợi nhuận
+## Tài nguyên Học tập
+### Anthropic Academy (Khóa học AI)
+### Claude 101
+### Tài liệu cho nhà phát triển (API docs)
+### Bản tin AI Fluency
+## Gói dịch vụ
+### Gói Cá nhân (Free, Pro, Max)
+### Gói Doanh nghiệp (Team, Enterprise)
+### Claude API (Trả phí theo mức sử dụng)
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái Anthropic Claude", "children": [{"name": "Sản phẩm & Giao diện", "children": [{"name": "Claude.ai", "children": [{"name": "Ứng dụng Web"}, {"name": "Ứng dụng Desktop"}, {"name": "Ứng dụng Di động (iOS/Android)"}]}, {"name": "Claude Code", "children": [{"name": "Công cụ lập trình Agentic"}, {"name": "Tích hợp Terminal & CLI"}, {"name": "Tiện ích IDE (VS Code, JetBrains)"}]}, {"name": "Tích hợp Nơi làm việc", "children": [{"name": "Claude cho Slack"}, {"name": "Claude cho Microsoft 365 (Excel, Word, PPT, Outlook)"}, {"name": "Claude cho Chrome"}]}, {"name": "Claude Cowork (Hợp tác nhóm)"}]}, {"name": "Các Dòng Mô hình", "children": [{"name": "Claude 3.5 / 4.5 Haiku (Nhanh, tối ưu chi phí)"}, {"name": "Claude 3.5 / 4.6 Sonnet (Cân bằng, phổ biến)"}, {"name": "Claude 3 / 4.7 Opus (Mạnh mẽ nhất, tư duy sâu)"}, {"name": "Mythos (Bản xem trước)"}]}, {"name": "Tính năng Cốt lõi", "children": [{"name": "Constitutional AI (An toàn, trung thực, có ích)"}, {"name": "Extended Thinking (Tư duy mở rộng/sâu)"}, {"name": "Context Window (Lên đến 1 triệu token)"}, {"name": "Dự án (Projects) & Thành phẩm (Artifacts)"}, {"name": "Kỹ năng (Skills) & Kết nối (Connectors)"}]}, {"name": "Giải pháp & Ngành nghề", "children": [{"name": "Phát triển phần mềm (Coding)"}, {"name": "Tài chính & Phân tích dữ liệu"}, {"name": "Giáo dục & Nghiên cứu"}, {"name": "Y tế & Khoa học đời sống"}, {"name": "Chính phủ & Phi lợi nhuận"}]}, {"name": "Tài nguyên Học tập", "children": [{"name": "Anthropic Academy (Khóa học AI)"}, {"name": "Claude 101"}, {"name": "Tài liệu cho nhà phát triển (API docs)"}, {"name": "Bản tin AI Fluency"}]}, {"name": "Gói dịch vụ", "children": [{"name": "Gói Cá nhân (Free, Pro, Max)"}, {"name": "Gói Doanh nghiệp (Team, Enterprise)"}, {"name": "Claude API (Trả phí theo mức sử dụng)"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-01_What-is-Claude',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

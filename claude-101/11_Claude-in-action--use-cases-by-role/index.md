@@ -267,22 +267,59 @@ Tài liệu này đóng vai trò như một bản hướng dẫn thực hành nh
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-11_Claude-in-action--use-cases-by-role" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái Anthropic & Claude
+## Sản phẩm & Mô hình
+### Ứng dụng Claude
+#### Claude.ai (Web)
+#### Claude Code
+#### Claude Cowork
+#### Claude cho Di động
+### Tích hợp & Tiện ích
+#### Claude cho Chrome
+#### Claude cho Slack
+#### Claude cho Microsoft 365
+#### Claude cho Excel
+### Các dòng Mô hình
+#### Opus (Thông minh nhất)
+#### Sonnet (Cân bằng)
+#### Haiku (Tốc độ cao)
+#### Mythos preview
+## Trường hợp sử dụng (Use Cases)
+### Kinh doanh & Chuyên nghiệp
+#### Báo cáo trạng thái dự án
+#### Phân tích phản hồi người dùng
+#### Đóng gói quy chuẩn thương hiệu
+### Bán hàng & Tiếp thị
+#### Xây dựng Battle card cạnh tranh
+#### Chuẩn bị giao dịch sales
+#### Phân tích hiệu quả chiến dịch
+#### Chuyển đổi nội dung đa nền tảng
+### Tài chính & Pháp lý
+#### Xây dựng mô hình tài chính
+#### Dự thảo bản ghi nhớ đầu tư
+#### Theo dõi dòng thời gian tố tụng
+### Nghiên cứu & Giáo dục
+#### Lập kế hoạch tổng quan tài liệu
+#### Xác minh số liệu từ dữ liệu thô
+#### Cá nhân hóa tài liệu học tập
+## Nguồn lực & Học tập
+### Anthropic Academy (Khóa học & Chứng chỉ)
+### Claude 101 (Nhập môn)
+### Thư viện Use Case Gallery
+### Bản tin AI Fluency
+## Tính năng chính
+### Artifacts (Giao diện tương tác)
+### Connectors (Google Drive, HubSpot, Slack, v.v.)
+### Extended Thinking (Suy nghĩ mở rộng)
+### Skills (Kỹ năng tùy chỉnh)
+### Projects (Quản lý dự án)
+## Nền tảng & Đối tác
+### Amazon Bedrock
+### Google Cloud Vertex AI
+### Microsoft Foundry
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái Anthropic & Claude", "children": [{"name": "Sản phẩm & Mô hình", "children": [{"name": "Ứng dụng Claude", "children": [{"name": "Claude.ai (Web)"}, {"name": "Claude Code"}, {"name": "Claude Cowork"}, {"name": "Claude cho Di động"}]}, {"name": "Tích hợp & Tiện ích", "children": [{"name": "Claude cho Chrome"}, {"name": "Claude cho Slack"}, {"name": "Claude cho Microsoft 365"}, {"name": "Claude cho Excel"}]}, {"name": "Các dòng Mô hình", "children": [{"name": "Opus (Thông minh nhất)"}, {"name": "Sonnet (Cân bằng)"}, {"name": "Haiku (Tốc độ cao)"}, {"name": "Mythos preview"}]}]}, {"name": "Trường hợp sử dụng (Use Cases)", "children": [{"name": "Kinh doanh & Chuyên nghiệp", "children": [{"name": "Báo cáo trạng thái dự án"}, {"name": "Phân tích phản hồi người dùng"}, {"name": "Đóng gói quy chuẩn thương hiệu"}]}, {"name": "Bán hàng & Tiếp thị", "children": [{"name": "Xây dựng Battle card cạnh tranh"}, {"name": "Chuẩn bị giao dịch sales"}, {"name": "Phân tích hiệu quả chiến dịch"}, {"name": "Chuyển đổi nội dung đa nền tảng"}]}, {"name": "Tài chính & Pháp lý", "children": [{"name": "Xây dựng mô hình tài chính"}, {"name": "Dự thảo bản ghi nhớ đầu tư"}, {"name": "Theo dõi dòng thời gian tố tụng"}]}, {"name": "Nghiên cứu & Giáo dục", "children": [{"name": "Lập kế hoạch tổng quan tài liệu"}, {"name": "Xác minh số liệu từ dữ liệu thô"}, {"name": "Cá nhân hóa tài liệu học tập"}]}]}, {"name": "Nguồn lực & Học tập", "children": [{"name": "Anthropic Academy (Khóa học & Chứng chỉ)"}, {"name": "Claude 101 (Nhập môn)"}, {"name": "Thư viện Use Case Gallery"}, {"name": "Bản tin AI Fluency"}]}, {"name": "Tính năng chính", "children": [{"name": "Artifacts (Giao diện tương tác)"}, {"name": "Connectors (Google Drive, HubSpot, Slack, v.v.)"}, {"name": "Extended Thinking (Suy nghĩ mở rộng)"}, {"name": "Skills (Kỹ năng tùy chỉnh)"}, {"name": "Projects (Quản lý dự án)"}]}, {"name": "Nền tảng & Đối tác", "children": [{"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Microsoft Foundry"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-11_Claude-in-action--use-cases-by-role',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

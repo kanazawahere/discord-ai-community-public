@@ -299,22 +299,59 @@ Nguồn tài liệu này hướng dẫn cách sử dụng **Connectors**, một 
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-08_Connecting-your-tools" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái Anthropic & Claude
+## Sản phẩm & Mô hình
+### Ứng dụng Claude
+#### Claude Web & Mobile (iOS/Android)
+#### Claude Desktop
+#### Claude Code (CLI)
+#### Claude Cowork
+### Mô hình AI
+#### Opus (Mạnh nhất)
+#### Sonnet (Cân bằng)
+#### Haiku (Nhanh/Nhẹ)
+#### Mythos preview
+### Gói dịch vụ
+#### Free & Pro
+#### Max & Team
+#### Enterprise
+## Tính năng Kết nối (Connectors)
+### Phân loại
+#### Web Connectors (Google Drive, Slack, Notion)
+#### Desktop Extensions (File cục bộ, Figma)
+#### Custom Connectors (Remote MCP)
+### Giao thức MCP
+#### Tiêu chuẩn mở cho AI
+#### Kết nối ứng dụng nhất quán
+### Quản lý & Bảo mật
+#### Phân quyền theo người dùng
+#### Kiểm soát hành động (Read/Write)
+#### Dữ liệu mã hóa
+## Đào tạo & Tài nguyên
+### Anthropic Academy
+#### Khóa học Claude 101
+#### Hướng dẫn API & MCP
+#### Chứng chỉ hoàn thành
+### Hỗ trợ
+#### Trung tâm trợ giúp (Help Center)
+#### Cộng đồng & Blog
+#### Bản tin AI Fluency
+## Giải pháp & Ngành nghề
+### Lĩnh vực
+#### Giáo dục & Nghiên cứu
+#### Tài chính & Y tế
+#### Chính phủ & Phi lợi nhuận
+### Công việc chuyên môn
+#### Lập trình & Hiện đại hóa code
+#### Hỗ trợ khách hàng
+#### Đại lý AI (AI Agents)
+## Triết lý & Chính sách
+### Hiến pháp Claude (Constitution)
+### Chính sách mở rộng có trách nhiệm
+### Quyền riêng tư & Minh bạch
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái Anthropic & Claude", "children": [{"name": "Sản phẩm & Mô hình", "children": [{"name": "Ứng dụng Claude", "children": [{"name": "Claude Web & Mobile (iOS/Android)"}, {"name": "Claude Desktop"}, {"name": "Claude Code (CLI)"}, {"name": "Claude Cowork"}]}, {"name": "Mô hình AI", "children": [{"name": "Opus (Mạnh nhất)"}, {"name": "Sonnet (Cân bằng)"}, {"name": "Haiku (Nhanh/Nhẹ)"}, {"name": "Mythos preview"}]}, {"name": "Gói dịch vụ", "children": [{"name": "Free & Pro"}, {"name": "Max & Team"}, {"name": "Enterprise"}]}]}, {"name": "Tính năng Kết nối (Connectors)", "children": [{"name": "Phân loại", "children": [{"name": "Web Connectors (Google Drive, Slack, Notion)"}, {"name": "Desktop Extensions (File cục bộ, Figma)"}, {"name": "Custom Connectors (Remote MCP)"}]}, {"name": "Giao thức MCP", "children": [{"name": "Tiêu chuẩn mở cho AI"}, {"name": "Kết nối ứng dụng nhất quán"}]}, {"name": "Quản lý & Bảo mật", "children": [{"name": "Phân quyền theo người dùng"}, {"name": "Kiểm soát hành động (Read/Write)"}, {"name": "Dữ liệu mã hóa"}]}]}, {"name": "Đào tạo & Tài nguyên", "children": [{"name": "Anthropic Academy", "children": [{"name": "Khóa học Claude 101"}, {"name": "Hướng dẫn API & MCP"}, {"name": "Chứng chỉ hoàn thành"}]}, {"name": "Hỗ trợ", "children": [{"name": "Trung tâm trợ giúp (Help Center)"}, {"name": "Cộng đồng & Blog"}, {"name": "Bản tin AI Fluency"}]}]}, {"name": "Giải pháp & Ngành nghề", "children": [{"name": "Lĩnh vực", "children": [{"name": "Giáo dục & Nghiên cứu"}, {"name": "Tài chính & Y tế"}, {"name": "Chính phủ & Phi lợi nhuận"}]}, {"name": "Công việc chuyên môn", "children": [{"name": "Lập trình & Hiện đại hóa code"}, {"name": "Hỗ trợ khách hàng"}, {"name": "Đại lý AI (AI Agents)"}]}]}, {"name": "Triết lý & Chính sách", "children": [{"name": "Hiến pháp Claude (Constitution)"}, {"name": "Chính sách mở rộng có trách nhiệm"}, {"name": "Quyền riêng tư & Minh bạch"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-08_Connecting-your-tools',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

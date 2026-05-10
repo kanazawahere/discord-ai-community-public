@@ -305,22 +305,63 @@ This guide introduces **Research for Claude**, an advanced feature that evolves 
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-10_Research-mode-for-deep-dives" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Anthropic AI Ecosystem
+## Anthropic Academy
+### Courses
+#### Claude 101
+#### Claude Code in Action
+#### AI Fluency
+#### Model Context Protocol
+### Learning Paths
+#### Build with Claude (API)
+#### Claude for Work
+#### Claude for Personal
+### AI Fluency Newsletter
+## Claude Products
+### Applications
+#### Claude Code
+#### Claude Cowork
+#### Claude for Chrome/Slack/365
+### Plans
+#### Free/Max
+#### Team
+#### Enterprise
+### Models
+#### Opus
+#### Sonnet
+#### Haiku
+#### Mythos preview
+## Research Mode
+### Key Features
+#### Agentic Search
+#### Multi-source Synthesis
+#### Automatic Extended Thinking
+#### Verifiable Citations
+### Use Cases
+#### Market Analysis
+#### Complex Project Planning
+#### Technical Documentation
+#### Competitive Research
+### Integrations
+#### Google Workspace (Drive/Gmail/Calendar)
+#### Internal-only Research
+### Requirements
+#### Paid Plan (Pro/Max/Team/Enterprise)
+#### Web Search Enabled
+## Claude Platform
+### Developer Docs
+### Cloud Providers
+#### Amazon Bedrock
+#### Google Cloud Vertex AI
+#### Microsoft Foundry
+## Company & Governance
+### Claude's Constitution
+### Responsible Scaling Policy
+### Transparency Reports
+### Economic Futures
 </div>
-<script>
-(function(){
-  var data={"name": "Anthropic AI Ecosystem", "children": [{"name": "Anthropic Academy", "children": [{"name": "Courses", "children": [{"name": "Claude 101"}, {"name": "Claude Code in Action"}, {"name": "AI Fluency"}, {"name": "Model Context Protocol"}]}, {"name": "Learning Paths", "children": [{"name": "Build with Claude (API)"}, {"name": "Claude for Work"}, {"name": "Claude for Personal"}]}, {"name": "AI Fluency Newsletter"}]}, {"name": "Claude Products", "children": [{"name": "Applications", "children": [{"name": "Claude Code"}, {"name": "Claude Cowork"}, {"name": "Claude for Chrome/Slack/365"}]}, {"name": "Plans", "children": [{"name": "Free/Max"}, {"name": "Team"}, {"name": "Enterprise"}]}, {"name": "Models", "children": [{"name": "Opus"}, {"name": "Sonnet"}, {"name": "Haiku"}, {"name": "Mythos preview"}]}]}, {"name": "Research Mode", "children": [{"name": "Key Features", "children": [{"name": "Agentic Search"}, {"name": "Multi-source Synthesis"}, {"name": "Automatic Extended Thinking"}, {"name": "Verifiable Citations"}]}, {"name": "Use Cases", "children": [{"name": "Market Analysis"}, {"name": "Complex Project Planning"}, {"name": "Technical Documentation"}, {"name": "Competitive Research"}]}, {"name": "Integrations", "children": [{"name": "Google Workspace (Drive/Gmail/Calendar)"}, {"name": "Internal-only Research"}]}, {"name": "Requirements", "children": [{"name": "Paid Plan (Pro/Max/Team/Enterprise)"}, {"name": "Web Search Enabled"}]}]}, {"name": "Claude Platform", "children": [{"name": "Developer Docs"}, {"name": "Cloud Providers", "children": [{"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Microsoft Foundry"}]}]}, {"name": "Company & Governance", "children": [{"name": "Claude's Constitution"}, {"name": "Responsible Scaling Policy"}, {"name": "Transparency Reports"}, {"name": "Economic Futures"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-10_Research-mode-for-deep-dives',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

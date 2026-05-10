@@ -321,22 +321,54 @@ This document serves as an instructional guide on **Skills**, a dynamic feature 
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-07_Working-with-skills" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Anthropic AI Learning & Resources
+## Anthropic Academy
+### Featured Courses
+#### Claude 101
+#### Claude Code in Action
+#### AI Fluency
+#### Model Context Protocol
+### Learning Paths
+#### Build with Claude (API)
+#### Claude for Work (Enterprise)
+#### Claude for Personal
+## Skills Feature
+### Definition
+#### Procedural Knowledge
+#### Dynamic Loading
+#### Instruction Folders
+### Types of Skills
+#### Anthropic Built-in (Docs/Excel)
+#### Custom (User-created)
+#### Organization Provisioned
+#### Partner (Notion/Figma)
+### Management
+#### Enable Code Execution
+#### Skills Directory
+#### Agent Skills Open Standard
+### Comparison
+#### Skills vs Projects (Process vs Knowledge)
+#### Skills vs MCP (Procedural vs Connectivity)
+#### Skills vs Custom Instructions (Task-specific)
+## Product Ecosystem
+### Models
+#### Opus
+#### Sonnet
+#### Haiku
+#### Mythos
+### Platforms
+#### Claude Code
+#### Claude Cowork
+#### Claude for Slack/Chrome
+#### API Console
+## Resources & Support
+### AI Fluency Newsletter
+### Developer Docs
+### Claude 101 Feedback Form
+### Help Center & Tutorials
 </div>
-<script>
-(function(){
-  var data={"name": "Anthropic AI Learning & Resources", "children": [{"name": "Anthropic Academy", "children": [{"name": "Featured Courses", "children": [{"name": "Claude 101"}, {"name": "Claude Code in Action"}, {"name": "AI Fluency"}, {"name": "Model Context Protocol"}]}, {"name": "Learning Paths", "children": [{"name": "Build with Claude (API)"}, {"name": "Claude for Work (Enterprise)"}, {"name": "Claude for Personal"}]}]}, {"name": "Skills Feature", "children": [{"name": "Definition", "children": [{"name": "Procedural Knowledge"}, {"name": "Dynamic Loading"}, {"name": "Instruction Folders"}]}, {"name": "Types of Skills", "children": [{"name": "Anthropic Built-in (Docs/Excel)"}, {"name": "Custom (User-created)"}, {"name": "Organization Provisioned"}, {"name": "Partner (Notion/Figma)"}]}, {"name": "Management", "children": [{"name": "Enable Code Execution"}, {"name": "Skills Directory"}, {"name": "Agent Skills Open Standard"}]}, {"name": "Comparison", "children": [{"name": "Skills vs Projects (Process vs Knowledge)"}, {"name": "Skills vs MCP (Procedural vs Connectivity)"}, {"name": "Skills vs Custom Instructions (Task-specific)"}]}]}, {"name": "Product Ecosystem", "children": [{"name": "Models", "children": [{"name": "Opus"}, {"name": "Sonnet"}, {"name": "Haiku"}, {"name": "Mythos"}]}, {"name": "Platforms", "children": [{"name": "Claude Code"}, {"name": "Claude Cowork"}, {"name": "Claude for Slack/Chrome"}, {"name": "API Console"}]}]}, {"name": "Resources & Support", "children": [{"name": "AI Fluency Newsletter"}, {"name": "Developer Docs"}, {"name": "Claude 101 Feedback Form"}, {"name": "Help Center & Tutorials"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-07_Working-with-skills',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

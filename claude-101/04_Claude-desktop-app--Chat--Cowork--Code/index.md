@@ -298,22 +298,59 @@ here
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-04_Claude-desktop-app--Chat--Cowork--Code" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái và Tài nguyên Học tập Anthropic
+## Sản phẩm & Mô hình
+### Ứng dụng Claude Desktop
+#### Chế độ Chat: Trao đổi nhanh, soạn thảo, hỏi đáp
+#### Chế độ Cowork: Nghiên cứu, phân tích, đa nhiệm
+#### Chế độ Code: Lập trình, kiểm thử, triển khai
+### Dòng mô hình
+#### Opus
+#### Sonnet
+#### Haiku
+#### Mythos preview
+### Claude Code & Claude Cowork
+## Anthropic Academy
+### Khóa học nổi bật
+#### Claude 101
+#### Claude Code in action
+#### AI Fluency
+#### Model Context Protocol
+### Hướng dẫn sử dụng
+#### Build with Claude (API)
+#### Claude for work (Doanh nghiệp)
+#### Claude for personal (Cá nhân)
+### Chứng chỉ hoàn thành
+## Tính năng chính (Desktop)
+### Công cụ tương tác
+#### Quick entry (Lối tắt)
+#### Chụp màn hình & Chia sẻ cửa sổ
+#### Đọc chính tả (Dictation)
+#### Connectors (Kết nối dữ liệu)
+### Tự động hóa & Đại lý
+#### Subagents (Sub-tác vụ song song)
+#### Scheduled tasks (Tác vụ định kỳ)
+#### Computer use (Sử dụng máy tính trực tiếp)
+#### Browser use (Điều hướng web qua Chrome)
+## Giải pháp & Tài nguyên
+### Lĩnh vực ứng dụng
+#### Dịch vụ tài chính
+#### Chăm sóc sức khỏe
+#### Giáo dục & Chính phủ
+#### Hỗ trợ khách hàng
+### Nền tảng & Đối tác
+#### Amazon Bedrock
+#### Google Cloud Vertex AI
+#### Microsoft Foundry
+### Bản tin AI Fluency
+## Công ty & Chính sách
+### Hiến pháp của Claude (Constitution)
+### Chính sách mở rộng quy mô có trách nhiệm
+### Nghiên cứu & Minh bạch
+### Quyền riêng tư & Bảo mật
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái và Tài nguyên Học tập Anthropic", "children": [{"name": "Sản phẩm & Mô hình", "children": [{"name": "Ứng dụng Claude Desktop", "children": [{"name": "Chế độ Chat: Trao đổi nhanh, soạn thảo, hỏi đáp"}, {"name": "Chế độ Cowork: Nghiên cứu, phân tích, đa nhiệm"}, {"name": "Chế độ Code: Lập trình, kiểm thử, triển khai"}]}, {"name": "Dòng mô hình", "children": [{"name": "Opus"}, {"name": "Sonnet"}, {"name": "Haiku"}, {"name": "Mythos preview"}]}, {"name": "Claude Code & Claude Cowork"}]}, {"name": "Anthropic Academy", "children": [{"name": "Khóa học nổi bật", "children": [{"name": "Claude 101"}, {"name": "Claude Code in action"}, {"name": "AI Fluency"}, {"name": "Model Context Protocol"}]}, {"name": "Hướng dẫn sử dụng", "children": [{"name": "Build with Claude (API)"}, {"name": "Claude for work (Doanh nghiệp)"}, {"name": "Claude for personal (Cá nhân)"}]}, {"name": "Chứng chỉ hoàn thành"}]}, {"name": "Tính năng chính (Desktop)", "children": [{"name": "Công cụ tương tác", "children": [{"name": "Quick entry (Lối tắt)"}, {"name": "Chụp màn hình & Chia sẻ cửa sổ"}, {"name": "Đọc chính tả (Dictation)"}, {"name": "Connectors (Kết nối dữ liệu)"}]}, {"name": "Tự động hóa & Đại lý", "children": [{"name": "Subagents (Sub-tác vụ song song)"}, {"name": "Scheduled tasks (Tác vụ định kỳ)"}, {"name": "Computer use (Sử dụng máy tính trực tiếp)"}, {"name": "Browser use (Điều hướng web qua Chrome)"}]}]}, {"name": "Giải pháp & Tài nguyên", "children": [{"name": "Lĩnh vực ứng dụng", "children": [{"name": "Dịch vụ tài chính"}, {"name": "Chăm sóc sức khỏe"}, {"name": "Giáo dục & Chính phủ"}, {"name": "Hỗ trợ khách hàng"}]}, {"name": "Nền tảng & Đối tác", "children": [{"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Microsoft Foundry"}]}, {"name": "Bản tin AI Fluency"}]}, {"name": "Công ty & Chính sách", "children": [{"name": "Hiến pháp của Claude (Constitution)"}, {"name": "Chính sách mở rộng quy mô có trách nhiệm"}, {"name": "Nghiên cứu & Minh bạch"}, {"name": "Quyền riêng tư & Bảo mật"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-04_Claude-desktop-app--Chat--Cowork--Code',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

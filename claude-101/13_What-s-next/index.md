@@ -248,22 +248,67 @@ Tài liệu này đóng vai trò như một bản tổng kết toàn diện và 
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-13_What-s-next" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Hệ sinh thái Anthropic & Claude
+## Sản phẩm & Model
+### Ứng dụng Claude
+#### Claude.ai (Web/Mobile/Desktop)
+#### Claude Code
+#### Claude Cowork
+#### Claude for Chrome/Slack/M365
+### Các dòng Model
+#### Opus (Mạnh nhất)
+#### Sonnet (Cân bằng)
+#### Haiku (Nhanh, nhẹ)
+#### Mythos preview
+### Gói dịch vụ
+#### Free/Pro/Max (Cá nhân)
+#### Team & Enterprise (Tổ chức)
+## Tài nguyên học tập (Anthropic Academy)
+### Khóa học chính
+#### Claude 101
+#### AI Fluency
+#### Model Context Protocol (MCP)
+#### Claude Code in Action
+### Kỹ năng AI Fluency
+#### Ủy thác (Delegation)
+#### Mô tả (Description)
+#### Phân biệt (Discernment)
+#### Cần mẫn (Diligence)
+### Kỹ thuật Prompt
+#### Thiết lập bối cảnh (Context)
+#### Xác định hành động (Action)
+#### Quy định định dạng (Format)
+#### Sử dụng cấu trúc XML
+## Nền tảng & Tích hợp
+### Connectors (Kết nối dữ liệu)
+#### Google Workspace
+#### Slack & Notion
+#### Airtable & Asana
+#### S&P Capital IQ
+### Claude Platform (Dành cho Dev)
+#### API Docs
+#### Amazon Bedrock
+#### Google Cloud Vertex AI
+#### Console Prompting Tools
+## Giải pháp & Use Cases
+### Theo ngành
+#### Tài chính & Ngân hàng
+#### Y tế & Khoa học đời sống
+#### Giáo dục & Phi lợi nhuận
+#### Chính phủ
+### Theo chức năng
+#### Lập trình & Hiện đại hóa code
+#### Hỗ trợ khách hàng
+#### Phân tích dữ liệu & Báo cáo
+#### Sáng tạo nội dung
+## Công ty & Chính sách
+### Nghiên cứu & Tương lai kinh tế
+### Hiến pháp Claude (Constitution)
+### Chính sách mở rộng có trách nhiệm (RSP)
+### An toàn & Minh bạch
 </div>
-<script>
-(function(){
-  var data={"name": "Hệ sinh thái Anthropic & Claude", "children": [{"name": "Sản phẩm & Model", "children": [{"name": "Ứng dụng Claude", "children": [{"name": "Claude.ai (Web/Mobile/Desktop)"}, {"name": "Claude Code"}, {"name": "Claude Cowork"}, {"name": "Claude for Chrome/Slack/M365"}]}, {"name": "Các dòng Model", "children": [{"name": "Opus (Mạnh nhất)"}, {"name": "Sonnet (Cân bằng)"}, {"name": "Haiku (Nhanh, nhẹ)"}, {"name": "Mythos preview"}]}, {"name": "Gói dịch vụ", "children": [{"name": "Free/Pro/Max (Cá nhân)"}, {"name": "Team & Enterprise (Tổ chức)"}]}]}, {"name": "Tài nguyên học tập (Anthropic Academy)", "children": [{"name": "Khóa học chính", "children": [{"name": "Claude 101"}, {"name": "AI Fluency"}, {"name": "Model Context Protocol (MCP)"}, {"name": "Claude Code in Action"}]}, {"name": "Kỹ năng AI Fluency", "children": [{"name": "Ủy thác (Delegation)"}, {"name": "Mô tả (Description)"}, {"name": "Phân biệt (Discernment)"}, {"name": "Cần mẫn (Diligence)"}]}, {"name": "Kỹ thuật Prompt", "children": [{"name": "Thiết lập bối cảnh (Context)"}, {"name": "Xác định hành động (Action)"}, {"name": "Quy định định dạng (Format)"}, {"name": "Sử dụng cấu trúc XML"}]}]}, {"name": "Nền tảng & Tích hợp", "children": [{"name": "Connectors (Kết nối dữ liệu)", "children": [{"name": "Google Workspace"}, {"name": "Slack & Notion"}, {"name": "Airtable & Asana"}, {"name": "S&P Capital IQ"}]}, {"name": "Claude Platform (Dành cho Dev)", "children": [{"name": "API Docs"}, {"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Console Prompting Tools"}]}]}, {"name": "Giải pháp & Use Cases", "children": [{"name": "Theo ngành", "children": [{"name": "Tài chính & Ngân hàng"}, {"name": "Y tế & Khoa học đời sống"}, {"name": "Giáo dục & Phi lợi nhuận"}, {"name": "Chính phủ"}]}, {"name": "Theo chức năng", "children": [{"name": "Lập trình & Hiện đại hóa code"}, {"name": "Hỗ trợ khách hàng"}, {"name": "Phân tích dữ liệu & Báo cáo"}, {"name": "Sáng tạo nội dung"}]}]}, {"name": "Công ty & Chính sách", "children": [{"name": "Nghiên cứu & Tương lai kinh tế"}, {"name": "Hiến pháp Claude (Constitution)"}, {"name": "Chính sách mở rộng có trách nhiệm (RSP)"}, {"name": "An toàn & Minh bạch"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-13_What-s-next',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan

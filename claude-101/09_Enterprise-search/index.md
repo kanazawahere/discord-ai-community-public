@@ -274,22 +274,56 @@ Copyright 2025 Anthropic. All rights reserved.
 ## Sơ đồ tư duy
 
 <div class="mm-wrap">
-<svg id="mm-09_Enterprise-search" class="markmap"></svg>
+<div class="markmap" style="width:100%;height:440px">
+# Tài nguyên Học tập và Hướng dẫn của Anthropic
+## Học viện Anthropic (Academy)
+### Các khóa học nổi bật
+#### AI Fluency
+#### API development
+#### Model Context Protocol
+#### Claude Code
+#### Claude 101
+### Cấp chứng chỉ hoàn thành
+## Tìm kiếm Doanh nghiệp (Enterprise Search)
+### Tính năng chính
+#### Dự án chuyên dụng "Ask Your Org"
+#### Tìm kiếm hợp nhất đa nguồn
+#### Hướng dẫn thiết lập cho Admin và User
+#### Trích dẫn nguồn cụ thể
+### Nguồn kết nối
+#### Google Drive & Drive
+#### Slack
+#### Microsoft 365 & SharePoint
+#### Gmail
+### Trường hợp sử dụng
+#### Báo cáo tóm tắt cho lãnh đạo
+#### Nghiên cứu dự án
+#### Giải đáp chính sách và quy trình
+#### Đào tạo nhân viên mới (Onboarding)
+### Bảo mật và Quyền riêng tư
+#### Phân quyền truy cập theo hệ thống gốc
+#### Xác thực cấp người dùng
+#### Không lập chỉ mục dữ liệu bên ngoài
+## Hệ sinh thái sản phẩm và dịch vụ
+### Sản phẩm
+#### Claude (App & Web)
+#### Claude Code & Security
+#### Tiện ích Chrome & Slack
+### Mô hình AI
+#### Opus
+#### Sonnet
+#### Haiku
+### Nền tảng phát triển
+#### Amazon Bedrock
+#### Google Cloud Vertex AI
+#### Microsoft Foundry
+## Tài nguyên khác
+### Bản tin AI Fluency (Quarterly)
+### Tài liệu cho nhà phát triển (Developer Docs)
+### Cộng đồng và đối tác
+### Blog và tin tức công ty
 </div>
-<script>
-(function(){
-  var data={"name": "Tài nguyên Học tập và Hướng dẫn của Anthropic", "children": [{"name": "Học viện Anthropic (Academy)", "children": [{"name": "Các khóa học nổi bật", "children": [{"name": "AI Fluency"}, {"name": "API development"}, {"name": "Model Context Protocol"}, {"name": "Claude Code"}, {"name": "Claude 101"}]}, {"name": "Cấp chứng chỉ hoàn thành"}]}, {"name": "Tìm kiếm Doanh nghiệp (Enterprise Search)", "children": [{"name": "Tính năng chính", "children": [{"name": "Dự án chuyên dụng \"Ask Your Org\""}, {"name": "Tìm kiếm hợp nhất đa nguồn"}, {"name": "Hướng dẫn thiết lập cho Admin và User"}, {"name": "Trích dẫn nguồn cụ thể"}]}, {"name": "Nguồn kết nối", "children": [{"name": "Google Drive & Drive"}, {"name": "Slack"}, {"name": "Microsoft 365 & SharePoint"}, {"name": "Gmail"}]}, {"name": "Trường hợp sử dụng", "children": [{"name": "Báo cáo tóm tắt cho lãnh đạo"}, {"name": "Nghiên cứu dự án"}, {"name": "Giải đáp chính sách và quy trình"}, {"name": "Đào tạo nhân viên mới (Onboarding)"}]}, {"name": "Bảo mật và Quyền riêng tư", "children": [{"name": "Phân quyền truy cập theo hệ thống gốc"}, {"name": "Xác thực cấp người dùng"}, {"name": "Không lập chỉ mục dữ liệu bên ngoài"}]}]}, {"name": "Hệ sinh thái sản phẩm và dịch vụ", "children": [{"name": "Sản phẩm", "children": [{"name": "Claude (App & Web)"}, {"name": "Claude Code & Security"}, {"name": "Tiện ích Chrome & Slack"}]}, {"name": "Mô hình AI", "children": [{"name": "Opus"}, {"name": "Sonnet"}, {"name": "Haiku"}]}, {"name": "Nền tảng phát triển", "children": [{"name": "Amazon Bedrock"}, {"name": "Google Cloud Vertex AI"}, {"name": "Microsoft Foundry"}]}]}, {"name": "Tài nguyên khác", "children": [{"name": "Bản tin AI Fluency (Quarterly)"}, {"name": "Tài liệu cho nhà phát triển (Developer Docs)"}, {"name": "Cộng đồng và đối tác"}, {"name": "Blog và tin tức công ty"}]}]};
-  function toMM(n){return{content:n.name||'',children:(n.children||[]).map(toMM)};}
-  function init(){
-    if(window.markmap&&window.markmap.Markmap){
-      window.markmap.Markmap.create('#mm-09_Enterprise-search',null,toMM(data));
-    } else {
-      setTimeout(init,200);
-    }
-  }
-  document.addEventListener('DOMContentLoaded',init);
-})();
-</script>
+</div>
 
 
 ## Tài liệu liên quan
