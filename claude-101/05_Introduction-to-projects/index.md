@@ -395,4 +395,4 @@ Resumed conversation: 446ad0bb-986d-4f68-a739-12c699daddad
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383393){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383393){: target="_blank" }*

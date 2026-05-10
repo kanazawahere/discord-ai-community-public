@@ -361,4 +361,4 @@ Tài liệu này đóng vai trò như một bản hướng dẫn thực hành nh
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383401){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383401){: target="_blank" }*

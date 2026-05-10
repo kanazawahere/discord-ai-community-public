@@ -376,4 +376,4 @@ Tài liệu này cung cấp một hướng dẫn toàn diện về **Artifacts**
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383394){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383394){: target="_blank" }*

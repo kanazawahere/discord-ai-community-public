@@ -406,4 +406,4 @@ This document serves as an instructional guide on **Skills**, a dynamic feature 
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383396){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383396){: target="_blank" }*

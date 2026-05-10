@@ -354,4 +354,4 @@ Nguồn tài liệu này đóng vai trò như một bài học nhập môn giúp
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383389){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383389){: target="_blank" }*

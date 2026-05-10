@@ -382,4 +382,4 @@ This comprehensive guide introduces users to effective collaboration with Claude
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383390){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383390){: target="_blank" }*

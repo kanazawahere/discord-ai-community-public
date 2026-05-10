@@ -356,4 +356,4 @@ Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383398){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383398){: target="_blank" }*

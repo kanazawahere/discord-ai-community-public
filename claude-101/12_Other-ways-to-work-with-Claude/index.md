@@ -406,4 +406,4 @@ Beyond its primary web interface, Claude functions as a versatile **intelligence
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383402){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383402){: target="_blank" }*

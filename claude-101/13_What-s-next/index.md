@@ -331,4 +331,4 @@ Tài liệu này đóng vai trò như một bản tổng kết toàn diện và 
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/385338){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/385338){: target="_blank" }*

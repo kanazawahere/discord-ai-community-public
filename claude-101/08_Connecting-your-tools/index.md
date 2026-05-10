@@ -374,4 +374,4 @@ Nguồn tài liệu này hướng dẫn cách sử dụng **Connectors**, một 
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383397){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383397){: target="_blank" }*

@@ -396,4 +396,4 @@ This guide introduces **Research for Claude**, an advanced feature that evolves 
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/383399){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383399){: target="_blank" }*

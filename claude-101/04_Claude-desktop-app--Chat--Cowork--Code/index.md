@@ -428,4 +428,4 @@ Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
 
 
 ---
-*[Nguồn gốc](https://anthropic.skilljar.com/claude-101/440908){: target="_blank" }*
+*[Link Nguồn](https://anthropic.skilljar.com/claude-101/440908){: target="_blank" }*
