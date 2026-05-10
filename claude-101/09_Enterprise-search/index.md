@@ -44,8 +44,7 @@ Performance and project tracking
 When you ask a question, Claude searches across all your connected tools—such as SharePoint documents, Slack conversations, Gmail threads, and Google Drive files—and synthesizes information into a unified response. Plus, it always cites its sources so you can get the full context.
 Setting up Enterprise Search
 Enterprise Search requires a
-two-step setup process
-: first an admin configures it for the organization, then individual users authenticate with their personal accounts.
+**two-step setup process**: first an admin configures it for the organization, then individual users authenticate with their personal accounts.
 For admins (Owners)
 The Enterprise Search project is enabled by default for all Team and Enterprise organizations, but an Owner needs to complete the initial setup before team members can use it:
 Click "Ask Your Org" in the left sidebar.

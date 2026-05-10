@@ -30,28 +30,19 @@ What is Claude?
 (10 minutes)
 Claude is more than a chatbot—it's an AI assistant designed to be your thinking partner. In this lesson you'll learn what makes Claude different from other AI tools and see how it can help with a wide variety of work tasks.
 Key takeaways
-Claude is built to be helpful, harmless, and honest
-: At a high level, Claude is guided by principles that help it avoid toxic or discriminatory outputs, avoid helping humans engage in illegal or unethical activities, and broadly behave as a helpful, honest, and harmless AI system. This approach, called Constitutional AI, means Claude is trained to align with human values and operate transparently.
-Claude is more than a chatbot
-: Claude is capable of a wide variety of conversational and text processing tasks while maintaining a high degree of reliability and predictability, including summarization, search, creative and collaborative writing, Q&A, coding, and more. Think of Claude as a thought partner who can help you tackle complex problems, and work through challenging situations, not just answer simple questions.
-Claude is designed to be steerable and collaborative
-: Claude can take direction on personality, tone, and behavior, and customers report that Claude is much less likely to produce harmful outputs, easier to converse with, and more steerable—so you can get your desired output with less effort.
-You can access Claude wherever you work
-: Claude apps are available to all plan types—Free, Pro, Max, Team, and Enterprise. Your conversations, projects, memory, and preferences sync across all devices when you're signed in. Whether you're at your desk or on the go, Claude is available through web, desktop, and mobile apps.
+**Claude is built to be helpful, harmless, and honest**: At a high level, Claude is guided by principles that help it avoid toxic or discriminatory outputs, avoid helping humans engage in illegal or unethical activities, and broadly behave as a helpful, honest, and harmless AI system. This approach, called Constitutional AI, means Claude is trained to align with human values and operate transparently.
+**Claude is more than a chatbot**: Claude is capable of a wide variety of conversational and text processing tasks while maintaining a high degree of reliability and predictability, including summarization, search, creative and collaborative writing, Q&A, coding, and more. Think of Claude as a thought partner who can help you tackle complex problems, and work through challenging situations, not just answer simple questions.
+**Claude is designed to be steerable and collaborative**: Claude can take direction on personality, tone, and behavior, and customers report that Claude is much less likely to produce harmful outputs, easier to converse with, and more steerable—so you can get your desired output with less effort.
+**You can access Claude wherever you work**: Claude apps are available to all plan types—Free, Pro, Max, Team, and Enterprise. Your conversations, projects, memory, and preferences sync across all devices when you're signed in. Whether you're at your desk or on the go, Claude is available through web, desktop, and mobile apps.
 Understanding Claude's capabilities
 Claude can help with a wide range of tasks that go far beyond simple question-and-answer interactions to assistant-like partnership that can both automate
 and
 augment your work. Here's a few things Claude excels at:
-Writing and content creation
-: Claude can collaborate with you on social media posts, professional emails, and complex reports. Because Claude is trained to take direction on personality and tone, you can iterate together on structure and clarity until your voice comes through clearly.
-Research and analysis
-: Claude helps you explore research angles, compile findings, and analyze data to surface meaningful insights. You can upload documents and Claude will help you make sense of complex information—this is enabled by Claude's large context window, which can ingest 200K+ tokens (about 500 pages of text or more), with up to 1M tokens available on Pro, Max, Team, and Enterprise plans when using Opus 4.7. This allows Claude to consider extensive materials in a single conversation.
-Coding assistance
-: Claude Opus 4.7 is our most powerful model yet and the best coding model in the world. This strong performance on real-world coding tasks means Claude can help you write, debug, and explain code across multiple programming languages.
-Problem-solving and reasoning
-: Claude handles complex cognitive tasks, mathematical problems, strategic thinking and analysis, and research. Claude Opus 4.7 and Sonnet 4.7 are hybrid models offering two modes: near-instant responses and extended thinking for deeper reasoning. Anthropic Extended thinking allows Claude to work through problems step-by-step, making it well-suited for tasks that require careful analysis.
-Learning new things
-: Whether you're learning a new skill, exploring unfamiliar domains, or working through complex challenges, Claude can adapt to your learning style and pace. Learning mode is a new Claude experience that guides your reasoning process rather than providing answers, helping develop critical thinking skills.
+**Writing and content creation**: Claude can collaborate with you on social media posts, professional emails, and complex reports. Because Claude is trained to take direction on personality and tone, you can iterate together on structure and clarity until your voice comes through clearly.
+**Research and analysis**: Claude helps you explore research angles, compile findings, and analyze data to surface meaningful insights. You can upload documents and Claude will help you make sense of complex information—this is enabled by Claude's large context window, which can ingest 200K+ tokens (about 500 pages of text or more), with up to 1M tokens available on Pro, Max, Team, and Enterprise plans when using Opus 4.7. This allows Claude to consider extensive materials in a single conversation.
+**Coding assistance**: Claude Opus 4.7 is our most powerful model yet and the best coding model in the world. This strong performance on real-world coding tasks means Claude can help you write, debug, and explain code across multiple programming languages.
+**Problem-solving and reasoning**: Claude handles complex cognitive tasks, mathematical problems, strategic thinking and analysis, and research. Claude Opus 4.7 and Sonnet 4.7 are hybrid models offering two modes: near-instant responses and extended thinking for deeper reasoning. Anthropic Extended thinking allows Claude to work through problems step-by-step, making it well-suited for tasks that require careful analysis.
+**Learning new things**: Whether you're learning a new skill, exploring unfamiliar domains, or working through complex challenges, Claude can adapt to your learning style and pace. Learning mode is a new Claude experience that guides your reasoning process rather than providing answers, helping develop critical thinking skills.
 Get inspired on ways to use Claude in your specific function by exploring our
 use-case gallery
 on claude.com. For a deeper dive into what AI can (and can't) do, see our

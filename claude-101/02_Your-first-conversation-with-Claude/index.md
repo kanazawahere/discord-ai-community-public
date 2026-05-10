@@ -44,12 +44,9 @@ Putting it together
 Here's an example prompt that uses all three elements:
 "I'm the marketing lead at an indie streaming startup, and we're preparing an investor pitch deck for Series A investors. Can you research the current state of the independent film streaming market and identify key trends, competitor positioning, and growth opportunities? Use current web research with citations and structure it as a professional report of up to 5 pages, with an executive summary, market analysis, competitive landscape, and growth opportunities."
 In this prompt:
-Setting the stage
-: We tell Claude this is for an investor pitch deck for a new indie streaming app—that's the context and objective.
-Defining the task
-: We provide the specific action (research the market) with relevant details (trends, competitors, opportunities).
-Specifying rules
-: We ask for current web research with citations, structured as a professional report—telling Claude exactly what style and format we need.
+**Setting the stage**: We tell Claude this is for an investor pitch deck for a new indie streaming app—that's the context and objective.
+**Defining the task**: We provide the specific action (research the market) with relevant details (trends, competitors, opportunities).
+**Specifying rules**: We ask for current web research with citations, structured as a professional report—telling Claude exactly what style and format we need.
 Want to go deeper?
 This prompt framework is adapted from the
 4D Framework for AI Fluency
@@ -70,10 +67,8 @@ If you'd like Claude to consider specific preferences in every response, go to S
 Iterating on Claude's responses
 Conversations with Claude are meant to be iterative. Chaining bite-sized prompts together allows for a natural dialogue where you guide the conversation based on Claude's replies.
 If Claude's first response isn't quite what you wanted, you have several options:
-Ask follow-up questions
-: Build on Claude's response by asking for more detail, a different angle, or clarification. For example: "Can you expand on the second point?" or "That's helpful, but can you make it more concise?"
-Provide feedback
-: Tell Claude what you liked and didn't like about its response. "This is good, but the tone is too formal. Can you make it more conversational?"
+**Ask follow-up questions**: Build on Claude's response by asking for more detail, a different angle, or clarification. For example: "Can you expand on the second point?" or "That's helpful, but can you make it more concise?"
+**Provide feedback**: Tell Claude what you liked and didn't like about its response. "This is good, but the tone is too formal. Can you make it more conversational?"
 Redirect or restart:
 If Claude went in a different direction than you intended, simply steer it back. "Actually, I was asking about X, not Y. Let me clarify...". Worst case, restart your conversation in a new chat to fully refresh the context.
 Pro tip:
