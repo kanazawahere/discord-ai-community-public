@@ -1,0 +1,28 @@
+title: "Anthropic Academy"
+description: "Khóa học AI từ Anthropic - Việt hóa bởi Cộng đồng Ai Hoán Giải Cục"
+
+# Just the Docs theme
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+url: ""
+baseurl: ""
+
+# Theme settings
+color_scheme: light
+search_enabled: true
+search.heading_level: 2
+nav_sort: order
+
+# Footer
+footer_content: "Nội dung từ Anthropic Academy. Việt hóa bởi cộng đồng Ai Hoán Giải Cục."
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
