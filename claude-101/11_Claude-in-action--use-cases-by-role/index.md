@@ -6,66 +6,99 @@ nav_order: 11
 
 # Claude in action: use-cases by role
 
-Describe 2-3 use-cases for claude.ai that you can try right away
-Know where to go to find additional use-case inspiration
-No matter what you do, Claude can help streamline your work. This lesson highlights practical use cases organized by role, so you can see how Claude applies to your specific work context.
-Each use case below links to a detailed guide in our Use Case Gallery with step-by-step instructions you can follow.
-General professional use
-These use cases apply across many roles and industries.
-Generate project status reports
-– Keep stakeholders informed with clear, consistent updates
-Analyze patterns in user feedback
-– Extract insights from customer comments and survey responses
-Package your brand guidelines in a skill
-– Create a reusable Claude skill that applies your brand standards
-Sales
-Sales professionals can use Claude to accelerate deal preparation, create compelling materials, and stay on top of competitive intelligence.
-Build a battle card library
-– Create competitive intelligence resources that help your team win deals
-Prepare for sales deals
-– Research prospects and organize your talking points before important meetings
-Create sales reports
-– Turn your pipeline data into clear, actionable reports
-Marketing
-Marketers can leverage Claude to analyze performance data and efficiently repurpose content across channels.
-Analyze campaign performance
-– Extract insights from campaign metrics to inform your strategy
-Adapt content across platforms
-– Efficiently repurpose content for different channels and audiences
-Finance
-Finance professionals can use Claude to build models, draft documents, and make sense of complex spreadsheets.
-Build financial models
-– Create and refine financial projections with Claude's help
-Draft investment memos
-– Structure and write investment analyses more efficiently
-Understand and extend an inherited spreadsheet
-– Decode complex spreadsheets and add new functionality
-HR
-HR teams can use Claude to create better onboarding experiences and documentation.
-Create new hire onboarding guides
-– Develop comprehensive onboarding materials tailored to different roles
-Legal
-Legal professionals can use Claude to track complex timelines and manage discovery processes.
-Track discovery timelines and analyze patterns
-– Organize case timelines and identify key patterns in legal documents
-Research
-Researchers can use Claude to plan literature reviews and verify data analysis.
-Plan your literature review
-– Organize your approach to reviewing academic sources
-Verify statistics from raw data
-– Double-check calculations and statistical analyses
-Explore more
-These examples are just the beginning. Visit the
-Use Case Gallery
-to browse the full collection and find inspiration for how Claude can help with your specific work.
-What's next
-In our final module, you'll meet a few more versions of Claude including Claude Code, Claude in Chrome, Claude in Excel, and Claude in Slack — each tailored to different types of working.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Claude trong hành động: Các trường hợp sử dụng theo vai trò
+
+Bất kể bạn làm công việc gì, Claude đều có thể giúp hợp lý hóa quy trình làm
+việc của bạn. Bài học này nêu bật các trường hợp sử dụng thực tế được tổ
+chức theo vai trò, giúp bạn thấy cách Claude áp dụng cụ thể vào bối cảnh công
+việc của mình. Mỗi trường hợp sử dụng dưới đây đều liên kết đến một hướng
+dẫn chi tiết trong Thư viện Trường hợp Sử dụng (Use Case Gallery) với các chỉ
+dẫn từng bước mà bạn có thể thực hiện theo.
+
+## Sử dụng chuyên môn chung
+
+Các trường hợp sử dụng này có thể áp dụng cho nhiều vai trò và ngành nghề khác
+nhau:
+*   **Tạo báo cáo tình trạng dự án:** Giúp các bên liên quan luôn được cập nhật
+thông tin bằng những bản cập nhật rõ ràng và nhất quán.
+*   **Phân tích các mẫu trong phản hồi của người dùng:** Trích xuất thông tin
+chi tiết từ các nhận xét của khách hàng và các câu trả lời khảo sát.
+*   **Đóng gói các nguyên tắc thương hiệu vào một kỹ năng (skill):** Tạo một kỹ
+năng Claude có thể tái sử dụng để áp dụng các tiêu chuẩn thương hiệu của bạn một
+cách nhất quán.
+
+## Bán hàng (Sales)
+
+Các chuyên gia bán hàng có thể sử dụng Claude để tăng tốc việc chuẩn bị cho các
+thương vụ, tạo ra các tài liệu thuyết phục và nắm bắt thông tin tình báo cạnh
+tranh:
+*   **Xây dựng thư viện thẻ chiến đấu (battle cards):** Tạo các tài nguyên thông
+tin tình báo cạnh tranh giúp đội ngũ của bạn giành chiến thắng trong các thỏa
+thuận.
+*   **Chuẩn bị cho các thương vụ bán hàng:** Nghiên cứu khách hàng tiềm năng và
+sắp xếp các luận điểm thảo luận của bạn trước các cuộc họp quan trọng.
+*   **Tạo báo cáo bán hàng:** Biến dữ liệu đường ống (pipeline data) của bạn
+thành các báo cáo rõ ràng và có thể thực thi được.
+
+## Tiếp thị (Marketing)
+
+Những người làm tiếp thị có thể tận dụng Claude để phân tích dữ liệu hiệu quả và
+tái sử dụng nội dung trên các kênh một cách hiệu quả:
+*   **Phân tích hiệu quả chiến dịch:** Trích xuất thông tin chi tiết từ các chỉ
+số chiến dịch để cung cấp dữ liệu cho chiến lược của bạn.
+*   **Điều chỉnh nội dung trên các nền tảng:** Tái sử dụng nội dung một cách
+hiệu quả cho các kênh và đối tượng khán giả khác nhau.
+
+## Tài chính (Finance)
+
+Các chuyên gia tài chính có thể sử dụng Claude để xây dựng mô hình, soạn thảo
+tài liệu và hiểu rõ các bảng tính phức tạp:
+*   **Xây dựng mô hình tài chính:** Tạo và tinh chỉnh các dự báo tài chính với
+sự trợ giúp của Claude.
+*   **Soạn thảo bản ghi nhớ đầu tư:** Cấu trúc và viết các phân tích đầu tư một
+cách hiệu quả hơn.
+*   **Hiểu và mở rộng bảng tính được kế thừa:** Giải mã các bảng tính phức tạp
+và thêm các chức năng mới vào đó.
+
+## Nhân sự (HR)
+
+Các nhóm nhân sự có thể sử dụng Claude để tạo ra các trải nghiệm nhập môn và tài
+liệu tốt hơn cho nhân viên:
+*   **Tạo hướng dẫn nhập môn cho nhân viên mới:** Phát triển các tài liệu nhập
+môn toàn diện được điều chỉnh phù hợp cho các vai trò khác nhau.
+
+## Pháp lý (Legal)
+
+Các chuyên gia pháp lý có thể sử dụng Claude để theo dõi các dòng thời gian phức
+tạp và quản lý các quy trình khám phá bằng chứng (discovery):
+*   **Theo dõi dòng thời gian khám phá và phân tích các mẫu:** Sắp xếp các mốc
+thời gian của vụ việc và xác định các mẫu chính trong các tài liệu pháp lý.
+
+## Nghiên cứu (Research)
+
+Các nhà nghiên cứu có thể sử dụng Claude để lập kế hoạch tổng quan tài liệu và
+xác minh việc phân tích dữ liệu:
+*   **Lập kế hoạch tổng quan tài liệu:** Sắp xếp cách tiếp cận của bạn khi xem
+xét các nguồn tài liệu học thuật.
+*   **Xác minh số liệu thống kê từ dữ liệu thô:** Kiểm tra lại các phép tính và
+các phân tích thống kê.
+
+## Khám phá thêm và Bước tiếp theo
+
+Những ví dụ trên mới chỉ là sự khởi đầu. Bạn có thể truy cập Thư viện Trường
+hợp Sử dụng để duyệt qua toàn bộ bộ sưu tập và tìm cảm hứng về cách Claude có
+thể giúp ích cho công việc cụ thể của bạn.
+
+Trong học phần cuối cùng, bạn sẽ được làm quen với một vài phiên bản khác của
+Claude bao gồm **Claude Code**, **Claude trong Chrome**, **Claude trong Excel**,
+và **Claude trong Slack** — mỗi phiên bản đều được thiết kế phù hợp cho các kiểu
+làm việc khác nhau.
+
+Trong quá trình tiến hành khóa học, chúng tôi rất mong nhận được phản hồi từ bạn
+về cách bạn đang sử dụng các khái niệm từ khóa học vào công việc cũng như bất kỳ
+ý kiến đóng góp nào khác.
+
+Resumed conversation: 2611288e-b1aa-4437-b6f7-9361e4d502e5
 
 
 

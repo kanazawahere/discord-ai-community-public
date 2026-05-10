@@ -6,100 +6,137 @@ nav_order: 3
 
 # Getting better results
 
-Recognize common challenges when starting out with AI and use troubleshooting techniques to overcome them
-Define AI Fluency and know where to go to learn more about working with AI in a fluent way
-Explain how you might set up evals to better understand how Claude might perform with your unique workflows
-Common challenges and how to fix them
-As you start working with Claude, you'll likely encounter moments where the response isn't quite what you expected. This is normal—and it's an opportunity to refine your approach. Here are some of the most common challenges and how to address them.
-Challenge
-What's happening
-Try this
-Claude's response is too generic
-Your prompt didn't include enough context about your specific situation
-Add details about your audience, role, or constraints. Instead of "Write an email about the project delay," try "Write an email to our enterprise client explaining that the software integration will be delayed by two weeks. They've been patient so far but this is the second delay. Keep it professional but apologetic."
-The response is too long (or too short)
-Claude is guessing at appropriate length
-Be explicit: "Give me a two-paragraph summary" or "Keep this under 100 words" or "I need a comprehensive analysis—length isn't a concern."
-Claude didn't follow my format
-Claude understood
-what
-you want but not
-how
-you want it presented
-Show, don't just tell. Provide an example of the format, or describe the structure explicitly: "Use bullet points with bold headers for each section."
-I got confident-sounding information that turned out to be wrong
-Claude occasionally generates plausible but incorrect information, especially with specific facts or niche topics
-For high-stakes work, verify key facts independently. Ask Claude to cite sources or indicate confidence level. Enable web search to ground responses in current information.
-The tone isn't right
-Claude defaults to helpful and professional, which may not match your needs
-Describe the tone in plain language: "Make this more conversational" or "This should sound authoritative and formal." Provide an example of writing in the style you want.
-The iteration mindset
-One of the most important shifts when working with Claude is recognizing that your first prompt rarely produces a perfect result—and that's okay. Think of your initial prompt as the start of a conversation, not a one-shot request.
-Effective Claude users:
-Treat first drafts as starting points.
-Review what Claude produces, identify what's working and what isn't, then refine.
-Give specific feedback.
-"Make it shorter" is fine, but "Cut the first two paragraphs and make the conclusion more action-oriented" is better.
-Know when to start fresh.
-If a conversation has gone off track, sometimes it's faster to open a new chat with a clearer prompt than to try to redirect.
-What is AI Fluency?
-AI Fluency is the ability to collaborate effectively with AI tools—not just knowing which buttons to click, but developing the judgment to use AI well across different situations.
-The
-4D Framework for AI Fluency
-, developed through research collaboration between Professor Rick Dakan (Ringling College of Art and Design) and Professor Joseph Feller (University College Cork), identifies four core competencies that, when combined, can help you make the most of your AI interactions:
-Delegation:
-Deciding on what work should be done by humans, what work should be done by AI, and how to distribute tasks between them. Includes understanding your goals, AI capabilities, and making strategic choices about collaboration.
-Description:
-Effectively communicating with AI systems. Includes clearly defining outputs, guiding AI processes, and specifying desired AI behaviors and interactions.
-Discernment:
-Thoughtfully and critically evaluating AI outputs, processes, behaviors and interactions. Includes assessing quality, accuracy, appropriateness, and determining areas for improvement.
-Diligence:
-Using AI responsibly and ethically. Includes making thoughtful choices about AI systems and interactions, maintaining transparency, and taking accountability for AI-assisted work.
-You've already been practicing these skills throughout this course. The prompt framework from Lesson 2 (setting the stage, defining the task, specifying rules) is rooted in Description. The troubleshooting techniques above draw on Discernment and Diligence.
-To learn more, check out our free
-AI Fluency course
-that explore all four competencies in depth, with practical exercises and real-world applications.
-Evaluating Claude for your workflows
-As you start integrating Claude into more of your work, you might wonder: how do I know if Claude is actually good at this particular task?
-This is where Discernment becomes essential. Evals (short for evaluations) are a way to develop intuition for assessing Claude's outputs on the tasks that matter to you. They're systematic ways to test how well Claude performs on specific types of tasks that matter to you.
-Why evals matter
-Your work is unique. Claude might excel at drafting marketing copy but need more guidance for technical documentation in your specific domain. Running simple evals helps you:
-Understand where Claude adds the most value in your workflow
-Identify tasks where you'll need to provide more context or examples
-Build confidence in Claude's outputs for recurring tasks
-A simple eval approach
-You don't need complex infrastructure to evaluate Claude. Here's a practical approach:
-Gather examples.
-Collect 5-10 examples of a task you do regularly—emails you've written, reports you've created, analyses you've done.
-Create test prompts.
-Write prompts that would generate similar outputs. Include the context you'd naturally have when doing this work.
-Compare outputs.
-Run your prompts and compare Claude's responses to your examples. Ask yourself:
-Does Claude capture the key information?
-Is the tone and style appropriate?
-What's missing or could be improved?
-Refine your approach.
-Based on what you learn, adjust your prompts, add examples to show Claude what good looks like, or identify where human review is essential.
-Example: Using Claude for data analysis
-The video above is taken from our AI Fluency for nonprofits course, but the example is relevant for anyone working with data in AI. To evaluate how Claude might work with your data:
-Find a dataset you've manually analyzed
-Create prompts that request Claude to do the analysis on your behalf
-Compare Claude's results to your originals
-Note patterns and refine your prompt accordingly: Maybe Claude gets the right numbers but misses the overall patterns
-This kind of lightweight evaluation helps you develop intuition for how to work with Claude on tasks that matter to you—and where to focus your review and refinement energy.
-Lesson reflection
-Before moving on, consider:
-Which of the common challenges have you already encountered? What techniques might you try next time?
-Where in your work would a simple eval help you understand if Claude is a good fit for a recurring task?
-How might the 4D Framework help you think about your collaboration with Claude?
-What's next
-In the next lesson, you'll explore the Claude desktop app and its three interaction modes: Chat, Cowork, and Code.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Các thách thức thường gặp và cách khắc phục
+
+Trong quá trình làm việc với Claude, bạn có thể gặp những lúc phản hồi không như
+mong đợi. Đây là cơ hội để tinh chỉnh phương pháp tiếp cận của bạn. Dưới đây là
+các thách thức phổ biến và cách giải quyết:
+
+*   **Phản hồi của Claude quá chung chung:** Điều này xảy ra do lời nhắc
+(prompt) của bạn thiếu ngữ cảnh cụ thể. Hãy thử thêm chi tiết về đối tượng, vai
+trò hoặc các hạn chế. Ví dụ, thay vì nói "Hãy viết một email về việc dự án bị
+chậm trễ", hãy thử: "Hãy viết email gửi cho khách hàng doanh nghiệp giải thích
+rằng việc tích hợp phần mềm sẽ bị chậm hai tuần. Họ đã kiên nhẫn nhưng đây là
+lần trì hoãn thứ hai. Hãy giữ giọng văn chuyên nghiệp nhưng hối lỗi".
+*   **Phản hồi quá dài hoặc quá ngắn:** Claude đang tự đoán độ dài phù hợp. Hãy
+nêu rõ yêu cầu: "Cho tôi một bản tóm tắt gồm hai đoạn văn", "Giữ nội dung dưới
+100 từ" hoặc "Tôi cần một bản phân tích toàn diện—độ dài không thành vấn đề".
+*   **Claude không tuân thủ định dạng:** Claude có thể hiểu bạn muốn gì nhưng
+không hiểu cách trình bày. Hãy áp dụng phương pháp "Show, don't just tell" (Cho
+xem thay vì chỉ nói). Cung cấp một ví dụ về định dạng hoặc mô tả cấu trúc rõ
+ràng: "Sử dụng các dấu đầu dòng với tiêu đề in đậm cho mỗi phần".
+*   **Thông tin nghe có vẻ thuyết phục nhưng lại sai:** Claude thỉnh thoảng tạo
+ra thông tin nghe có vẻ hợp lý nhưng không chính xác, đặc biệt là với các sự
+thật cụ thể hoặc chủ đề ngách. Đối với các công việc quan trọng, hãy xác minh
+các sự thật chính một cách độc lập. Bạn có thể yêu cầu Claude trích dẫn nguồn
+hoặc chỉ ra mức độ tin cậy, đồng thời bật tính năng tìm kiếm web để đối chiếu
+với thông tin hiện tại.
+*   **Giọng điệu không phù hợp:** Claude mặc định sử dụng giọng văn hữu ích và
+chuyên nghiệp. Hãy mô tả giọng điệu bạn muốn bằng ngôn ngữ thông thường: "Hãy
+làm cho nội dung này mang tính đối thoại hơn" hoặc "Nội dung này cần nghe có vẻ
+uy quyền và trang trọng". Bạn cũng có thể cung cấp một ví dụ về phong cách viết
+mà bạn mong muốn.
+
+## Tư duy lặp lại
+
+Một trong những thay đổi quan trọng nhất khi làm việc với Claude là nhận ra rằng
+lời nhắc đầu tiên hiếm khi tạo ra kết quả hoàn hảo. Hãy coi lời nhắc ban đầu là
+sự bắt đầu của một cuộc trò chuyện thay vì một yêu cầu duy nhất. Những người
+dùng Claude hiệu quả thường:
+*   Coi bản thảo đầu tiên là điểm bắt đầu. Họ xem xét kết quả, xác định cái gì
+hiệu quả và cái gì không, sau đó tinh chỉnh.
+*   Đưa ra phản hồi cụ thể. Thay vì chỉ nói "Hãy viết ngắn lại", họ sẽ nói "Hãy
+cắt bỏ hai đoạn đầu và làm cho phần kết luận mang tính định hướng hành động hơn".
+*   Biết khi nào nên bắt đầu lại từ đầu. Nếu cuộc trò chuyện đã đi chệch hướng,
+đôi khi mở một cuộc trò chuyện mới với lời nhắc rõ ràng hơn sẽ nhanh hơn là cố
+gắng điều chỉnh lại.
+
+## Năng lực AI (AI Fluency) là gì?
+
+Năng lực AI là khả năng cộng tác hiệu quả với các công cụ AI—không chỉ là biết
+nhấp vào nút nào mà còn phát triển tư duy phán đoán để sử dụng AI tốt trong các
+tình huống khác nhau. Khung năng lực 4D bao gồm bốn năng lực cốt lõi:
+*   **Delegation (Ủy thác):** Quyết định việc gì nên do con người làm, việc gì
+nên giao cho AI và cách phân bổ nhiệm vụ. Điều này bao gồm việc hiểu mục tiêu
+của bạn và khả năng của AI.
+*   **Description (Mô tả):** Giao tiếp hiệu quả với hệ thống AI, bao gồm việc
+xác định rõ ràng đầu ra, hướng dẫn quy trình và chỉ định các hành vi mong muốn
+của AI.
+*   **Discernment (Sáng suốt):** Đánh giá một cách chu đáo và phản biện các đầu
+ra, quy trình và hành vi của AI. Điều này bao gồm việc đánh giá chất lượng, độ
+chính xác và xác định các lĩnh vực cần cải thiện.
+*   **Diligence (Sự siêng năng/Trách nhiệm):** Sử dụng AI một cách có trách
+nhiệm và đạo đức, duy trì tính minh bạch và chịu trách nhiệm về các công việc có
+sự hỗ trợ của AI.
+
+## Đánh giá Claude cho quy trình làm việc của bạn (Evals)
+
+Evals (viết tắt của evaluations - đánh giá) là các cách có hệ thống để kiểm tra
+xem Claude hoạt động tốt như thế nào đối với các loại nhiệm vụ cụ thể quan trọng
+với bạn. Việc chạy các bài đánh giá đơn giản giúp bạn hiểu nơi Claude mang
+lại nhiều giá trị nhất, xác định các nhiệm vụ cần thêm ngữ cảnh và xây dựng sự
+tự tin vào kết quả của AI.
+
+Phương pháp đánh giá đơn giản bao gồm:
+1.  **Thu thập ví dụ:** Tập hợp 5-10 ví dụ về một nhiệm vụ bạn làm thường xuyên
+(email, báo cáo, phân tích).
+2.  **Tạo lời nhắc kiểm tra:** Viết các lời nhắc để tạo ra các đầu ra tương tự.
+3.  **So sánh kết quả:** Chạy các lời nhắc và so sánh phản hồi của Claude với
+các ví dụ thực tế của bạn. Kiểm tra xem Claude có nắm bắt được thông tin chính
+không, giọng điệu có phù hợp không và cái gì cần cải thiện.
+4.  **Tinh chỉnh phương pháp:** Điều chỉnh lời nhắc hoặc thêm ví dụ dựa trên
+những gì bạn học được.
+
+## Ví dụ thực tế: Vòng lặp Ủy thác và Trách nhiệm
+
+Hãy xem xét ví dụ về Rio, giám đốc chương trình tại một tổ chức dịch vụ dành cho
+cựu chiến binh. Rio cần phân tích tỷ lệ tham gia chương trình và kết quả việc
+làm hàng quý, một công việc thường tiêu tốn của ông nhiều giờ đồng hồ.
+
+Rio sử dụng dữ liệu của quý trước—thứ mà ông đã biết rõ kết quả—để làm trường
+hợp kiểm tra (test case). Ông tải dữ liệu thô lên và làm việc với Claude để
+tái hiện lại các phân tích cũ. Mỗi khi AI phản hồi, Rio đối chiếu với kết quả
+thực tế và ghi lại các lỗ hổng trong lập luận của AI.
+*   Trong lần thử đầu tiên, Claude xác định đúng mối tương quan giữa việc tham
+gia và tìm việc nhưng lại bỏ lỡ một hiểu biết quan trọng về chương trình hỗ trợ
+nhà ở kết hợp.
+*   Rio tinh chỉnh mô tả, yêu cầu Claude chú ý đặc biệt đến loại chương trình.
+Lần này Claude đã bắt được lỗi. Rio ghi chú lại rằng trong tương lai, ông cần
+yêu cầu AI xem xét loại chương trình ngay từ đầu.
+
+Bằng cách này, Rio xác định được Claude có thể thực hiện chính xác các phân tích
+nếu có mô tả đúng, nhưng cũng nhận ra các giới hạn (như việc AI cần ngày nhập
+học rõ ràng để phân tích nhóm, nếu không nó sẽ tự suy diễn sai).
+
+## Khung làm việc cho các nhiệm vụ phân tích
+
+Để xây dựng sự tự tin khi ủy thác các nhiệm vụ phân tích cho AI, bạn có thể áp
+dụng quy trình sau:
+1.  **Xác định nhiệm vụ cụ thể** mà bạn muốn ủy thác và nêu chính xác yêu cầu.
+2.  **Tìm dữ liệu cũ** mà bạn đã hoàn thành phân tích để có câu trả lời đúng
+nhằm đánh giá AI.
+3.  **Làm việc với AI để tái hiện phân tích cũ** và đánh giá một cách hệ thống
+các kết quả về nội dung, cách tiếp cận và cách truyền đạt.
+4.  **Xác định lỗ hổng, tinh chỉnh việc ủy thác và kiểm tra lại.** Nếu sau nhiều
+lần tinh chỉnh mà AI vẫn không cho kết quả đúng, bạn sẽ biết rằng đây không phải
+là nhiệm vụ nên ủy thác.
+
+## Nếu bạn không thành thạo về dữ liệu
+
+Ngay cả khi bạn không giỏi về dữ liệu để tự mình phát hiện ra các lỗ hổng quy
+trình, AI vẫn có thể là công cụ hữu ích để động não và triển khai các giải pháp.
+Vì các mô hình AI rất giỏi lập trình, chúng có thể giúp viết công thức Excel,
+định dạng lại dữ liệu lộn xộn và nhiều việc khác.
+
+Trong những trường hợp này, bạn có thể đưa câu hỏi hoặc ý tưởng của mình cho AI
+và yêu cầu nó giúp hiểu một giải pháp có thể trông như thế nào, giống như cách
+bạn làm việc với một chuyên gia phân tích dữ liệu trong nhóm. Hãy liên tục
+yêu cầu giải thích rõ ràng để bạn có thể theo dõi quy trình và hiểu đầu ra cuối
+cùng. Hãy nhớ rằng: việc xác nhận giúp xây dựng sự tự tin, nhưng nó không
+loại bỏ trách nhiệm. Bạn vẫn là người chịu trách nhiệm cuối cùng trong việc kiểm
+tra xem các kết quả có hợp lý không và minh bạch về vai trò của AI.
+
+Resumed conversation: 83515854-abd2-450c-96a2-214402b8dd47
 ## Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">

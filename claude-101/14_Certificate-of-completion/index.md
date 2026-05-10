@@ -6,102 +6,63 @@ nav_order: 14
 
 # Certificate of completion
 
-You have passed!
-Your score:
-10 of 10 Correct (100%)
-Elapsed time:
-10 minutes
-Show Answers
-Hide Answers
-Question 1:
-Correct answer
-Which of the following best describes Claude's capabilities?
-Claude is a search engine that retrieves information from the web
-Claude is a voice assistant for smart home devices
-Claude is a chatbot designed primarily for customer service
-Claude is an AI assistant that can help with writing, research, coding, problem-solving, and more
-Question 2:
-Correct answer
-What is the primary difference between projects and skills?
-Projects are free, skills require a paid plan
-Projects are for teams, skills are for individuals
-Projects store knowledge, skills perform tasks
-Projects work offline, skills require internet
-Question 3:
-Correct answer
-What data can Claude access through connectors?
-Only data you have permission to access
-All data in the connected service
-Only data created in the last 30 days
-Only docs that have been individually shared with Anthropic
-Question 4:
-Correct answer
-Who needs to complete the initial setup before team members can use Enterprise Search?
-Anthropic support team
-Each individual user
-The IT security team
-An organization Owner (admin)
-Question 5:
-Correct answer
-What happens when your project knowledge base approaches context limits?
-Claude stops accepting new file uploads
-Claude seamlessly enables RAG mode to expand capacity by up to 10x
-You must create a new project to continue
-Older files are automatically deleted to make room
-Question 6:
-Correct answer
-What can you do with a published artifact?
-Only view it—no interaction is possible
-Share it with anyone via link, and others can "remix" it in their own Claude conversations
-It automatically gets posted to social media
-It becomes permanently locked and cannot be modified
-Question 7:
-Correct answer
-Which three elements make up an effective prompt?
-Introduction, body, and conclusion
-Setting the stage, defining the task, and specifying rules
-Question, answer, and follow-up
-Subject, verb, and object
-Question 8:
-Correct answer
-If Claude's response is too generic, what should you try?
-Add more details about your audience, role, or constraints
-Ask Claude to search the web for better answers
-Switch to a different AI model
-Start a new conversation and ask the same question
-Question 9:
-Correct answer
-Which Claude product is best suited for navigating an unfamiliar codebase and automating development tasks?
-Claude Code
-Claude for Chrome
-Claude in Slack
-Claude for Excel
-Question 10:
-Correct answer
-Which of the following tasks is a good candidate for Research mode?
-Reformatting a PDF file
-Conducting comprehensive market analysis
-Brainstorming product codenames
-Redlining legal documents
-Question 11:
-How confident do you feel in your ability to use Claude after completing this course?
-Not at all confident
-Slightly confident
-Moderately confident
-Very confident
-Extremely confident
-Question 12:
-How likely are you to recommend this course to a friend or colleague?
-Not at all likely
-Not very likely
-Not sure
-Likely
-Extremely likely
-Question 13:
-(Optional) Please share any feedback to help us improve this or future courses!
-Your response:
-Có cái chương trình nào mà hợp tác với chính phu, nhà nước không
-Take this again
+## Khả năng tổng quan của Claude
+Claude không chỉ đơn thuần là một công cụ tìm kiếm thông tin hay trợ lý giọng
+nói. Đây là một **trợ lý AI đa năng** được thiết kế để hỗ trợ người dùng trong
+nhiều tác vụ phức tạp bao gồm: viết lách, nghiên cứu, lập trình, giải quyết vấn
+đề và nhiều công việc khác.
+
+## Phân biệt Dự án (Projects) và Kỹ năng (Skills)
+Trong hệ sinh thái Claude, có sự khác biệt rõ rệt về mục đích sử dụng giữa Dự án
+và Kỹ năng:
+*   **Dự án (Projects):** Đóng vai trò là nơi **lưu trữ kiến thức**. Bạn có thể
+đưa vào đây các tài liệu, dữ liệu và bối cảnh cụ thể cho một công việc.
+*   **Kỹ năng (Skills):** Được thiết kế chuyên biệt để **thực hiện các tác vụ**.
+
+## Kết nối dữ liệu và Tìm kiếm trong Doanh nghiệp
+Claude cho phép làm việc với dữ liệu thông qua các bộ kết nối (connectors). Tuy
+nhiên, tính bảo mật được đặt lên hàng đầu: Claude chỉ có thể truy cập vào những
+dữ liệu mà bạn **đã được cấp quyền truy cập** trong dịch vụ được kết nối đó.
+
+Đối với tính năng **Tìm kiếm Doanh nghiệp (Enterprise Search)**, để các thành
+viên trong nhóm có thể sử dụng, bước thiết lập ban đầu bắt buộc phải được thực
+hiện bởi **Chủ sở hữu tổ chức (Quản trị viên)**.
+
+## Quản lý giới hạn ngữ cảnh với Chế độ RAG
+Khi kho kiến thức trong dự án của bạn tiến gần đến các giới hạn về ngữ cảnh,
+Claude sẽ tự động kích hoạt **chế độ RAG (Retrieval-Augmented Generation)**. Chế
+độ này giúp mở rộng khả năng lưu trữ và xử lý của dự án lên gấp **10 lần** một
+cách liền mạch, đảm bảo bạn có thể tiếp tục làm việc mà không cần xóa bỏ tài
+liệu cũ.
+
+## Tương tác và Chia sẻ với Artifacts
+Artifacts là các sản phẩm nội dung được tạo ra trong cuộc hội thoại. Khi bạn
+xuất bản (publish) một artifact, bạn có thể:
+*   Chia sẻ nó với bất kỳ ai thông qua một liên kết duy nhất.
+*   Cho phép người khác **"remix"** (tái sử dụng và chỉnh sửa) artifact đó trong
+chính các cuộc hội thoại Claude của riêng họ.
+
+## Kỹ thuật đặt câu lệnh (Prompting) hiệu quả
+Một câu lệnh thành công thường bao gồm ba yếu tố cấu thành: **Thiết lập bối cảnh
+(Setting the stage)**, **xác định nhiệm vụ (Defining the task)** và **quy định
+các quy tắc (Specifying rules)**.
+
+Trong trường hợp câu trả lời của Claude quá chung chung, bạn nên cải thiện bằng
+cách bổ sung thêm các chi tiết cụ thể về:
+*   **Đối tượng mục tiêu** (Audience) của nội dung.
+*   **Vai trò** (Role) mà Claude nên đảm nhận.
+*   Các **ràng buộc** (Constraints) cụ thể cần tuân thủ.
+
+## Các công cụ và chế độ chuyên sâu
+Claude cung cấp các giải pháp chuyên biệt cho những nhu cầu cụ thể:
+*   **Claude Code:** Là lựa chọn tốt nhất khi bạn cần **điều hướng một cơ sở mã
+nguồn (codebase) lạ** và **tự động hóa các tác vụ phát triển phần mềm**.
+*   **Chế độ Nghiên cứu (Research mode):** Cực kỳ hiệu quả cho các nhiệm vụ đòi
+hỏi chiều sâu như **thực hiện phân tích thị trường toàn diện**. Chế độ này không
+phù hợp cho các tác vụ đơn giản hơn như định dạng lại tệp PDF, tìm mật danh sản
+phẩm hay rà soát văn bản pháp lý.
+
+Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
 
 
 

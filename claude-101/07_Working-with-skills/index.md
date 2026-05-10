@@ -6,118 +6,157 @@ nav_order: 7
 
 # Working with skills
 
-Explain what Skills are and how Claude uses them
-Identify Anthropic's built-in Skills for document creation
-Enable and manage Skills in your settings
-Plan availability:
-Skills are currently a feature preview for Pro, Max, Team, and Enterprise plans. If you're on the Free plan, you can read along to understand the concept and skip the hands-on steps.
-What are Skills?
-Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Think of them as expertise packages—they teach Claude how to complete specific tasks in a repeatable way.
-You've already seen Skills at work if you've used Claude to create Excel spreadsheets, PowerPoint presentations, Word documents, or PDFs. Those file creation capabilities are powered by Skills running behind the scenes. But Skills go far beyond document creation. Custom Skills can codify entire repeatable workflows — a quarterly variance analysis methodology, a brand voice review process, or a compliance checklist — so Claude follows the same rigorous steps every time.
-Types of Skills
-There are two categories of Skills you'll encounter:
-Anthropic Skills
-are created and maintained by Anthropic. These include enhanced document creation capabilities for Excel, Word, PowerPoint, and PDF files. Anthropic Skills are available to all paid users and Claude invokes them automatically when relevant—you don't need to do anything special to use them.
-Custom Skills
-are ones you or your organization create for specialized workflows and domain-specific tasks. For example, you might create a skill that applies your company's brand guidelines to presentations, structures meeting notes in a specific format, or executes your organization's data analysis workflows.
-Enabling Skills
-Skills are currently available as a feature preview for users on Pro, Max, Team, and Enterprise plans. To use Skills, you'll need to have Code execution and file creation enabled, since Skills require Claude's secure sandboxed computing environment to function.
-Here's how to enable Skills:
-Navigate to
-Settings > Capabilities
-Ensure that
-Code execution and file creation
-is toggled on
-Scroll to the
-Skills
-section
-Toggle individual skills on or off as needed
-For
-Enterprise plans
-, organization Owners must first enable both Code execution and Skills in Admin settings before individual members can access them.
-For
-Team plans
-, this feature preview is enabled by default at the organization level.
-Once enabled, you'll see available Skills listed in your settings, including Anthropic's built-in Skills and any custom Skills you've uploaded.
-Using Skills in practice
-The beauty of Skills is that you typically don't need to think about them—Claude handles skill selection automatically based on your request. Here are some examples of prompts that would invoke Skills:
-"Create an Excel spreadsheet tracking monthly expenses with formulas for totals"
-"Turn this meeting notes document into a PowerPoint presentation"
-"Generate a PDF report summarizing this data"
-"Build a financial model in Excel with scenario analysis"
-When Claude uses a Skill, you'll see it mentioned in Claude's chain of thought as it works. The output will be a downloadable file you can save to your computer or directly to Google Drive.
-File execution
-Claude works with you on slides, spreadsheets, and contract redlines
-This same capability means that Claude can work with
-your actual files
-(within a contained environment) to create updated versions of your files (note: in Chat, Claude creates a new version of the document rather than editing the original in place). Upload slides, spreadsheets, contracts, (or any .xlsx, .pptx, .docx, or .pdf files) and watch as Claude creates slides, performs analyses, and adds suggested edits. When Claude is done, you can download these files or open them in Drive.
-Note: To use these capabilities you'll need to give Claude access to external data sources. Simply toggle Allow limited network access on when prompted:
-Security considerations
-Because Skills can include executable code, it's important to use them thoughtfully:
-Only install custom Skills from trusted sources
-Anthropic's built-in Skills are tested and maintained by Anthropic
-Custom Skills you upload are private to your individual account
-If you're installing a custom Skill from an external source, review its contents before use to understand what it does.
-Creating custom skills
-While Anthropic's built-in Skills cover common document creation tasks, the real power of Skills comes from creating your own. Custom Skills let you teach Claude your specific workflows, brand guidelines, and ways of working—so Claude can apply that knowledge automatically whenever it's relevant.
-The easiest way to create a custom Skill is through conversation with Claude itself. You don't need to write code or manually create files—Claude handles the technical structure for you.
-Here's how to create a Skill through conversation:
-Start a new chat
-and tell Claude what you want to create. For example: "I want to create a skill for writing quarterly business reviews" or "I need a skill that applies our brand guidelines to presentations."
-Answer Claude's questions.
-Claude will interview you about your workflow, asking things like: What should this skill do? What makes good output for this type of work? Can you give examples of when you'd use this skill?
-Upload reference materials
-if you have them. Templates, style guides, brand assets, or examples of work you're proud of all help Claude understand exactly what you're looking for.
-Save your skill.
-When finished, Claude generates a file containing your properly structured skill. All you have to do is save it and the skill will be ready for Claude to use.
-See your skills.
-Find the Customize tab in the left sidebar. There you can see all of the skills that are available to you and even edit the skills you use manually or by chatting with Claude.
-Your custom Skill will appear in your Skills list alongside Anthropic's built-in Skills. From that point forward, Claude will automatically invoke it whenever you work on relevant tasks—no manual triggering needed. You can improve your skills with iteration — ask Claude to edit a skill and it will update the files for you.
-Skills vs. Projects
-You might be wondering—if both skills and projects can be used to give more context to Claude, when should I use each? Think of it this way:
-projects store knowledge, skills perform tasks
-.
-Projects
-are knowledge hubs. They hold the reference materials Claude needs to understand your work—project specs, meeting notes, research documents. When you upload files to a project, Claude draws on that information across every conversation within that project.
-Skills
-are procedural machines. They encode
-how
-Claude should execute a task—the specific steps, order of operations, and methodology you want followed every time. Skills shine when you have repeatable workflows you want Claude to run consistently.
-The two features complement each other. A skill can reference knowledge stored in a project—your "customer call prep" skill might pull from customer profiles uploaded to a project's knowledge base. The project provides the
-what
-(information), the skill provides the
-how
-(process).
-Projects
-Skills
-Purpose
-Store knowledge Claude references
-Define processes Claude executes
-Best for
-Long-term context, reference materials, team collaboration
-Repeatable workflows, multi-step tasks, consistent methodology
-Example
-Customer hub, research buddy, feedback generator
-Process guidelines (like brand or legal), Blog drafting, PDF creation
-Persistence
-Knowledge available across all chats in the project
-Instructions applied when the skill is invoked
-Lesson reflection
-Before moving on, consider:
-What types of documents do you create regularly that could benefit from Claude's built-in Skills?
-Are there repetitive workflows in your work that might be good candidates for custom Skills?
-How might Skills change the way you think about document creation and data analysis?
-What's next
-In the next set of lessons, you'll start to expand Claude's reach with connectors. These powerful tools make information gathering seamless, and can give Claude the ability to perform actions right inside the tools where your work is happening.
-For more information on Skills, including how to create your own custom Skills, visit the
-Anthropic Help Center
-.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Kỹ năng (Skills) là gì?
+**Skills** là các thư mục chứa các hướng dẫn, tập lệnh và tài nguyên mà Claude
+tải lên một cách linh hoạt để cải thiện hiệu suất cho các nhiệm vụ chuyên biệt. Hãy coi chúng như những **gói chuyên gia**—chúng dạy cho Claude cách hoàn
+thành các nhiệm vụ cụ thể theo cách có thể lặp lại. Bạn đã thấy Skills hoạt
+động nếu bạn từng sử dụng Claude để tạo bảng tính Excel, bản thuyết trình
+PowerPoint, tài liệu Word hoặc tệp PDF. Những khả năng tạo tệp đó được hỗ
+trợ bởi Skills chạy ngầm bên dưới. Tuy nhiên, Skills còn tiến xa hơn việc
+tạo tài liệu đơn thuần. Các Skills tùy chỉnh có thể **hệ thống hóa toàn bộ
+các quy trình làm việc lặp đi lặp lại** — như phương pháp phân tích chênh lệch
+hàng quý, quy trình xem xét giọng điệu thương hiệu hoặc danh sách kiểm tra tuân
+thủ — để Claude tuân theo các bước nghiêm ngặt giống nhau mọi lúc.
+
+## Các loại Skills
+Có hai loại Skills mà bạn sẽ gặp:
+*   **Anthropic Skills**: Do Anthropic tạo ra và bảo trì. Chúng bao gồm các
+khả năng tạo tài liệu nâng cao cho các tệp Excel, Word, PowerPoint và PDF.
+Anthropic Skills có sẵn cho tất cả người dùng trả phí và Claude sẽ tự động gọi
+chúng khi có liên quan—bạn không cần làm gì đặc biệt để sử dụng chúng.
+*   **Custom Skills (Skills tùy chỉnh)**: Là những Skills do bạn hoặc tổ chức
+của bạn tạo ra cho các quy trình làm việc chuyên biệt và các nhiệm vụ đặc thù
+của lĩnh vực. Ví dụ, bạn có thể tạo một Skill áp dụng các hướng dẫn thương
+hiệu của công ty mình vào các bản thuyết trình, cấu trúc các ghi chú cuộc họp
+theo một định dạng cụ thể hoặc thực thi các quy trình phân tích dữ liệu của tổ
+chức.
+
+## Cách kích hoạt Skills
+Skills hiện có sẵn dưới dạng **tính năng xem trước (feature preview)** cho người
+dùng ở các gói Pro, Max, Team và Enterprise. Nếu bạn đang sử dụng gói Miễn
+phí (Free), bạn có thể đọc để hiểu khái niệm và bỏ qua các bước thực hành.
+Để sử dụng Skills, bạn cần bật tính năng **Thực thi mã và tạo tệp (Code
+execution and file creation)**, vì Skills yêu cầu môi trường máy tính hộp cát
+(sandboxed) an toàn của Claude để hoạt động. Dưới đây là cách kích hoạt
+Skills:
+1.  Điều hướng đến **Cài đặt (Settings) > Khả năng (Capabilities)**.
+2.  Đảm bảo rằng **Thực thi mã và tạo tệp (Code execution and file creation)**
+đã được bật.
+3.  Cuộn xuống phần **Skills**.
+4.  Bật hoặc tắt các Skills riêng lẻ khi cần thiết.
+
+Đối với các gói **Enterprise**, Chủ sở hữu tổ chức (Owners) phải bật cả Thực thi
+mã và Skills trong cài đặt Quản trị viên (Admin settings) trước khi các thành
+viên cá nhân có thể truy cập chúng. Đối với các gói **Team**, tính năng xem
+trước này được bật mặc định ở cấp tổ chức. Sau khi được bật, bạn sẽ thấy các
+Skills có sẵn được liệt kê trong cài đặt của mình, bao gồm các Skills tích hợp
+của Anthropic và bất kỳ Skills tùy chỉnh nào bạn đã tải lên.
+
+## Sử dụng Skills trong thực tế
+Điểm hay của Skills là bạn thường không cần phải suy nghĩ về chúng—Claude sẽ tự
+động xử lý việc lựa chọn Skill dựa trên yêu cầu của bạn. Dưới đây là một số
+ví dụ về các câu lệnh sẽ kích hoạt Skills:
+*   "Tạo một bảng tính Excel theo dõi chi tiêu hàng tháng với các công thức tính
+tổng".
+*   "Chuyển tài liệu ghi chú cuộc họp này thành một bản thuyết trình PowerPoint".
+*   "Tạo một báo cáo PDF tóm tắt dữ liệu này".
+*   "Xây dựng một mô hình tài chính trong Excel với phân tích kịch bản".
+
+Khi Claude sử dụng một Skill, bạn sẽ thấy nó được đề cập trong chuỗi tư duy
+(chain of thought) của Claude khi nó làm việc. Đầu ra sẽ là một **tệp có thể
+tải xuống** mà bạn có thể lưu vào máy tính hoặc trực tiếp vào Google Drive.
+
+## Thực thi tệp tin
+Claude làm việc cùng bạn trên các trang slide, bảng tính và các bản sửa lỗi hợp
+đồng. Khả năng tương tự này có nghĩa là Claude có thể làm việc với các tệp
+thực tế của bạn (trong một môi trường được kiểm soát) để tạo ra các phiên bản
+cập nhật cho tệp của bạn (lưu ý: trong Chat, Claude tạo ra một phiên bản mới của
+tài liệu thay vì chỉnh sửa trực tiếp trên bản gốc).
+
+Bạn có thể tải lên các trang slide, bảng tính, hợp đồng (hoặc bất kỳ tệp .xlsx,
+.pptx, .docx hoặc .pdf nào) và xem Claude tạo slide, thực hiện phân tích và thêm
+các chỉnh sửa được đề xuất. Khi Claude hoàn thành, bạn có thể tải các tệp
+này xuống hoặc mở chúng trong Drive. Lưu ý: Để sử dụng các khả năng này, bạn
+sẽ cần cấp cho Claude quyền truy cập vào các nguồn dữ liệu bên ngoài bằng cách
+bật **Cho phép truy cập mạng hạn chế (Allow limited network access)** khi được
+yêu cầu.
+
+## Các cân nhắc về bảo mật
+Vì Skills có thể bao gồm mã thực thi, điều quan trọng là phải sử dụng chúng một
+cách thận trọng:
+*   Chỉ cài đặt các Skills tùy chỉnh từ **các nguồn đáng tin cậy**.
+*   Các Skills tích hợp của Anthropic đã được Anthropic kiểm tra và bảo trì.
+*   Các Skills tùy chỉnh bạn tải lên là **riêng tư** đối với tài khoản cá nhân
+của bạn.
+Nếu bạn đang cài đặt một Skill tùy chỉnh từ một nguồn bên ngoài, hãy xem lại nội
+dung của nó trước khi sử dụng để hiểu nó làm gì.
+
+## Tạo các Skills tùy chỉnh
+Mặc dù các Skills tích hợp của Anthropic hỗ trợ các nhiệm vụ tạo tài liệu phổ
+biến, sức mạnh thực sự của Skills đến từ việc tạo ra Skills của riêng bạn.
+Các Skills tùy chỉnh cho phép bạn dạy cho Claude các quy trình làm việc cụ thể,
+các hướng dẫn thương hiệu và cách thức làm việc của bạn—để Claude có thể tự động
+áp dụng kiến thức đó bất cứ khi nào có liên quan.
+
+Cách dễ nhất để tạo một Skill tùy chỉnh là thông qua **trò chuyện trực tiếp với
+chính Claude**. Bạn không cần phải viết mã hoặc tạo các tệp thủ công—Claude
+sẽ xử lý cấu trúc kỹ thuật cho bạn. Dưới đây là các bước:
+1.  **Bắt đầu một cuộc trò chuyện mới** và nói với Claude những gì bạn muốn tạo.
+Ví dụ: "Tôi muốn tạo một Skill để viết các bản đánh giá kinh doanh hàng quý"
+hoặc "Tôi cần một Skill áp dụng các hướng dẫn thương hiệu của chúng tôi vào các
+bản thuyết trình".
+2.  **Trả lời các câu hỏi của Claude**: Claude sẽ phỏng vấn bạn về quy trình làm
+việc của bạn, hỏi những điều như: Skill này nên làm gì? Điều gì tạo nên một kết
+quả tốt cho loại công việc này? Bạn có thể đưa ra ví dụ về thời điểm bạn sẽ sử
+dụng Skill này không?
+3.  **Tải lên các tài liệu tham khảo nếu có**: Các mẫu (templates), hướng dẫn
+phong cách, tài sản thương hiệu hoặc ví dụ về các sản phẩm bạn thấy tự hào đều
+giúp Claude hiểu chính xác những gì bạn tìm kiếm.
+4.  **Lưu Skill của bạn**: Khi hoàn tất, Claude tạo ra một tệp chứa Skill đã
+được cấu trúc đúng cách của bạn. Bạn chỉ cần lưu nó và Skill sẽ sẵn sàng để sử
+dụng.
+5.  **Xem các Skills của bạn**: Tìm tab **Tùy chỉnh (Customize)** ở thanh bên
+trái. Tại đó, bạn có thể thấy tất cả các Skills có sẵn và thậm chí chỉnh sửa
+chúng thủ công hoặc bằng cách trò chuyện với Claude.
+
+Skill tùy chỉnh sẽ xuất hiện trong danh sách Skills của bạn và Claude sẽ **tự
+động gọi nó** khi bạn thực hiện các nhiệm vụ liên quan. Bạn có thể cải thiện
+Skills bằng cách yêu cầu Claude chỉnh sửa và nó sẽ cập nhật các tệp cho bạn.
+
+## So sánh giữa Skills và Projects (Dự án)
+Nếu cả Skills và Projects đều cung cấp ngữ cảnh cho Claude, bạn nên chọn cái
+nào? Hãy nhớ: **Projects lưu trữ kiến thức, Skills thực hiện nhiệm vụ**.
+
+*   **Projects là các trung tâm kiến thức**: Chúng giữ các tài liệu tham khảo mà
+Claude cần để hiểu công việc của bạn (thông số kỹ thuật, ghi chú cuộc họp, tài
+liệu nghiên cứu). Claude khai thác thông tin này trong mọi cuộc trò chuyện thuộc
+dự án đó.
+*   **Skills là các máy móc quy trình**: Chúng mã hóa cách Claude thực thi một
+nhiệm vụ (các bước, thứ tự, phương pháp cụ thể). Skills tỏa sáng khi bạn có các
+quy trình làm việc lặp lại cần sự nhất quán.
+
+Hai tính năng này bổ trợ cho nhau: Một Skill có thể tham chiếu kiến thức trong
+Project. **Project cung cấp cái gì (thông tin), Skill cung cấp cách thức (quy
+trình)**.
+
+| Đặc điểm | Projects | Skills |
+| :--- | :--- | :--- |
+| **Mục đích** | Lưu trữ kiến thức Claude tham chiếu. | Xác định các quy
+trình Claude thực thi. |
+| **Tốt nhất cho** | Ngữ cảnh dài hạn, tài liệu tham khảo, cộng tác nhóm. |
+Quy trình lặp lại, nhiệm vụ nhiều bước, phương pháp nhất quán. |
+| **Ví dụ** | Trung tâm khách hàng, trợ lý nghiên cứu, trình tạo phản hồi. |
+Hướng dẫn thương hiệu, soạn thảo Blog, tạo PDF. |
+| **Tính lâu dài** | Kiến thức có sẵn trong tất cả cuộc trò chuyện thuộc Project. | Hướng dẫn được áp dụng khi Skill được gọi. |
+
+## Bước tiếp theo
+Trong các bài học tới, bạn sẽ mở rộng phạm vi của Claude với **các trình kết nối
+(connectors)**. Những công cụ này giúp thu thập thông tin liền mạch và cho
+phép Claude thực hiện hành động ngay bên trong các công cụ làm việc của bạn.
+Để biết thêm thông tin về Skills hoặc cách tạo Skills tùy chỉnh, hãy truy cập
+Trung tâm trợ giúp của Anthropic.
+
+Resumed conversation: e2092b8c-6104-4047-8f69-92a3119249cc
 ## Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">

@@ -6,81 +6,135 @@ nav_order: 6
 
 # Creating with artifacts
 
-Explain what artifacts are and when Claude creates them
-Share artifacts with colleagues and publish them publicly
-Troubleshoot common artifact issues
-What are artifacts?
-Artifacts are standalone, interactive outputs that Claude creates in a dedicated window alongside your conversation. Instead of getting a long block of code or text buried in the chat, you see your content rendered and ready to use—whether that's a working website, an interactive chart, or a document you can immediately download.
-Claude automatically creates an artifact when content meets certain criteria:
-It's significant and self-contained, typically over 15 lines
-It's something you're likely to want to edit, iterate on, or reuse
-It represents complex content that stands on its own without needing the surrounding conversation
-It's content you'll want to reference or use later
-Common artifact types
-Claude can create different of artifacts, each suited to different needs:
-Documents
-(including markdown, plain text, Word docs, PDFs, PowerPoint, and Excel): Great for anything text-heavy that you'll want to export or continue editing — like meeting notes, reports, project plans, blog posts, and other written content.
-Code snippets:
-Working code in any programming language—Python, JavaScript, C++, and more. You can view the code, copy it, or download it to use in your own projects.
-HTML pages:
-Complete web pages with HTML, CSS, and JavaScript in a single file. Perfect for landing pages, forms, interactive demos, or quick prototypes.
-SVG images:
-Scalable vector graphics for logos, icons, illustrations, and other visual elements. These render directly in the artifact window so you can see exactly what you're getting.
-Mermaid diagrams:
-Flowcharts, sequence diagrams, Gantt charts, org charts, and more. Describe the relationships you want to visualize, and Claude will create a diagram you can refine.
-React components:
-Interactive UI elements with real functionality—calculators, dashboards, games, data visualizations. These aren't just mockups; they include actual logic and respond to user input.
-Creating your first artifact
-Creating an artifact is as simple as having a conversation. Just describe what you want, and Claude will determine whether to present it as an artifact.
-For example, you might say:
-"Create a flowchart showing our customer onboarding process (Note: Claude may now generate visual diagrams like flowcharts as HTML using Imagine, in addition to code-based artifacts.)"
-"Build an interactive dashboard that lets me input monthly expenses and see a breakdown"
-"Design a landing page for a productivity app with a hero section and feature list"
-"Write a project brief template I can reuse for new initiatives"
-If Claude doesn't automatically create an artifact when you expect one, you can explicitly ask: "Create this as an artifact" or "Show me this in an artifact."
-When Claude generates an artifact, it appears in a dedicated window to the right of your conversation. From here, you can:
-View different formats:
-Toggle between a preview (how it looks) and the underlying code
-Copy content:
-Click the copy icon to grab the content for use elsewhere
-Download files:
-Save the artifact as a file to your computer
-View code:
-See exactly what Claude generated under the hood
-Sharing and publishing artifacts
-Once you've created something useful, you have several options for sharing it.
-Copy or download:
-For personal use or sharing via other channels, use the copy or download buttons in the lower right corner of the artifact window.
-Share within your organization (Claude for Work):
-Team and Enterprise users can share artifacts internally with colleagues. The shared artifact stays within your organization and requires team authentication to access.
-Publish publicly:
-For free, Pro, and Max users, you can publish artifacts to make them accessible to anyone with the link. When you publish:
-Only the selected version becomes public (your chat remains private)
-Anyone can view and interact with the artifact without a Claude account
-Others can "remix" your artifact—opening it in their own Claude conversation to modify and build upon it
-To publish, click the "Share" or "Publish" button in the upper right corner of the artifact. You can unpublish at any time by returning to that artifact and removing public access. Note: When you publish an artifact, it is publicly accessible via its link — anyone can view it, even without a Claude account. Published artifacts are not indexed by search engines, so they won't appear in Google results.
-Tips for getting the most from artifacts
-Be specific about what you want.
-"Build a budget tracker" is good, but "Build a monthly budget tracker where I can input expenses by category, see a pie chart breakdown, and get a warning when I'm over budget" is better.
-Describe the end user.
-Telling Claude who will use the artifact helps it make appropriate design choices. "This flowchart is for new employees" leads to different results than "This flowchart is for the engineering team."
-Iterate incrementally.
-Ask Claude to add one feature or make one change at a time. This makes it easier to identify what's working and catch issues early.
-Request artifacts when needed.
-If you ask for something substantial and Claude responds in the chat instead of creating an artifact, just say "Please create that as an artifact."
-Lesson reflection
-Before moving on, consider:
-What recurring work could benefit from having an interactive artifact you can reuse?
-Are there processes in your work that would be clearer as a flowchart or diagram?
-What prototype or tool would help you test an idea quickly?
-What's next
-In the next lesson, you'll learn about Skills — reusable instruction sets that teach Claude specialized workflows.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Artifacts là gì?
+
+**Artifacts** là những kết quả đầu ra độc lập, có tính tương tác mà Claude tạo
+ra trong một cửa sổ riêng biệt bên cạnh cuộc hội thoại của bạn. Thay vì nhận
+được một khối mã nguồn hoặc văn bản dài bị chôn vùi trong khung chat, bạn sẽ
+thấy nội dung của mình được hiển thị trực quan và sẵn sàng để sử dụng—cho dù đó
+là một trang web đang hoạt động, một biểu đồ tương tác hay một tài liệu mà bạn
+có thể tải xuống ngay lập tức.
+
+Claude sẽ tự động tạo một artifact khi nội dung đáp ứng các tiêu chí nhất định:
+*   Nội dung có ý nghĩa và mang tính độc lập, thường là **trên 15 dòng**.
+*   Đó là thứ bạn có khả năng muốn chỉnh sửa, lặp lại hoặc tái sử dụng.
+*   Nó đại diện cho nội dung phức tạp có thể đứng vững một mình mà không cần đến
+bối cảnh hội thoại xung quanh.
+*   Đó là nội dung bạn sẽ muốn tham khảo hoặc sử dụng sau này.
+
+## Các loại Artifact phổ biến
+
+Claude có thể tạo ra nhiều loại artifact khác nhau, phù hợp với từng nhu cầu cụ
+thể:
+
+*   **Tài liệu (bao gồm markdown, văn bản thuần túy, Word, PDF, PowerPoint và
+Excel):** Phù hợp cho bất kỳ nội dung nào có nhiều văn bản mà bạn muốn xuất ra
+hoặc tiếp tục chỉnh sửa—như biên bản cuộc họp, báo cáo, kế hoạch dự án, bài đăng
+blog và các nội dung viết khác.
+*   **Đoạn mã (Code snippets):** Mã nguồn hoạt động được trong bất kỳ ngôn ngữ
+lập trình nào—Python, JavaScript, C++, và hơn thế nữa. Bạn có thể xem mã,
+sao chép hoặc tải xuống để sử dụng trong các dự án của riêng mình.
+*   **Trang HTML:** Các trang web hoàn chỉnh với HTML, CSS và JavaScript trong
+một tệp duy nhất. Hoàn hảo cho các trang đích (landing pages), biểu mẫu, bản
+demo tương tác hoặc các bản mẫu thử nghiệm nhanh.
+*   **Hình ảnh SVG:** Đồ họa vectơ có thể mở rộng cho logo, biểu tượng, hình
+minh họa và các yếu tố hình ảnh khác. Những hình ảnh này được hiển thị trực
+tiếp trong cửa sổ artifact để bạn có thể thấy chính xác kết quả mình nhận được.
+*   **Sơ đồ Mermaid:** Sơ đồ luồng, sơ đồ trình tự, biểu đồ Gantt, sơ đồ tổ chức
+và nhiều loại khác. Hãy mô tả các mối quan hệ bạn muốn trực quan hóa, và
+Claude sẽ tạo ra một sơ đồ mà bạn có thể tinh chỉnh.
+*   **Thành phần React (React components):** Các yếu tố giao diện người dùng
+tương tác với chức năng thực tế—như máy tính, bảng điều khiển (dashboards), trò
+chơi, hoặc trực quan hóa dữ liệu. Đây không chỉ là các bản mô phỏng; chúng
+bao gồm logic thực tế và phản hồi lại thao tác của người dùng.
+
+## Cách tạo Artifact đầu tiên của bạn
+
+Việc tạo một artifact đơn giản như việc thực hiện một cuộc hội thoại. Bạn
+chỉ cần mô tả những gì mình muốn, và Claude sẽ quyết định xem có nên trình bày
+nội dung đó dưới dạng artifact hay không. Ví dụ, bạn có thể nói:
+*   "Tạo một sơ đồ luồng hiển thị quy trình tiếp nhận khách hàng của chúng tôi"
+(Lưu ý: Claude hiện có thể tạo sơ đồ trực quan như sơ đồ luồng dưới dạng HTML
+bằng tính năng Imagine, bên cạnh các artifact dựa trên mã nguồn).
+*   "Xây dựng một bảng điều khiển tương tác cho phép tôi nhập chi phí hàng tháng
+và xem bảng phân tích".
+*   "Thiết kế một trang đích cho ứng dụng năng suất với phần tiêu đề chính (hero
+section) và danh sách tính năng".
+*   "Viết một mẫu tóm tắt dự án mà tôi có thể tái sử dụng cho các sáng kiến mới".
+
+Nếu Claude không tự động tạo artifact khi bạn mong muốn, bạn có thể yêu cầu rõ
+ràng: **"Tạo nội dung này dưới dạng artifact"** hoặc **"Hiển thị cho tôi nội
+dung này trong một artifact"**.
+
+Khi Claude tạo ra một artifact, nó sẽ xuất hiện trong một cửa sổ riêng biệt ở
+bên phải cuộc hội thoại. Tại đây, bạn có thể:
+*   **Xem các định dạng khác nhau:** Chuyển đổi giữa chế độ xem trước (cách nó
+hiển thị) và mã nguồn bên dưới.
+*   **Sao chép nội dung:** Nhấp vào biểu tượng sao chép để lấy nội dung sử dụng
+ở nơi khác.
+*   **Tải xuống tệp:** Lưu artifact dưới dạng tệp vào máy tính của bạn.
+*   **Xem mã:** Xem chính xác những gì Claude đã tạo ra "dưới nắp máy".
+
+## Chia sẻ và xuất bản Artifact
+
+Sau khi tạo ra thứ gì đó hữu ích, bạn có một số tùy chọn để chia sẻ nó:
+
+*   **Sao chép hoặc tải xuống:** Để sử dụng cá nhân hoặc chia sẻ qua các kênh
+khác, hãy sử dụng các nút sao chép hoặc tải xuống ở góc dưới bên phải của cửa sổ
+artifact.
+*   **Chia sẻ trong tổ chức của bạn (Claude for Work):** Người dùng gói Team và
+Enterprise có thể chia sẻ artifact nội bộ với đồng nghiệp. Artifact được
+chia sẻ sẽ nằm trong phạm vi tổ chức của bạn và yêu cầu xác thực nhóm để truy
+cập.
+*   **Xuất bản công khai:** Đối với người dùng gói Free, Pro và Max, bạn có thể
+xuất bản artifact để bất kỳ ai có liên kết đều có thể truy cập được. Khi bạn
+xuất bản:
+    *   Chỉ phiên bản được chọn mới trở thành công khai (cuộc trò chuyện của bạn
+vẫn được giữ riêng tư).
+    *   Bất kỳ ai cũng có thể xem và tương tác với artifact mà không cần tài
+khoản Claude.
+    *   Những người khác có thể **"remix"** artifact của bạn—mở nó trong cuộc
+hội thoại Claude của riêng họ để sửa đổi và phát triển thêm.
+
+Để xuất bản, hãy nhấp vào nút "Share" hoặc "Publish" ở góc trên bên phải của
+artifact. Bạn có thể hủy xuất bản bất kỳ lúc nào bằng cách quay lại artifact
+đó và gỡ bỏ quyền truy cập công khai. **Lưu ý:** Khi bạn xuất bản, bất kỳ ai
+có liên kết đều có thể xem được, nhưng các công cụ tìm kiếm như Google sẽ không
+lập chỉ mục các artifact này, vì vậy chúng sẽ không xuất hiện trong kết quả tìm
+kiếm.
+
+## Mẹo để tận dụng tối đa Artifact
+
+*   **Hãy cụ thể về những gì bạn muốn:** Thay vì nói "Hãy xây dựng một trình
+theo dõi ngân sách", bạn nên nói "Hãy xây dựng một trình theo dõi ngân sách hàng
+tháng, nơi tôi có thể nhập chi phí theo danh mục, xem biểu đồ hình tròn phân
+tích và nhận cảnh báo khi vượt quá ngân sách".
+*   **Mô tả người dùng cuối:** Việc cho Claude biết ai sẽ sử dụng artifact giúp
+nó đưa ra các lựa chọn thiết kế phù hợp. Ví dụ: "Sơ đồ luồng này dành cho
+nhân viên mới" sẽ dẫn đến kết quả khác với "Sơ đồ luồng này dành cho đội ngũ kỹ
+thuật".
+*   **Cải tiến dần dần (Iterate incrementally):** Yêu cầu Claude thêm từng tính
+năng hoặc thực hiện từng thay đổi một. Điều này giúp dễ dàng xác định những
+gì đang hoạt động tốt và phát hiện sớm các vấn đề.
+*   **Yêu cầu Artifact khi cần thiết:** Nếu bạn yêu cầu một nội dung đáng kể mà
+Claude lại phản hồi trong khung chat thay vì tạo artifact, bạn chỉ cần nói: "Vui
+lòng tạo nội dung đó dưới dạng artifact".
+
+## Suy ngẫm về bài học
+
+Trước khi tiếp tục, hãy cân nhắc:
+*   Công việc lặp đi lặp lại nào của bạn có thể hưởng lợi từ một artifact tương
+tác có khả năng tái sử dụng?
+*   Có quy trình nào trong công việc của bạn sẽ trở nên rõ ràng hơn nếu được
+trình bày dưới dạng sơ đồ luồng hoặc biểu đồ không?
+*   Bản mẫu thử nghiệm hoặc công cụ nào sẽ giúp bạn kiểm tra một ý tưởng một
+cách nhanh chóng?
+
+**Bước tiếp theo:** Trong bài học tới, bạn sẽ tìm hiểu về **Skills (Kỹ năng)** —
+các bộ hướng dẫn có thể tái sử dụng để dạy cho Claude các quy trình làm việc
+chuyên biệt.
+
+Resumed conversation: 864f8f33-91b4-4025-8aef-11b5e69d5991
 
 ## Câu hỏi ôn tập
 

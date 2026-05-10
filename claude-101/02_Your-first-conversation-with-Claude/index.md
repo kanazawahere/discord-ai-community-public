@@ -6,86 +6,137 @@ nav_order: 2
 
 # Your first conversation with Claude
 
-Start a new conversation with Claude and navigate the interface
-Write effective prompts using clear, specific language
-Upload files and images to provide Claude with additional context
-Use follow-up messages to iterate and refine Claude's responses
-Video: Getting started with Claude.ai
-Key takeaways
-Claude is a powerful, intelligent collaborator that amplifies your capabilities across all of your work. Claude brings AI intelligence, but you bring the context and expertise that makes the work meaningful.
-The best approach when speaking to Claude is like you would a coworker—naturally, concisely, and conversationally.
-Before your next conversation with Claude, consider:
-setting the stage
-(your role, objectives, and context),
-defining the task
-(what action you want Claude to take), and
-specifying rules
-(style, tone, and examples).
-When you upload relevant documents or background information into a chat, Claude considers that content in its response—think of it as a shortcut so Claude can understand what your needs are.
-The real power of Claude comes with continued and frequent communication, not just one-off prompts.
-Starting your first conversation
-When you open Claude.ai, you'll see a clean interface with a text input area at the bottom of the screen.
-Your prompts can range from simple questions (like brainstorming code names for a new feature) to complex requests to co-create files.
-Writing effective prompts
-All interactions with Claude begin with a prompt, and these prompts, combined with other context, impact Claude's response. The best approach when speaking to Claude is like you would a coworker—naturally, concisely, and conversationally.
-But you may ask, what is a good prompt? Before your next conversation with Claude, consider a few things:
-Setting the stage:
-What is your role and what are your objectives? Is there context about your work that Claude should know about?
-Defining the task:
-What action do you want Claude to take? Do you want Claude to write, analyze, build, or something else?
-Specifying rules:
-What's the style or tone you want Claude to use? Are there examples that you can attach to show Claude what you're looking for?
-Putting it together
-Here's an example prompt that uses all three elements:
-"I'm the marketing lead at an indie streaming startup, and we're preparing an investor pitch deck for Series A investors. Can you research the current state of the independent film streaming market and identify key trends, competitor positioning, and growth opportunities? Use current web research with citations and structure it as a professional report of up to 5 pages, with an executive summary, market analysis, competitive landscape, and growth opportunities."
-In this prompt:
-**Setting the stage**: We tell Claude this is for an investor pitch deck for a new indie streaming app—that's the context and objective.
-**Defining the task**: We provide the specific action (research the market) with relevant details (trends, competitors, opportunities).
-**Specifying rules**: We ask for current web research with citations, structured as a professional report—telling Claude exactly what style and format we need.
-Want to go deeper?
-This prompt framework is adapted from the
-4D Framework for AI Fluency
-, developed through research collaboration between Professor Rick Dakan (Ringling College of Art and Design) and Professor Joseph Feller (University College Cork). The framework identifies four core competencies—Delegation, Description, Discernment, and Diligence—that enable effective collaboration with AI.
-Take our free AI Fluency course
-to learn how all four competencies work together to enable efficient, effective, ethical, and safe AI use.
-Adding context
-Uploads, connectors, and custom preferences offer ways to give Claude even more context about your work.
-Claude can analyze both text and visual elements (like images, charts, and graphics) in PDFs and other documents. Supported file types include PDF, DOCX, CSV, TXT, and common image formats like PNG and JPEG.
-Some practical ways to use file uploads:
-Upload a document and ask Claude to summarize the key points
-Share an image and ask Claude to describe or analyze what it sees
-Attach a spreadsheet and ask Claude to identify trends in the data
-Upload code and ask Claude to explain how it works or find bugs
-Once uploaded, Claude will automatically attempt to parse the file's content. In the chat, the file appears as an attachment and you can then prompt Claude about it.
-Pro-tip:
-If you'd like Claude to consider specific preferences in every response, go to Settings > General > 'What personal preferences should Claude consider?' to set preferences that apply to every conversation.
-Iterating on Claude's responses
-Conversations with Claude are meant to be iterative. Chaining bite-sized prompts together allows for a natural dialogue where you guide the conversation based on Claude's replies.
-If Claude's first response isn't quite what you wanted, you have several options:
-**Ask follow-up questions**: Build on Claude's response by asking for more detail, a different angle, or clarification. For example: "Can you expand on the second point?" or "That's helpful, but can you make it more concise?"
-**Provide feedback**: Tell Claude what you liked and didn't like about its response. "This is good, but the tone is too formal. Can you make it more conversational?"
-Redirect or restart:
-If Claude went in a different direction than you intended, simply steer it back. "Actually, I was asking about X, not Y. Let me clarify...". Worst case, restart your conversation in a new chat to fully refresh the context.
-Pro tip:
-You can also click the pencil icon on any of your messages to edit and resubmit your prompt — useful when you want to refine your request rather than add a new message.
-Personalizing Claude
-There are two features that help Claude work better for you over time to increase the power of your prompts.
-Memory
-automatically saves key context from your conversations — your role, preferences, past decisions, and working style — so you don't have to repeat yourself every time you start a new chat. For example, if you tell Claude you work in marketing at a B2B company, it'll remember that context going forward. You can review, edit, or delete anything Claude remembers anytime in Settings, and memory syncs across all your devices.
-Styles
-let you customize how Claude communicates. Choose from preset options — like concise, formal, or explanatory — or create your own custom style by describing exactly how you want Claude to write. Once set, your style applies across all conversations automatically.
-Put it into practice
-Before moving on, try prompting Claude with a question or task. If you need an idea to get started, feel free to explore our
-use-case gallery
-.
-What's next
-In the next lesson, we'll explore how to give Claude direction—adjusting its tone, format, and approach to match exactly what you need.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Cuộc trò chuyện đầu tiên của bạn với Claude
+
+Claude là một cộng tác viên thông minh và mạnh mẽ, giúp khuếch đại khả năng của
+bạn trong mọi khía cạnh công việc. Claude mang đến trí tuệ nhân tạo,
+nhưng chính bạn là người cung cấp ngữ cảnh và chuyên môn để làm cho công việc
+trở nên có ý nghĩa. Cách tiếp cận tốt nhất khi nói chuyện với Claude là
+coi Claude như một đồng nghiệp — một cách tự nhiên, súc tích và mang tính đối
+thoại. Sức mạnh thực sự của Claude đến từ việc giao tiếp liên tục và
+thường xuyên, chứ không chỉ qua các câu lệnh (prompt) đơn lẻ.
+
+## Bắt đầu cuộc trò chuyện đầu tiên
+
+Khi bạn mở Claude.ai, bạn sẽ thấy một giao diện trực quan với khu vực nhập văn
+bản ở cuối màn hình. Các câu lệnh của bạn có thể trải dài từ những câu hỏi
+đơn giản (như lên ý tưởng tên mã cho một tính năng mới) đến các yêu cầu phức tạp
+để cùng tạo ra các tệp tin. Trên thanh bên (sidebar), bạn sẽ thấy các biểu
+tượng để tạo chat mới, xem lại các cuộc hội thoại cũ, truy cập vào các Dự án
+(Projects) để sắp xếp công việc với ngữ cảnh cố định, và các Sản phẩm
+(Artifacts) để biến ý tưởng thành các ứng dụng, công cụ hoặc nội dung có thể
+chia sẻ.
+
+## Viết câu lệnh (prompt) hiệu quả
+
+Mọi tương tác với Claude đều bắt đầu bằng một câu lệnh, và những câu lệnh này
+khi kết hợp với các ngữ cảnh khác sẽ tác động đến phản hồi của Claude.
+Trước khi bắt đầu cuộc trò chuyện tiếp theo, bạn nên cân nhắc ba yếu tố sau:
+*   **Thiết lập bối cảnh (Setting the stage):** Vai trò của bạn là gì và mục
+tiêu của bạn là gì? Có ngữ cảnh nào về công việc mà Claude nên biết không?
+*   **Xác định nhiệm vụ (Defining the task):** Bạn muốn Claude thực hiện hành
+động cụ thể nào? Bạn muốn Claude viết, phân tích, xây dựng hay làm điều gì khác?
+*   **Chỉ định các quy tắc (Specifying rules):** Phong cách hoặc tông giọng bạn
+muốn Claude sử dụng là gì? Có ví dụ nào bạn có thể đính kèm để cho Claude thấy
+kết quả bạn mong đợi không?
+
+## Ví dụ về câu lệnh kết hợp đầy đủ các yếu tố
+
+Dưới đây là một ví dụ sử dụng cả ba yếu tố trên:
+"Tôi là trưởng nhóm marketing tại một startup phát triển ứng dụng phát phim trực
+tuyến độc lập (indie), và chúng tôi đang chuẩn bị một bộ tài liệu gọi vốn (pitch
+deck) cho các nhà đầu tư vòng Series A. Bạn có thể nghiên cứu tình hình hiện tại
+của thị trường phát phim trực tuyến độc lập và xác định các xu hướng chính, vị
+thế của đối thủ cạnh tranh và các cơ hội tăng trưởng không? Hãy sử dụng nghiên
+cứu web hiện tại với các trích dẫn và cấu trúc nó thành một báo cáo chuyên
+nghiệp dài tối đa 5 trang, bao gồm tóm tắt điều hành, phân tích thị trường, bối
+cảnh cạnh tranh và các cơ hội tăng trưởng."
+
+Trong câu lệnh này:
+*   **Thiết lập bối cảnh:** Chúng ta cho Claude biết đây là tài liệu gọi vốn cho
+một ứng dụng phát phim độc lập mới — đó là ngữ cảnh và mục tiêu.
+*   **Xác định nhiệm vụ:** Chúng ta đưa ra hành động cụ thể (nghiên cứu thị
+trường) với các chi tiết liên quan (xu hướng, đối thủ, cơ hội).
+*   **Chỉ định quy tắc:** Chúng ta yêu cầu nghiên cứu web hiện tại có trích dẫn,
+cấu trúc theo báo cáo chuyên nghiệp — cho Claude biết chính xác phong cách và
+định dạng cần thiết.
+
+Nếu bạn muốn tìm hiểu sâu hơn, khung câu lệnh này được điều chỉnh từ **Khung 4D
+cho Năng lực AI (4D Framework for AI Fluency)**, bao gồm bốn năng lực cốt lõi:
+Ủy thác (Delegation), Mô tả (Description), Nhận thức (Discernment) và Siêng năng
+(Diligence).
+
+## Thêm ngữ cảnh thông qua tệp tải lên và các kết nối
+
+Claude có khả năng phân tích cả văn bản và các yếu tố hình ảnh (như ảnh, biểu
+đồ, đồ họa) trong tệp PDF và các tài liệu khác. Các loại tệp được hỗ trợ bao
+gồm PDF, DOCX, CSV, TXT và các định dạng hình ảnh phổ biến như PNG, JPEG.
+Một số cách thực tế để sử dụng tính năng tải tệp:
+*   Tải lên một tài liệu và yêu cầu Claude tóm tắt các điểm chính.
+*   Chia sẻ một hình ảnh và yêu cầu Claude mô tả hoặc phân tích những gì nó thấy.
+*   Đính kèm một bảng tính và yêu cầu Claude xác định các xu hướng trong dữ liệu.
+*   Tải lên mã nguồn và yêu cầu Claude giải thích cách hoạt động hoặc tìm lỗi.
+
+Khi bạn tải lên, Claude sẽ tự động cố gắng phân tích nội dung tệp. Trong cửa
+sổ chat, tệp sẽ xuất hiện dưới dạng tệp đính kèm và sau đó bạn có thể đưa ra câu
+lệnh về tệp đó. Ngoài ra, bạn có thể sử dụng các **Cổng kết nối
+(Connectors)** để cho phép Claude truy cập vào các nguồn dữ liệu như Google
+Drive hoặc sử dụng **Tìm kiếm web (Web search)** để nghiên cứu dữ liệu thị
+trường hiện tại.
+
+## Tinh chỉnh phản hồi của Claude
+
+Các cuộc trò chuyện với Claude mang tính chất lặp đi lặp lại. Việc chuỗi các câu
+lệnh nhỏ lại với nhau tạo ra một cuộc đối thoại tự nhiên, nơi bạn dẫn dắt Claude
+dựa trên các câu trả lời của nó. Nếu phản hồi đầu tiên chưa đúng ý, bạn có
+các lựa chọn:
+*   **Đặt câu hỏi tiếp theo:** Yêu cầu thêm chi tiết, một góc nhìn khác hoặc làm
+rõ (Ví dụ: "Bạn có thể mở rộng điểm thứ hai không?" hoặc "Rất hữu ích, nhưng bạn
+có thể viết ngắn gọn hơn không?").
+*   **Cung cấp phản hồi:** Nói với Claude điều bạn thích và không thích (Ví dụ:
+"Cái này tốt, nhưng tông giọng quá trang trọng. Bạn có thể làm nó mang tính đối
+thoại hơn không?").
+*   **Điều hướng lại hoặc bắt đầu lại:** Nếu Claude đi chệch hướng, hãy điều
+hướng nó quay lại hoặc bắt đầu một chat mới để làm mới hoàn toàn ngữ cảnh.
+*   **Chỉnh sửa câu lệnh:** Bạn có thể nhấp vào biểu tượng bút chì trên bất kỳ
+tin nhắn nào của mình để chỉnh sửa và gửi lại câu lệnh.
+
+## Cá nhân hóa Claude
+
+Có hai tính năng giúp Claude hoạt động tốt hơn cho bạn theo thời gian:
+*   **Bộ nhớ (Memory):** Tự động lưu ngữ cảnh chính từ các cuộc trò chuyện — như
+vai trò, sở thích, các quyết định trong quá khứ và phong cách làm việc — để bạn
+không phải lặp lại thông tin mỗi khi bắt đầu chat mới. Bạn có thể xem, chỉnh
+sửa hoặc xóa bộ nhớ bất kỳ lúc nào trong phần Cài đặt.
+*   **Phong cách (Styles):** Cho phép tùy chỉnh cách Claude giao tiếp. Bạn
+có thể chọn từ các tùy chọn có sẵn (súc tích, trang trọng, giải thích) hoặc tạo
+phong cách riêng bằng cách mô tả chính xác cách bạn muốn Claude viết.
+
+Nếu bạn muốn Claude cân nhắc các sở thích cụ thể trong mọi phản hồi, hãy vào
+**Settings > General > 'What personal preferences should Claude consider?'**.
+
+## Lựa chọn mô hình và các chế độ nâng cao
+
+Bạn có thể chọn mô hình Claude phù hợp nhất cho nhiệm vụ của mình ngay bên dưới
+phần nhập văn bản:
+*   **Claude Opus:** Dành cho các nhiệm vụ phức tạp nhất, yêu cầu khả năng suy
+luận chuyên sâu (ví dụ: phân tích tài chính nhiều bước).
+*   **Claude Sonnet:** Lựa chọn tốt nhất cho người dùng hàng ngày và là chế độ
+mặc định được đề xuất, cân bằng giữa khả năng tinh vi và hiệu quả chi phí.
+
+Ngoài ra còn có các tính năng đặc biệt:
+*   **Chế độ Suy nghĩ mở rộng (Extended thinking mode):** Đặc biệt giá trị cho
+việc phân tích và tư duy phức tạp, dù nó làm tăng độ trễ và có thể không cần
+thiết cho các câu hỏi đơn giản.
+*   **Nghiên cứu (Research):** Cho phép Claude thực hiện các cuộc điều tra hệ
+thống, đa góc nhìn bằng cách tự động chia nhỏ câu hỏi phức tạp và khám phá hàng
+trăm nguồn tin để đưa ra báo cáo toàn diện, có trích dẫn trong vòng 5 đến 45
+phút.
+
+Bạn có muốn tôi tạo một bài kiểm tra trắc nghiệm để bạn ôn tập lại các kiến thức
+này không?
+
+Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
 ## Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">

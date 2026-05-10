@@ -6,87 +6,144 @@ nav_order: 12
 
 # Other ways to work with Claude
 
-Understand when to use additional Claude products including Claude Code, Claude for Slack, Claude for Excel, Claude for PowerPoint, and Claude for Chrome
-As we mentioned at the start of this course, Claude is an intelligence.
-Claude.ai
-is just one way of working with it.
-Claude is also available in several specialized tools designed to meet you where you already work. This lesson introduces five additional ways to work with Claude, each tailored to specific workflows and use cases.
-Claude Code
-Claude Code is an agentic coding tool that works where you work — in your terminal, IDE, browser, or even in Slack. It understands your codebase, executes commands, and handles entire development workflows through natural language.
-When to use Claude Code:
-You want to build features by describing what you need in plain English, and have Claude write the code, run tests, and create commits
-You need to debug issues by pasting error messages and having Claude analyze your codebase to identify and fix problems
-You're navigating an unfamiliar codebase and want to ask questions about how different parts work together
-You want to automate tedious tasks like fixing lint errors, resolving merge conflicts, or writing release notes
-You prefer working in your terminal alongside your existing IDE and development tools rather than switching to a separate interface
-Claude in Slack
-Claude integrates directly with Slack, allowing you to get help in channels and threads or bring Slack context into your Claude conversations.
-When to use Claude in Slack:
-You want to draft responses to messages, summarize lengthy threads, or break down complex discussions without leaving Slack
-You need to prepare for meetings by having Claude pull together relevant conversations and shared documents from your workspace
-You're onboarding to a new team and want help understanding ongoing projects by reviewing channel history
-You want to hand off coding tasks directly from a bug report or feature discussion—just tag @Claude and it can spin up a Claude Code session using the surrounding context
-You need to quickly get answers about industry trends, technical concepts, or company information during a conversation
-Claude for Excel
-Claude for Excel brings Claude directly into Microsoft Excel through a sidebar, allowing you to analyze, understand, and modify spreadsheets through conversation.
-When to use Claude for Excel:
-You're working with a complex multi-tab workbook and want to understand how specific formulas or calculation flows work across sheets
-You need to update assumptions or inputs across your model while preserving formula dependencies and relationships
-You're debugging spreadsheet errors like #REF!, #VALUE!, or circular references and want Claude to trace them to their source and suggest fixes
-You want to create new spreadsheets or populate existing templates with data while maintaining proper formula structure
-You need to quickly build pivot tables or charts to visualize your data
-Claude for PowerPoint
-Claude for PowerPoint brings Claude into Microsoft PowerPoint as a sidebar, so you can draft, edit, and restructure presentations through conversation while keeping your existing template and brand styling intact.
-When to use Claude for PowerPoint:
-You want to turn an outline, document, or set of notes into a first-draft slide deck without building each slide by hand
-You need to rewrite or tighten slide copy — shortening bullets, adding speaker notes, or adjusting tone for a specific audience
-You're restructuring an existing deck and want help reordering sections, splitting dense slides, or merging overlapping ones
-You want consistent formatting applied across the deck — titles, bullet styles, and layouts — without manually fixing each slide
-You'd like quick visual suggestions for a slide, such as which layout or chart type best fits the point you're making
-Claude for Chrome
-Claude for Chrome is a browser extension that adds Claude as a sidebar in Google Chrome. It can observe what you're working on and take actions directly within your browser.
-When to use Claude for Chrome:
-You want to summarize articles, research papers, or web pages while browsing
-You need help drafting email responses or managing your inbox
-You're filling out repetitive forms and want to automate the process
-You want to test website features or navigate multi-step workflows without manually clicking through each step
-You need a browsing assistant that maintains context as you move between tabs and tasks. This makes it great for pulling context from niche internal tools, CRMs, or dashboards.
-Important note:
-Claude for Chrome is currently in research preview. Anthropic recommends using it for low-risk tasks on trusted websites. The extension asks for permission before taking high-risk actions like purchasing or sharing personal data, and certain categories of websites (financial services, adult content) are blocked by default.
-Summary
-Each of these tools extends Claude's capabilities into the specific environments where you work:
-Tool
-Best for
-Where it runs
-Claude.ai
-General tasks, research, writing, analysis, file creation
-Web, desktop, and mobile apps
-Claude Code
-Software development, codebase navigation, git workflows
-Terminal/command line, IDE, or your browser
-Claude Cowork
-Complex, multi-step tasks: research briefs, document creation, file organization, data analysis
-Desktop (and mobile apps via Dispatch)
-Claude/Claude Code in Slack
-Team collaboration, meeting prep, quick answers in context
-Slack workspace
-Claude for Excel
-Spreadsheet analysis, financial modeling, formula debugging
-Microsoft Excel sidebar
-Claude for PowerPoint
-Slide creation, presentation editing, formatting and design
-Microsoft PowerPoint sidebar
-Claude for Chrome
-Web research, email management, browser automation
-Chrome browser sidebar
-What's next
-Wrap up with a short recap of this course and a quiz to earn your certificate of completion that you can share on LinkedIn, and with your team.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Các cách khác để làm việc với Claude
+
+Claude là một trí tuệ nhân tạo và Claude.ai chỉ là một cách để làm việc với nó. Claude hiện có sẵn trong một số **công cụ chuyên dụng** được thiết kế để hỗ
+trợ bạn ngay tại nơi bạn đang làm việc. Bài học này giới thiệu năm cách bổ
+sung để làm việc với Claude, mỗi cách được điều chỉnh cho các quy trình làm việc
+và trường hợp sử dụng cụ thể.
+
+## Claude Code
+
+**Claude Code** là một công cụ lập trình mang tính đại lý (agentic) hoạt động
+trong **terminal, IDE, trình duyệt hoặc thậm chí trong Slack**. Nó hiểu mã
+nguồn (codebase) của bạn, thực hiện các lệnh và xử lý toàn bộ quy trình phát
+triển thông qua ngôn ngữ tự nhiên.
+
+Bạn nên sử dụng Claude Code khi:
+*   Bạn muốn **xây dựng các tính năng** bằng cách mô tả những gì bạn cần bằng
+tiếng Anh đơn giản, và để Claude viết mã, chạy thử nghiệm và tạo các bản lưu
+(commits).
+*   Bạn cần **gỡ lỗi (debug)** bằng cách dán thông báo lỗi và để Claude phân
+tích mã nguồn của bạn nhằm xác định và khắc phục sự cố.
+*   Bạn đang tìm hiểu một mã nguồn lạ và muốn đặt câu hỏi về cách các phần khác
+nhau hoạt động cùng nhau.
+*   Bạn muốn **tự động hóa các tác vụ tẻ nhạt** như sửa lỗi định dạng (lint
+errors), giải quyết xung đột khi gộp mã (merge conflicts) hoặc viết ghi chú phát
+hành.
+*   Bạn thích làm việc trong terminal cùng với các công cụ phát triển hiện có
+của mình thay vì chuyển sang một giao diện riêng biệt.
+
+## Claude trong Slack
+
+Claude tích hợp trực tiếp với **Slack**, cho phép bạn nhận được sự trợ giúp
+trong các kênh (channels) và luồng hội thoại (threads), hoặc đưa ngữ cảnh từ
+Slack vào các cuộc trò chuyện với Claude.
+
+Bạn nên sử dụng Claude trong Slack khi:
+*   Bạn muốn **dự thảo câu trả lời** cho tin nhắn, tóm tắt các luồng tin nhắn
+dài hoặc chia nhỏ các cuộc thảo luận phức tạp mà không cần rời khỏi Slack.
+*   Bạn cần **chuẩn bị cho các cuộc họp** bằng cách yêu cầu Claude tổng hợp các
+cuộc trò chuyện liên quan và tài liệu được chia sẻ từ không gian làm việc của
+bạn.
+*   Bạn đang tiếp nhận công việc tại một nhóm mới và muốn được hỗ trợ tìm hiểu
+các dự án đang diễn ra bằng cách xem lại lịch sử kênh.
+*   Bạn muốn **chuyển giao các nhiệm vụ lập trình** trực tiếp từ một báo cáo lỗi
+hoặc thảo luận tính năng — chỉ cần gắn thẻ **@Claude** và nó có thể bắt đầu một
+phiên làm việc Claude Code bằng cách sử dụng ngữ cảnh xung quanh.
+*   Bạn cần nhanh chóng có câu trả lời về các xu hướng ngành, khái niệm kỹ thuật
+hoặc thông tin công ty trong một cuộc trò chuyện.
+
+## Claude cho Excel
+
+**Claude cho Excel** đưa Claude trực tiếp vào Microsoft Excel thông qua một
+thanh bên, cho phép bạn **phân tích, tìm hiểu và sửa đổi bảng tính** thông qua
+trò chuyện.
+
+Bạn nên sử dụng Claude cho Excel khi:
+*   Bạn đang làm việc với một sổ làm việc phức tạp có nhiều tab và muốn hiểu
+cách các công thức cụ thể hoặc dòng tính toán hoạt động giữa các trang tính.
+*   Bạn cần **cập nhật các giả định hoặc dữ liệu đầu vào** trong mô hình của
+mình trong khi vẫn bảo toàn các mối quan hệ và sự phụ thuộc của công thức.
+*   Bạn đang **gỡ lỗi các lỗi bảng tính** như #REF!, #VALUE!, hoặc tham chiếu
+vòng và muốn Claude truy xuất chúng đến nguồn gốc và đề xuất cách khắc phục.
+*   Bạn muốn tạo bảng tính mới hoặc điền dữ liệu vào các mẫu (templates) hiện có
+trong khi vẫn duy trì cấu trúc công thức phù hợp.
+*   Bạn cần nhanh chóng xây dựng các bảng pivot hoặc biểu đồ để trực quan hóa dữ
+liệu của mình.
+
+## Claude cho PowerPoint
+
+**Claude cho PowerPoint** đưa Claude vào Microsoft PowerPoint dưới dạng thanh
+bên, vì vậy bạn có thể **soạn thảo, chỉnh sửa và cấu trúc lại bài thuyết trình**
+thông qua trò chuyện trong khi vẫn giữ nguyên mẫu (template) và phong cách
+thương hiệu hiện có của bạn.
+
+Bạn nên sử dụng Claude cho PowerPoint khi:
+*   Bạn muốn biến một dàn ý, tài liệu hoặc bộ ghi chú thành **bản nháp slide đầu
+tiên** mà không cần xây dựng từng slide bằng tay.
+*   Bạn cần viết lại hoặc làm gọn nội dung slide — rút ngắn các gạch đầu dòng,
+thêm ghi chú cho người thuyết trình hoặc điều chỉnh tông giọng cho một đối tượng
+khán giả cụ thể.
+*   Bạn đang **cấu trúc lại một bộ slide hiện có** và muốn được hỗ trợ sắp xếp
+lại các phần, chia nhỏ các slide quá dày đặc hoặc hợp nhất các phần trùng lặp.
+*   Bạn muốn **áp dụng định dạng nhất quán** trên toàn bộ slide — tiêu đề, kiểu
+gạch đầu dòng và bố cục — mà không cần sửa thủ công từng slide.
+*   Bạn muốn có các gợi ý trực quan nhanh chóng cho một slide, chẳng hạn như bố
+cục hoặc loại biểu đồ nào phù hợp nhất với ý tưởng bạn đang trình bày.
+
+## Claude cho Chrome
+
+**Claude cho Chrome** là một tiện ích mở rộng trình duyệt giúp thêm Claude vào
+thanh bên trong Google Chrome. Nó có thể quan sát những gì bạn đang làm và
+**thực hiện hành động trực tiếp trong trình duyệt**. Ví dụ, Claude có thể
+giúp sắp xếp ngân sách sửa chữa nhà bằng cách thu thập thông tin từ các tài liệu
+hoạch định và email, sau đó cập nhật trực tiếp vào bảng tính của bạn.
+
+Bạn nên sử dụng Claude cho Chrome khi:
+*   Bạn muốn **tóm tắt các bài báo**, bài nghiên cứu hoặc trang web khi đang
+duyệt.
+*   Bạn cần hỗ trợ soạn thảo phản hồi email hoặc quản lý hộp thư đến.
+*   Bạn đang điền các biểu mẫu lặp đi lặp lại và muốn **tự động hóa quy trình**.
+*   Bạn muốn kiểm tra các tính năng của trang web hoặc điều hướng các quy trình
+làm việc nhiều bước mà không cần nhấp chuột thủ công qua từng bước.
+*   Bạn cần một trợ lý duyệt web duy trì ngữ cảnh khi bạn di chuyển giữa các tab
+và tác vụ, điều này rất tốt để lấy ngữ cảnh từ các công cụ nội bộ chuyên dụng,
+CRM hoặc bảng điều khiển (dashboards).
+
+**Lưu ý quan trọng:** Claude cho Chrome hiện đang trong giai đoạn xem trước
+nghiên cứu (research preview). Anthropic khuyên bạn nên sử dụng nó cho các
+tác vụ ít rủi ro trên các trang web đáng tin cậy. Tiện ích này sẽ yêu cầu
+quyền trước khi thực hiện các hành động có rủi ro cao và một số loại trang web
+(tài chính, nội dung người lớn) bị chặn theo mặc định.
+
+## Tóm tắt các công cụ và môi trường hoạt động
+
+Dưới đây là bảng tổng hợp các công cụ Claude và mục đích sử dụng tốt nhất của
+chúng:
+
+| Công cụ | Tốt nhất cho | Nơi hoạt động |
+| :--- | :--- | :--- |
+| **Claude.ai** | Các tác vụ chung, nghiên cứu, viết lách, phân tích, tạo tệp |
+Web, ứng dụng máy tính và di động |
+| **Claude Code** | Phát triển phần mềm, điều hướng mã nguồn, quy trình làm việc
+với git | Terminal/dòng lệnh, IDE, hoặc trình duyệt |
+| **Claude Cowork** | Các tác vụ phức tạp, nhiều bước: tóm tắt nghiên cứu, tạo
+tài liệu, tổ chức tệp, phân tích dữ liệu | Máy tính (và ứng dụng di động qua
+Dispatch) |
+| **Claude/Claude Code trong Slack** | Cộng tác nhóm, chuẩn bị họp, trả lời
+nhanh theo ngữ cảnh | Không gian làm việc Slack |
+| **Claude cho Excel** | Phân tích bảng tính, mô hình tài chính, gỡ lỗi công
+thức | Thanh bên Microsoft Excel |
+| **Claude cho PowerPoint** | Tạo slide, chỉnh sửa thuyết trình, định dạng và
+thiết kế | Thanh bên Microsoft PowerPoint |
+| **Claude cho Chrome** | Nghiên cứu web, quản lý email, tự động hóa trình duyệt
+| Thanh bên trình duyệt Chrome |
+
+Bạn có muốn tôi tạo một bộ thẻ học (flashcards) để giúp bạn ghi nhớ các trường
+hợp sử dụng của từng công cụ này không?
+
+Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
 ## Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">

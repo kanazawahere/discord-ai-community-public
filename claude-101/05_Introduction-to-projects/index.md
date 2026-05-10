@@ -6,128 +6,146 @@ nav_order: 5
 
 # Introduction to projects
 
-Explain what projects are and when to use them
-Create a new project with a name, description, and visibility settings
-Add documents and files to your project's knowledge base
-Write effective project instructions to guide Claude's behavior
-Share projects with teammates (for Claude for Work (Team and Enterprise plan) users)
-Video
-[Video: Introduction to Projects - Getting started with projects in Claude.ai]
-Key takeaways
-Projects are self-contained workspaces
-with their own memory, chat histories, knowledge bases, and customized instructions. Think of them as dedicated environments for specific work streams.
-Project knowledge enhances Claude's understanding
-by letting you upload relevant documents that Claude references across all chats within that project. No more re-uploading the same files each time.
-Project instructions guide Claude's behavior
-—you can specify tone, expertise level, response style, and more. These instructions apply to every conversation within the project.
-Projects scale automatically.
-When your knowledge base approaches context limits, Claude seamlessly enables Retrieval Augmented Generation (RAG) mode to expand capacity by up to 10x while maintaining response quality.
-For Claude for Work users, projects enable collaboration.
-Share projects with teammates so everyone benefits from the same context, instructions, and accumulated knowledge.
-What are Projects?
-Projects are ideal for storing knowledge Claude should reference, organizing related chats around a specific topic or work area, and collaborating with team members who need access to the same shared context.
-When to use Projects
-Projects are particularly valuable when you're working on something ongoing—not just a one-off question. Consider creating a project when you have a workflow with:
-Reference materials you'll use repeatedly
-(meeting notes, survey results, reports, historical data, etc.)
-Consistent requirements
-for how Claude should respond (always use formal language, always cite sources, always follow our template)
-Team collaboration needs
-where multiple people should work from the same foundation
-Creating your first project
-Setting up a project takes just a few minutes. Here's how to get started:
-Step 1: Set up your project
-Hover over the left sidebar and click "Projects," or navigate directly to claude.ai/projects
-Click "+ New Project" in the upper right corner
-Give your project a descriptive name (e.g., "Q4 Marketing Campaign" or "Product Documentation")
-Add a brief description of what you're working on. While Claude doesn't see this description directly, it helps you and your teammates understand the project's purpose.
-Choose your visibility settings: keep it private or share with your organization (for Claude for Work users)
-Step 2: Add project instructions
-Project instructions tell Claude how to behave across all conversations in this project. Click on "Instructions" to open the instructions panel.
-Good project instructions typically include:
-Context about what you're working on:
-"This project is for creating marketing content for our B2B software product."
-Process instructions:
-"First consider a blog structure that will entice this audience, then write the draft."
-Tone and style preferences:
-"Use a professional but conversational tone. Avoid jargon when possible."
-Specific requirements:
-"Always include a call-to-action at the end of marketing copy."
-Once you've written your instructions, click "Save instructions." These will apply to every chat in this project and work alongside any user preferences and styles you've set.
-You can also use project instructions to automate workflows — for example, "When I upload a meeting transcript, create a structured summary using this template." Think of instructions as programming Claude's behavior for this project.
-Step 3: Build your knowledge base
-Your project's knowledge base is where you upload documents that Claude should reference. You'll find the files menu on the right side of your project's main page.
-Click the "+" button to add content. You can upload various file types including PDF, DOCX, CSV, TXT, HTML, and more. You can also connect to Google Drive to link documents directly.
-What to upload:
-Reference documents (brand guidelines, style guides, templates)
-Background materials (research reports, meeting notes, requirements docs)
-Examples of work you want Claude to emulate
-Technical documentation or specifications
-Pro tip:
-Name your files descriptively. Claude uses file names to understand and retrieve the right information, so "Q4-2024-Brand-Guidelines.pdf" is more helpful than "document1.pdf."
-How projects handle large knowledge bases
-You might wonder what happens when you upload a lot of content. Projects automatically scale to handle large amounts through a process called Retrieval Augmented Generation (RAG). At a high level, this means that Claude can automatically find and use the most relevant parts of your uploaded documents when answering, without you needing to tell it which file to look at.
-When your project knowledge approaches the context window limit, Claude seamlessly enables RAG mode. Instead of loading all project content into memory at once, Claude intelligently searches and retrieves only the most relevant information needed to answer your questions. This expands your project's capacity by up to 10x while maintaining response quality.
-You'll see a visual indicator when your project is RAG-enabled, but the experience should feel the same—you can still upload documents, chat with Claude, and get context-aware responses.
-Working within your project
-Once your project is set up, you can start chatting with Claude. Each conversation within the project automatically has access to your knowledge base and follows your project instructions.
-Collaboration features
-For users on Claude for Work (Team and Enterprise) plans, projects become even more powerful through collaboration features.
-Permission levels
-When sharing a project, you can choose from three permission levels:
-Can view:
-Members can see project contents, access knowledge, and chat—but can't make changes. Think of this as read-only access with discussion rights.
-Can edit:
-Members have full collaboration power. They can modify instructions, update knowledge, manage other members, and actively contribute to the project.
-Owner:
-Project creators control everything, including who sees the project. They can share with specific people or make projects visible to the entire organization.
-Sharing your project
-To share a project:
-Open the project you want to share
-Click the "Share project" button to the right of the project name
-Add individual members using their name or email, or copy and paste a list of email addresses for bulk sharing (in this case, the project will show up in their "Shared with you" section)
-Or, share with "Everyone at [your organization]" to make your project discoverable within the Team tab
-Team members will receive email notifications when you share a project with them, and they can find shared projects in their "Shared with me" tab.
-Example projects to inspire you
-Not sure where to start? Here are some common project types across different functions:
-Q4 product launch:
-Upload your product specs, competitive analysis, and messaging brainstorming notes. Claude will have this context top of mind for any inquiry or document draft.
-Research support:
-Centralize your competitive review, user research data, and customer feedback. Claude can help you synthesize sources, draft reports, and maintain consistency across recommendations.
-Client account hub:
-Keep your client's brand guidelines, past deliverables, and communication history in one place. Set instructions so Claude matches their tone and references their specific context when creating proposals or reports.
-Event planning workspace:
-Upload venue contracts, speaker bios, and attendee data. Claude can help generate run-of-show documents, attendee communications, and post-event reports that stay consistent with your event's theme.
-Job description generator:
-Gather past job descriptions, team charters, and internal headcount request docs. Work with Claude to draft job descriptions that reflect your team's actual work and culture.
-Best practices for projects
-To get the most out of projects:
-Start focused, then expand.
-Begin with a specific use case rather than trying to create one project for everything. You can always add more content as you go.
-Keep your knowledge base current.
-Outdated documents can lead to outdated responses. Review and update your project knowledge periodically.
-Write clear instructions.
-Be specific about what you want. Vague instructions lead to inconsistent results.
-Name your documents descriptively.
-(e.g., 'Q4-2025-Sales-Report.pdf' not 'report.pdf') and group related files together. Claude uses filenames and proximity to understand relationships between documents.
-Reference documents by name.
-When asking questions, you can mention specific documents to help Claude focus its search: "Based on our Q3 report, what were the top customer concerns?"
-Lesson reflection
-Before moving on, consider:
-What ongoing work could benefit from having a dedicated project with persistent context?
-What documents do you expect you'll be re-uploading or re-explaining to Claude on a regular basis?
-If you're on a team, are there projects that would benefit from shared knowledge and instructions?
-What's next
-In the next lesson, we'll learn how to create mini-apps with Artifacts — actual outputs that Claude build and you can share right away.
-For more information on getting started with projects, visit the
-Anthropic Help Center
-.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Giới thiệu về Projects
+Projects là các không gian làm việc độc lập, có bộ nhớ, lịch sử trò chuyện, cơ
+sở tri thức và các hướng dẫn tùy chỉnh riêng. Hãy coi chúng là những môi
+trường dành riêng cho các luồng công việc cụ thể.
+
+**Các điểm mấu chốt cần lưu ý:**
+*   **Cơ sở tri thức dự án:** Nâng cao khả năng hiểu biết của Claude bằng cách
+cho phép bạn tải lên các tài liệu liên quan mà Claude sẽ tham chiếu trong tất cả
+các cuộc trò chuyện thuộc dự án đó. Bạn sẽ không còn phải tải lên cùng một
+tệp nhiều lần.
+*   **Hướng dẫn dự án:** Cho phép bạn chỉ dẫn hành vi của Claude như chỉ định
+tông giọng, mức độ chuyên môn, phong cách phản hồi và nhiều yếu tố khác.
+Những hướng dẫn này được áp dụng cho mọi cuộc hội thoại trong dự án.
+*   **Khả năng mở rộng tự động:** Khi cơ sở tri thức tiến gần đến giới hạn ngữ
+cảnh, Claude sẽ kích hoạt chế độ **Retrieval Augmented Generation (RAG)** một
+cách liền mạch để mở rộng dung lượng lên tới 10 lần trong khi vẫn duy trì chất
+lượng phản hồi.
+*   **Khả năng cộng tác:** Đối với người dùng Claude for Work (gói Team và
+Enterprise), bạn có thể chia sẻ dự án với đồng nghiệp để mọi người cùng hưởng
+lợi từ chung một ngữ cảnh, hướng dẫn và kho tri thức tích lũy.
+
+## Khi nào nên sử dụng Projects?
+Projects lý tưởng để lưu trữ các kiến thức mà bạn muốn Claude tham chiếu, sắp
+xếp các cuộc trò chuyện liên quan đến một chủ đề hoặc khu vực làm việc cụ thể,
+và cộng tác với các thành viên trong nhóm.
+
+Bạn nên cân nhắc tạo một dự án khi có quy trình làm việc đang diễn ra (không chỉ
+là một câu hỏi ngắn gọn) với:
+*   **Tài liệu tham khảo sử dụng nhiều lần:** Như ghi chú cuộc họp, kết quả khảo
+sát, báo cáo, dữ liệu lịch sử, v.v.
+*   **Yêu cầu nhất quán về cách phản hồi:** Ví dụ: Claude luôn phải sử dụng ngôn
+ngữ trang trọng, luôn trích dẫn nguồn hoặc luôn tuân theo một biểu mẫu nhất định.
+*   **Nhu cầu cộng tác nhóm:** Khi nhiều người cần làm việc trên cùng một nền
+tảng dữ liệu chung.
+
+## Các bước tạo dự án đầu tiên
+Việc thiết lập một dự án chỉ mất vài phút theo các bước sau:
+
+**Bước 1: Thiết lập dự án**
+*   Di chuột qua thanh bên trái và nhấp vào "Projects" hoặc truy cập trực tiếp
+`claude.ai/projects`.
+*   Nhấp vào "+ New Project" ở góc trên bên phải.
+*   Đặt tên mô tả cho dự án (ví dụ: "Chiến dịch Marketing Q4" hoặc "Tài liệu sản
+phẩm").
+*   Thêm mô tả ngắn gọn về mục đích công việc. Mặc dù Claude không trực tiếp
+thấy mô tả này, nó giúp bạn và đồng nghiệp hiểu mục đích của dự án.
+*   Chọn cài đặt hiển thị: giữ ở chế độ riêng tư (private) hoặc chia sẻ với tổ
+chức của bạn (dành cho người dùng Claude for Work).
+
+**Bước 2: Thêm hướng dẫn dự án (Project Instructions)**
+Hướng dẫn dự án quy định cách Claude hành xử trong tất cả các cuộc hội thoại
+thuộc dự án này. Một bản hướng dẫn tốt thường bao gồm:
+*   **Ngữ cảnh công việc:** "Dự án này dùng để tạo nội dung marketing cho sản
+phẩm phần mềm B2B của chúng tôi".
+*   **Hướng dẫn quy trình:** "Trước tiên hãy cân nhắc cấu trúc bài blog để thu
+hút khán giả, sau đó mới viết bản thảo".
+*   **Tông giọng và phong cách:** "Sử dụng tông giọng chuyên nghiệp nhưng mang
+tính đối thoại. Tránh dùng thuật ngữ chuyên môn quá sâu nếu có thể".
+*   **Yêu cầu cụ thể:** "Luôn bao gồm lời kêu gọi hành động (call-to-action) ở
+cuối nội dung marketing".
+
+Bạn cũng có thể dùng hướng dẫn để tự động hóa quy trình, ví dụ: "Khi tôi tải lên
+bản ghi cuộc họp, hãy tạo bản tóm tắt theo cấu trúc mẫu này".
+
+**Bước 3: Xây dựng cơ sở tri thức**
+Đây là nơi bạn tải lên các tài liệu mà Claude nên tham chiếu.
+*   **Loại tệp hỗ trợ:** PDF, DOCX, CSV, TXT, HTML và nhiều loại khác. Bạn
+cũng có thể kết nối với Google Drive để liên kết tài liệu trực tiếp.
+*   **Những gì nên tải lên:** Tài liệu tham khảo (hướng dẫn thương hiệu, mẫu
+thiết kế), tài liệu nền tảng (báo cáo nghiên cứu, ghi chú cuộc họp), các ví dụ
+công việc mẫu hoặc tài liệu kỹ thuật.
+*   **Mẹo chuyên nghiệp:** Đặt tên tệp rõ ràng. Claude sử dụng tên tệp để hiểu
+và truy xuất thông tin, vì vậy "Huong-dan-thuong-hieu-Q4-2024.pdf" sẽ hữu ích
+hơn là "document1.pdf".
+
+## Cách Projects xử lý dữ liệu lớn (RAG)
+Khi bạn tải lên lượng lớn nội dung, Claude sẽ tự động kích hoạt chế độ
+**Retrieval Augmented Generation (RAG)**. Ở cấp độ cao, điều này có nghĩa là
+Claude có thể tự động tìm và sử dụng những phần liên quan nhất trong các tài
+liệu đã tải lên để trả lời, mà không cần bạn phải chỉ rõ tệp nào cần xem.
+
+Khi cơ sở tri thức gần chạm giới hạn, RAG cho phép Claude tìm kiếm thông tin một
+cách thông minh thay vì nạp toàn bộ vào bộ nhớ cùng lúc. Điều này giúp mở
+rộng khả năng của dự án lên gấp 10 lần mà vẫn đảm bảo chất lượng câu trả lời. Bạn sẽ thấy một chỉ báo trực quan khi chế độ RAG được bật.
+
+## Các tính năng cộng tác
+Đối với người dùng gói Team và Enterprise, dự án cung cấp ba cấp độ phân quyền:
+*   **Can view (Có thể xem):** Thành viên có thể xem nội dung, truy cập kiến
+thức và trò chuyện, nhưng không thể thay đổi thiết lập. Đây là quyền "chỉ đọc"
+kèm theo quyền thảo luận.
+*   **Can edit (Có thể chỉnh sửa):** Thành viên có toàn quyền cộng tác: sửa
+hướng dẫn, cập nhật kiến thức và quản lý các thành viên khác.
+*   **Owner (Chủ sở hữu):** Người tạo dự án kiểm soát mọi thứ, bao gồm cả việc
+ai có quyền xem dự án.
+
+Bạn có thể chia sẻ dự án cho từng cá nhân qua email hoặc chia sẻ với toàn bộ tổ
+chức để dự án xuất hiện trong tab "Shared with you" của đồng nghiệp.
+
+## Các ví dụ về dự án để lấy cảm hứng
+*   **Launch sản phẩm Q4:** Tải lên thông số sản phẩm, phân tích đối thủ và ghi
+chú ý tưởng thông điệp.
+*   **Hỗ trợ nghiên cứu:** Tập trung các đánh giá cạnh tranh, dữ liệu nghiên cứu
+người dùng và phản hồi của khách hàng.
+*   **Trung tâm tài khoản khách hàng:** Lưu giữ hướng dẫn thương hiệu, các sản
+phẩm đã bàn giao trước đó và lịch sử giao tiếp của khách hàng.
+*   **Lập kế hoạch sự kiện:** Tải lên hợp đồng địa điểm, tiểu sử diễn giả và dữ
+liệu người tham dự.
+*   **Tạo mô tả công việc:** Tập hợp các bản mô tả công việc cũ, hiến chương
+nhóm và các tài liệu yêu cầu nhân sự nội bộ.
+*   **Phát triển sản phẩm mới:** Quản lý quy trình từ lên ý tưởng đến ra mắt (ví
+dụ: bình nước thân thiện môi trường).
+*   **Tài chính cá nhân:** Theo dõi, phân tích chi tiêu và lập kế hoạch ngân
+sách ở một nơi an toàn.
+*   **Cải tạo nhà cửa:** Tập trung ý tưởng thiết kế, tính toán ngân sách và theo
+dõi các quyết định.
+
+## Các phương pháp hay nhất (Best Practices)
+Để đạt hiệu quả cao nhất với Projects:
+1.  **Bắt đầu tập trung, sau đó mở rộng:** Bắt đầu với một trường hợp sử dụng cụ
+thể thay vì cố gắng tạo một dự án cho tất cả mọi thứ.
+2.  **Giữ cơ sở tri thức luôn mới:** Tài liệu cũ có thể dẫn đến phản hồi lỗi
+thời. Hãy kiểm tra và cập nhật định kỳ.
+3.  **Viết hướng dẫn rõ ràng:** Hãy cụ thể về những gì bạn muốn. Hướng dẫn mơ hồ
+dẫn đến kết quả không nhất quán.
+4.  **Đặt tên tài liệu mang tính mô tả:** Ví dụ dùng "Bao-cao-sales-Q4-2025.pdf"
+thay vì "baocao.pdf".
+5.  **Tham chiếu tài liệu bằng tên:** Khi đặt câu hỏi, hãy nhắc đến tên tài liệu
+cụ thể để giúp Claude tìm kiếm tập trung hơn, ví dụ: "Dựa trên báo cáo Q3 của
+chúng ta, những lo ngại hàng đầu của khách hàng là gì?".
+
+## Suy ngẫm về bài học
+Trước khi kết thúc, hãy cân nhắc:
+*   Công việc định kỳ nào của bạn có thể hưởng lợi từ một dự án với ngữ cảnh cố
+định?
+*   Những tài liệu nào bạn thường xuyên phải tải lên lại hoặc giải thích lại cho
+Claude?
+*   Nếu bạn làm việc theo nhóm, những dự án nào sẽ hiệu quả hơn nếu có kiến thức
+và hướng dẫn chung?.
+
+Resumed conversation: 446ad0bb-986d-4f68-a739-12c699daddad
 ## Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem;">

@@ -6,78 +6,114 @@ nav_order: 9
 
 # Enterprise search
 
-Explain what Enterprise Search is and the types of questions Enterprise Search can answer
-Understand how the setup process works for both admins and users
-Recognize how security and permissions protect organizational data
-Plan availability:
-Enterprise Search is available on Team and Enterprise plans, and must be enabled by a workspace admin. If you're on a Free, Pro, or Max plan, you can skip this lesson.
-What is Enterprise Search?
-Enterprise Search adds a dedicated "Ask {Your Org Name}" option to your sidebar. This is designed specifically for finding and synthesizing knowledge buried across your company's tools and data sources. Think of Enterprise Search as a pre-built Project for your entire organization — your company's knowledge base is already loaded, so you can jump right in to get context-aware responses to your questions.
-Unlike regular chats with connectors enabled, Enterprise Search is specifically designed for information gathering, using custom instructions configured by the Anthropic team.
-What can you ask?
-Enterprise Search is particularly valuable for questions that span multiple sources or require synthesizing information from across your organization. Here are some common use cases:
-Getting up to speed
-"What happened yesterday while I was out?"
-"Summarize key updates across the business from the last week"
-"What are the current blockers on the Platform project?"
-Policy and process questions
-"What is our company's remote work policy?"
-"How do I submit an expense report?"
-"What's the process for requesting time off?"
-Research and analysis
-"What are the main reasons customers cite for choosing competitors?"
-"Summarize discussions about the Q4 product roadmap"
-"Find information about our customer onboarding process"
-Onboarding new team members
-"How does our authentication system work?"
-"Who should I talk to about learning the billing system?"
-"What tools does the engineering team use for deployment?"
-Performance and project tracking
-"Find discussions and documents related to the marketing campaign"
-"What were the key decisions from last week's leadership meetings?"
-"Summarize team contributions to the Infrastructure initiative"
-When you ask a question, Claude searches across all your connected tools—such as SharePoint documents, Slack conversations, Gmail threads, and Google Drive files—and synthesizes information into a unified response. Plus, it always cites its sources so you can get the full context.
-Setting up Enterprise Search
-Enterprise Search requires a
-**two-step setup process**: first an admin configures it for the organization, then individual users authenticate with their personal accounts.
-For admins (Owners)
-The Enterprise Search project is enabled by default for all Team and Enterprise organizations, but an Owner needs to complete the initial setup before team members can use it:
-Click "Ask Your Org" in the left sidebar.
-Click "Set up for your org" to continue (or "Disable" to turn the feature off).
-Connect your organization's tools. You'll be required to choose a connector for
-Documents
-(like Google Drive or SharePoint) and
-Chat
-(like Slack or Microsoft Teams). Email is recommended but optional.
-Click "+ Add more" to set up any additional tools your team needs.
-Customize the project name. Whatever you enter will appear as "Ask [Name]" in everyone's sidebar.
-Add a description, then click "Finish set up."
-Once setup is complete, the project becomes available to all members of your organization.
-For users
-After an admin has set up Enterprise Search, you'll see the "Ask {Org Name}" project starred in your sidebar. Here's how to get started:
-Click on the project in your sidebar.
-Follow the guided onboarding flow to connect to the recommended services.
-Authenticate with each service you want to search (Slack, Google, Microsoft 365, etc.).
-Start asking Claude questions about your organization's knowledge.
-The more connectors you enable, the more comprehensive your search results will be. You can always add more connectors later by clicking "Connect" in the project's Instructions section.
-That's a lot of data … is this safe?
-In short, yes. Enterprise Search only shows what you already have permission to access in the original connected tool. Plus, your conversations remain private, and your connected data isn't indexed or stored separately.
-Lesson reflection
-Before moving on, consider:
-What questions do you frequently ask colleagues that could be answered by searching your organization's documents and communications?
-Are there onboarding or training scenarios where Enterprise Search could help new team members get up to speed faster?
-Which data sources would be most valuable to connect for your specific role?
-What's next
-In the next lesson, you'll learn about Research mode—Claude's capability for deep, multi-step investigations that go beyond quick lookups to comprehensive analysis.
-For more information on Enterprise Search, visit the
-Anthropic Help Center
-.
-Feedback
-As you progress through the course, we'd love to hear from you about how you are using concepts from the course in your work and any feedback you may have. Share your feedback
-here
-.
-Acknowledgments and license
-Copyright 2025 Anthropic. All rights reserved.
+## Tìm kiếm Doanh nghiệp (Enterprise Search)
+
+**Tìm kiếm Doanh nghiệp** (Enterprise Search) bổ sung thêm một tùy chọn chuyên
+dụng "Hỏi {Tên tổ chức của bạn}" vào thanh bên của bạn. Tính năng này được
+thiết kế đặc biệt để tìm kiếm và tổng hợp kiến thức bị chôn vùi trong các công
+cụ và nguồn dữ liệu khác nhau của công ty bạn. Bạn có thể coi Tìm kiếm Doanh
+nghiệp như một Dự án (Project) được xây dựng sẵn cho toàn bộ tổ chức — kho kiến
+thức của công ty bạn đã được tải sẵn, vì vậy bạn có thể bắt đầu ngay để nhận
+được các câu trả lời phù hợp với ngữ cảnh cho các câu hỏi của mình. Khác với
+các cuộc trò chuyện thông thường có bật trình kết nối, Tìm kiếm Doanh nghiệp
+được thiết kế riêng cho việc thu thập thông tin, sử dụng các hướng dẫn tùy chỉnh
+được cấu hình bởi đội ngũ Anthropic.
+
+## Các gói dịch vụ hỗ trợ
+
+Tính năng Tìm kiếm Doanh nghiệp khả dụng trên các gói **Team** và
+**Enterprise**, và phải được bật bởi quản trị viên không gian làm việc. Nếu
+bạn đang sử dụng gói Miễn phí (Free), Pro hoặc Max, bạn có thể bỏ qua phần này.
+
+## Bạn có thể hỏi những gì?
+
+Tìm kiếm Doanh nghiệp đặc biệt có giá trị đối với các câu hỏi trải dài trên
+nhiều nguồn hoặc yêu cầu tổng hợp thông tin từ khắp nơi trong tổ chức của bạn. Dưới đây là một số trường hợp sử dụng phổ biến:
+
+*   **Cập nhật tình hình:**
+    *   "Chuyện gì đã xảy ra ngày hôm qua khi tôi vắng mặt?".
+    *   "Tóm tắt các cập nhật quan trọng trong toàn bộ doanh nghiệp từ tuần
+trước".
+    *   "Những rào cản hiện tại đối với dự án Platform là gì?".
+*   **Câu hỏi về chính sách và quy trình:**
+    *   "Chính sách làm việc từ xa của công ty chúng ta là gì?".
+    *   "Làm thế nào để tôi nộp báo cáo chi phí?".
+    *   "Quy trình yêu cầu nghỉ phép là gì?".
+*   **Nghiên cứu và phân tích:**
+    *   "Lý do chính mà khách hàng đưa ra khi chọn đối thủ cạnh tranh là gì?".
+    *   "Tóm tắt các cuộc thảo luận về lộ trình sản phẩm Quý 4".
+    *   "Tìm thông tin về quy trình tiếp nhận khách hàng mới của chúng ta".
+*   **Tiếp nhận thành viên mới:**
+    *   "Hệ thống xác thực của chúng ta hoạt động như thế nào?".
+    *   "Tôi nên nói chuyện với ai để tìm hiểu về hệ thống thanh toán?".
+    *   "Nhóm kỹ thuật sử dụng những công cụ nào để triển khai (deployment)?".
+*   **Theo dõi hiệu suất và dự án:**
+    *   "Tìm các thảo luận và tài liệu liên quan đến chiến dịch marketing".
+    *   "Những quyết định quan trọng từ các cuộc họp lãnh đạo tuần trước là gì?".
+    *   "Tóm tắt những đóng góp của nhóm cho sáng kiến Cơ sở hạ tầng
+(Infrastructure)".
+
+Khi bạn đặt câu hỏi, Claude sẽ tìm kiếm trên tất cả các công cụ đã kết nối của
+bạn — chẳng hạn như tài liệu SharePoint, các cuộc hội thoại Slack, luồng email
+Gmail và tệp Google Drive — sau đó tổng hợp thông tin thành một câu trả lời
+thống nhất. Ngoài ra, nó luôn trích dẫn nguồn để bạn có thể nắm bắt đầy đủ
+ngữ cảnh.
+
+## Thiết lập Tìm kiếm Doanh nghiệp cho Quản trị viên (Chủ sở hữu)
+
+Dự án Tìm kiếm Doanh nghiệp được bật theo mặc định cho tất cả các tổ chức gói
+Team và Enterprise, nhưng Chủ sở hữu cần hoàn tất thiết lập ban đầu trước khi
+các thành viên trong nhóm có thể sử dụng:
+
+1.  Nhấp vào **"Ask Your Org"** (Hỏi tổ chức của bạn) ở thanh bên trái.
+2.  Nhấp vào **"Set up for your org"** (Thiết lập cho tổ chức của bạn) để tiếp
+tục (hoặc "Disable" để tắt tính năng này).
+3.  **Kết nối các công cụ của tổ chức:** Bạn sẽ được yêu cầu chọn một trình kết
+nối cho Tài liệu (như Google Drive hoặc SharePoint) và Trò chuyện (như Slack
+hoặc Microsoft Teams). Email được khuyến khích nhưng không bắt buộc.
+4.  Nhấp vào **"+ Add more"** để thiết lập bất kỳ công cụ bổ sung nào mà nhóm
+của bạn cần.
+5.  **Tùy chỉnh tên dự án:** Bất cứ tên nào bạn nhập sẽ xuất hiện dưới dạng "Hỏi
+[Tên]" trong thanh bên của mọi người.
+6.  Thêm mô tả, sau đó nhấp vào **"Finish set up"** (Hoàn tất thiết lập).
+
+Sau khi thiết lập hoàn tất, dự án sẽ hiển thị cho tất cả thành viên trong tổ
+chức của bạn.
+
+## Thiết lập dành cho người dùng
+
+Sau khi quản trị viên đã thiết lập Tìm kiếm Doanh nghiệp, bạn sẽ thấy dự án "Ask
+{Tên tổ chức}" được gắn dấu sao trong thanh bên của mình. Dưới đây là cách
+bắt đầu:
+
+1.  Nhấp vào dự án trong thanh bên của bạn.
+2.  Làm theo quy trình hướng dẫn để kết nối với các dịch vụ được đề xuất.
+3.  Xác thực với từng dịch vụ bạn muốn tìm kiếm (Slack, Google, Microsoft 365,
+v.v.).
+
+Hãy bắt đầu đặt câu hỏi cho Claude về kiến thức của tổ chức bạn. Bạn càng
+bật nhiều trình kết nối, kết quả tìm kiếm của bạn sẽ càng toàn diện. Bạn
+luôn có thể thêm nhiều trình kết nối hơn sau này bằng cách nhấp vào "Connect"
+trong phần Instructions (Hướng dẫn) của dự án.
+
+## Tính an toàn và bảo mật dữ liệu
+
+Với một lượng dữ liệu khổng lồ như vậy, câu hỏi đặt ra là liệu nó có an toàn
+không? Câu trả lời ngắn gọn là: **Có**. Tìm kiếm Doanh nghiệp chỉ hiển thị
+những gì bạn đã có quyền truy cập trong công cụ gốc được kết nối. Thêm vào
+đó, các cuộc trò chuyện của bạn vẫn ở chế độ riêng tư, và dữ liệu được kết nối
+của bạn không bị lập chỉ mục hoặc lưu trữ riêng biệt.
+
+## Suy ngẫm về bài học
+
+Trước khi tiếp tục, hãy cân nhắc các câu hỏi sau:
+*   Những câu hỏi nào bạn thường xuyên hỏi đồng nghiệp mà có thể được trả lời
+bằng cách tìm kiếm trong tài liệu và thông tin liên lạc của tổ chức?.
+*   Có kịch bản tiếp nhận hoặc đào tạo nào mà Tìm kiếm Doanh nghiệp có thể giúp
+các thành viên mới bắt kịp tốc độ nhanh hơn không?.
+*   Nguồn dữ liệu nào sẽ có giá trị nhất để kết nối cho vai trò cụ thể của bạn?.
+
+Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
 ## Câu hỏi ôn tập
 
