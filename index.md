@@ -12,7 +12,7 @@ Tuyển tập các khóa học về AI, Claude và các công cụ Anthropic dà
 ## Danh sách khóa học
 
 ### [Claude 101](claude-101/)
-This certificate verifies that NGUYỄN KIÊN completed Claude 101...
+
 *14 bài học*
 
 

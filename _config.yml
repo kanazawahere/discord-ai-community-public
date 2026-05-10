@@ -13,9 +13,6 @@ search_enabled: true
 search.heading_level: 2
 nav_sort: order
 
-# Footer
-footer_content: "Nội dung từ Anthropic Academy. Việt hóa bởi cộng đồng Ai Hoán Giải Cục."
-
 # Build settings
 markdown: kramdown
 kramdown:
