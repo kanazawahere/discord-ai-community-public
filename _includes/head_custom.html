@@ -1,0 +1,43 @@
+<style>
+.quiz-vn{margin:2rem 0;border:1px solid #e0e0e0;border-radius:8px;overflow:hidden}
+.quiz-tabs{display:flex;background:#f5f5f5;border-bottom:1px solid #e0e0e0}
+.qtab{flex:1;padding:.6rem 1rem;border:none;background:none;cursor:pointer;font-size:.9rem;font-family:inherit}
+.qtab.active{background:white;font-weight:bold;border-bottom:2px solid #4a90d9}
+.quiz-panel{padding:1.5rem}
+.qitem{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #f0f0f0}
+.qitem:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.qtext{font-weight:500;margin-bottom:.75rem}
+.qchoices label{display:block;margin:.4rem 0;cursor:pointer;padding:.4rem .6rem;border-radius:4px;transition:background .15s}
+.qchoices label:hover{background:#f5f5f5}
+.qchoices label.correct{background:#d4edda}
+.qchoices label.wrong{background:#f8d7da}
+.qcheck{margin-top:.75rem;padding:.4rem 1rem;background:#4a90d9;color:white;border:none;border-radius:4px;cursor:pointer;font-family:inherit}
+.qcheck:disabled{background:#aaa;cursor:default}
+.qfeedback{margin-top:.75rem;padding:.75rem;background:#f0f7ff;border-radius:4px;border-left:3px solid #4a90d9;font-size:.9rem}
+.fc-deck{margin:2rem 0}
+.fc-progress{text-align:center;color:#666;margin-bottom:.75rem;font-size:.9rem}
+.fc-scene{perspective:1000px;height:180px;cursor:pointer;margin-bottom:.75rem;user-select:none}
+.fc-card-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .4s}
+.fc-scene.flipped .fc-card-inner{transform:rotateY(180deg)}
+.fc-front,.fc-back{position:absolute;width:100%;height:100%;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;align-items:center;justify-content:center;padding:1.2rem;border-radius:8px;text-align:center;box-sizing:border-box}
+.fc-front{background:#fff;border:2px solid #4a90d9;font-weight:500}
+.fc-back{background:#e8f4fd;border:2px solid #4a90d9;transform:rotateY(180deg)}
+.fc-hint{text-align:center;color:#aaa;font-size:.75rem;margin-bottom:.5rem}
+.fc-nav{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.fc-nav button{padding:.4rem .9rem;border:1px solid #ddd;background:white;border-radius:4px;cursor:pointer;font-family:inherit}
+.fc-know{background:#d4edda !important;border-color:#28a745 !important}
+.fc-unknown{background:#f8d7da !important;border-color:#dc3545 !important}
+.fc-stats{text-align:center;margin-top:.6rem;font-size:.85rem;color:#666}
+.mm-wrap{margin:2rem 0;border:1px solid #e0e0e0;border-radius:8px;overflow:hidden}
+.mm-wrap svg.markmap{display:block;width:100%;height:420px}
+</style>
+<script>
+function qTab(btn,id){var c=document.getElementById(id);c.querySelectorAll('.qtab').forEach(function(b){b.classList.remove('active')});c.querySelectorAll('.quiz-panel').forEach(function(p){p.style.display='none'});btn.classList.add('active');c.querySelector('.quiz-panel[data-level="'+btn.dataset.level+'"]').style.display=''}
+function checkAnswer(btn){var item=btn.closest('.qitem');var correct=item.dataset.correct;var sel=item.querySelector('input[type=radio]:checked');if(!sel)return;item.querySelectorAll('.qchoices label').forEach(function(lbl){lbl.classList.remove('correct','wrong');if(lbl.dataset.choice===correct)lbl.classList.add('correct');else if(lbl.querySelector('input:checked'))lbl.classList.add('wrong')});item.querySelector('.qfeedback').style.display='';btn.disabled=true}
+function fcFlip(el){el.classList.toggle('flipped')}
+function fcMove(id,dir){var d=document.getElementById(id);var cards=JSON.parse(d.dataset.cards);var cur=parseInt(d.dataset.cur||0);fcShow(d,cards,((cur+dir)%cards.length+cards.length)%cards.length)}
+function fcKnow(id,known){var d=document.getElementById(id);var ks=JSON.parse(d.dataset.known||'[]');var cur=parseInt(d.dataset.cur||0);var idx=ks.indexOf(cur);if(known&&idx===-1)ks.push(cur);else if(!known&&idx!==-1)ks.splice(idx,1);d.dataset.known=JSON.stringify(ks);try{localStorage.setItem('fc_'+id,d.dataset.known)}catch(e){}fcMove(id,1);fcStats(d,JSON.parse(d.dataset.cards),ks)}
+function fcShow(d,cards,idx){d.dataset.cur=idx;d.querySelector('.fc-front').textContent=cards[idx].front;d.querySelector('.fc-back').textContent=cards[idx].back;d.querySelector('.fc-scene').classList.remove('flipped');d.querySelector('.fc-progress').textContent=(idx+1)+' / '+cards.length;fcStats(d,cards,JSON.parse(d.dataset.known||'[]'))}
+function fcStats(d,cards,ks){d.querySelector('.fc-stats').textContent='Nhớ: '+ks.length+' / '+cards.length}
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16.0/dist/browser/index.js"></script>
