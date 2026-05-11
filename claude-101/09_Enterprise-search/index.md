@@ -364,4 +364,7 @@ Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
 
 ---
-*[Link Nguồn](https://anthropic.skilljar.com/claude-101/383398){: target="_blank" }*
+
+> 📖 Bài học này được Việt hóa từ **[Anthropic Academy](https://anthropic.skilljar.com/claude-101/383398){: target="_blank" }**. Muốn đào sâu hơn? Học bản gốc tiếng Anh để có trải nghiệm đầy đủ nhất.
+
+> 💬 Thảo luận bài học này cùng cộng đồng tại **[kênh Discord của khoá học](https://discord.com/channels/1501877785197674737/1502321343105077360){: target="_blank" }**.

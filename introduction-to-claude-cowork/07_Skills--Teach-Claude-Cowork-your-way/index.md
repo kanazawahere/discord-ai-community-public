@@ -361,4 +361,7 @@ Within the ecosystem of Claude Cowork, a **skill** functions as a **reusable pla
 
 
 ---
-*[Link Nguồn](https://anthropic.skilljar.com/introduction-to-claude-cowork/444170){: target="_blank" }*
+
+> 📖 Bài học này được Việt hóa từ **[Anthropic Academy](https://anthropic.skilljar.com/introduction-to-claude-cowork/444170){: target="_blank" }**. Muốn đào sâu hơn? Học bản gốc tiếng Anh để có trải nghiệm đầy đủ nhất.
+
+> 💬 Thảo luận bài học này cùng cộng đồng tại **[kênh Discord của khoá học](https://discord.com/channels/1501877785197674737/1502323490877865994){: target="_blank" }**.
