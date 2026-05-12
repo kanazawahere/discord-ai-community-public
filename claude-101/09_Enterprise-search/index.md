@@ -124,6 +124,7 @@ bạn?.
 
 Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
+
 ## Câu hỏi ôn tập
 
 - What questions do you frequently ask colleagues that could be answered by searching your organization&#x27;s documents and communications?

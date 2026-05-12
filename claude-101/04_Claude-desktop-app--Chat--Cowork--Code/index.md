@@ -217,6 +217,7 @@ mình bằng cách sử dụng **Dự án (Projects)**.
 
 Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
 
+
 ## Câu hỏi ôn tập
 
 - Think about the tasks you most commonly use Claude for. Which mode — Chat, Cowork, or Code — would best fit each of those tasks?

@@ -157,6 +157,7 @@ Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
 
 
 
+
 ## Tóm tắt
 
 This comprehensive guide introduces users to effective collaboration with Claude by treating the AI as a **professional partner** rather than a simple search engine. The text outlines a structured **prompting framework** that involves setting the stage, defining specific tasks, and establishing stylistic rules to ensure high-quality, tailored results. Beyond basic messaging, it highlights advanced features like **uploading diverse file types**, utilizing **web research tools**, and selecting specific **AI models** to match the complexity of a project. The central theme emphasizes that true value is found through **iterative communication**, where the user provides the necessary **expertise and context** to refine Claude’s intelligent outputs. Ultimately, the source serves as a roadmap for **amplifying human productivity** by integrating these sophisticated AI capabilities into everyday workflows.

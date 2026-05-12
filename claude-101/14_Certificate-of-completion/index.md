@@ -67,6 +67,7 @@ Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
 
 
 
+
 ## Tóm tắt
 
 Tài liệu này là kết quả từ một bài kiểm tra đánh giá năng lực giúp người dùng làm chủ các **tính năng nâng cao và ứng dụng thực tế** của trợ lý trí tuệ nhân tạo Claude. Nội dung tập trung vào việc phân biệt các công cụ chuyên biệt như **dự án, kỹ năng và tạo vật (artifacts)**, đồng thời hướng dẫn phương pháp **tối ưu hóa câu lệnh** để đạt được kết quả chính xác nhất. Qua hệ thống câu hỏi, người học có thể nắm bắt cách quản lý tri thức, kết nối dữ liệu an toàn và ứng dụng các chế độ như **nghiên cứu hoặc lập trình chuyên sâu**. Mục đích cốt lõi của văn bản là xác nhận sự am hiểu của người dùng về một **hệ sinh thái AI đa năng**, từ khâu thiết lập quản trị đến việc triển khai hiệu quả trong môi trường doanh nghiệp.

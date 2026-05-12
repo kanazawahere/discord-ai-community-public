@@ -174,6 +174,7 @@ Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
 
 
 
+
 ## Tóm tắt
 
 Beyond its primary web interface, Claude functions as a versatile **intelligence layer** that integrates directly into various professional ecosystems to streamline specific workflows. This source outlines how specialized tools like **Claude Code** and the **Slack integration** allow users to manage complex software development and team communications within their existing digital workspaces. Similarly, dedicated extensions for **Microsoft Excel and PowerPoint** transform data analysis and presentation design into conversational tasks, while the **Chrome browser extension** offers an agentic assistant capable of navigating the web and automating multi-step actions. Ultimately, these tools aim to **minimize context switching** by embedding AI capabilities directly into the terminals, spreadsheets, and browsers where essential work occurs.

@@ -161,6 +161,7 @@ Resumed conversation: e2092b8c-6104-4047-8f69-92a3119249cc
           allowfullscreen loading="lazy" title="Working with skills"></iframe>
 </div>
 
+
 ## Câu hỏi ôn tập
 
 - What types of documents do you create regularly that could benefit from Claude&#x27;s built-in Skills?
