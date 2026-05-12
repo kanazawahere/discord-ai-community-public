@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 5
 ---
 
+
 # Introduction to projects
 
 ## Giới thiệu về Projects (Dự án)
@@ -407,7 +408,6 @@ Resumed conversation: 446ad0bb-986d-4f68-a739-12c699daddad
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://support.anthropic.com/en/articles/9519177-how-can-i-create-and-manage-projects](https://support.anthropic.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

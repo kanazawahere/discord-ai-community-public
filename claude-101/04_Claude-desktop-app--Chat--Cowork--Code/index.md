@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 4
 ---
 
+
 # Claude desktop app: Chat, Cowork, Code
 
 ## Ứng dụng Claude trên máy tính: Chat, Cowork và Code
@@ -448,7 +449,6 @@ Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://forms.gle/RvHPBwQt9ZmcDc1P9](https://forms.gle/RvHPBwQt9ZmcDc1P9)
 

@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 1
 ---
 
+
 # What is Claude?
 
 ## Lộ trình khóa học
@@ -345,13 +346,11 @@ Nguồn tài liệu này đóng vai trò như một bài học nhập môn giúp
 ## Tài liệu liên quan
 
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://claude.com/resources/use-cases](https://claude.com/resources/use-cases)
 - [https://Claude.ai](https://Claude.ai)
 - [https://claude.com/product/claude-code](https://claude.com/product/claude-code)
 - [https://claude.com/claude-and-slack](https://claude.com/claude-and-slack)
 - [https://claude.com/claude-for-excel](https://claude.com/claude-for-excel)
-- [https://Claude.ai](https://Claude.ai)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)
 
 

@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 12
 ---
 
+
 # Other ways to work with Claude
 
 ## Các cách khác để làm việc với Claude
@@ -398,7 +399,6 @@ Beyond its primary web interface, Claude functions as a versatile **intelligence
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://Claude.ai](https://Claude.ai)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

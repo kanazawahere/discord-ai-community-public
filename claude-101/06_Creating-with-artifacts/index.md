@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 6
 ---
 
+
 # Creating with artifacts
 
 ## Artifacts là gì?
@@ -373,7 +374,6 @@ Tài liệu này cung cấp một hướng dẫn toàn diện về **Artifacts**
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)
 

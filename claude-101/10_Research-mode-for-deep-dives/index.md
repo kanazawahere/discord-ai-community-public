@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 10
 ---
 
+
 # Research mode for deep dives
 
 ## Những điểm mấu chốt về Chế độ Nghiên cứu
@@ -402,7 +403,6 @@ This guide introduces **Research for Claude**, an advanced feature that evolves 
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://support.anthropic.com/en/articles/11088861-using-research-on-claude-ai](https://support.anthropic.com/en/articles/11088861-using-research-on-claude-ai)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

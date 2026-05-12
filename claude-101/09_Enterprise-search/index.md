@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 9
 ---
 
+
 # Enterprise search
 
 ## Tìm kiếm Doanh nghiệp (Enterprise Search)
@@ -356,7 +357,6 @@ Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://support.claude.com/en/articles/12489464-using-enterprise-search](https://support.claude.com/en/articles/12489464-using-enterprise-search)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

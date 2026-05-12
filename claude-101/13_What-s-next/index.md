@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 13
 ---
 
+
 # What's next?
 
 ## Những gì bạn đã học được
@@ -324,7 +325,6 @@ Tài liệu này đóng vai trò như một bản tổng kết toàn diện và 
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/ai-fluency](https://www.anthropic.com/ai-fluency)
 - [https://claude.com/resources/use-cases](https://claude.com/resources/use-cases)

@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 8
 ---
 
+
 # Connecting your tools
 
 ## Connectors là gì?
@@ -367,7 +368,6 @@ Nguồn tài liệu này hướng dẫn cách sử dụng **Connectors**, một 
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://claude.ai/download](https://claude.ai/download)
 - [https://support.anthropic.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp](https://support.anthropic.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)

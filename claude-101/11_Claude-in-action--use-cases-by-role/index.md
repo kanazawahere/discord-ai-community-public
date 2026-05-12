@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 11
 ---
 
+
 # Claude in action: use-cases by role
 
 ## Claude trong hành động: Các trường hợp sử dụng theo vai trò
@@ -342,7 +343,6 @@ Tài liệu này đóng vai trò như một bản hướng dẫn thực hành nh
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://claude.com/resources/use-cases/generate-project-status-reports](https://claude.com/resources/use-cases/generate-project-status-reports)
 - [https://claude.com/resources/use-cases/analyze-patterns-in-user-feedback](https://claude.com/resources/use-cases/analyze-patterns-in-user-feedback)

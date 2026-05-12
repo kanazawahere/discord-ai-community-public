@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 3
 ---
 
+
 # Getting better results
 
 ## Các thách thức thường gặp và cách khắc phục
@@ -381,7 +382,6 @@ Nguồn tài liệu này hướng dẫn người dùng tối ưu hóa hiệu qu�
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/ai-fluency](https://www.anthropic.com/ai-fluency)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

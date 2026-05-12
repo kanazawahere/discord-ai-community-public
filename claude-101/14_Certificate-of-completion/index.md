@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 14
 ---
 
+
 # Certificate of completion
 
 ## Khả năng tổng quan của Claude
@@ -291,7 +292,6 @@ Tài liệu này là kết quả từ một bài kiểm tra đánh giá năng l�
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 
 

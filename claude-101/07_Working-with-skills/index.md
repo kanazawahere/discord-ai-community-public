@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 7
 ---
 
+
 # Working with skills
 
 ## Tính khả dụng của gói (Plan availability)
@@ -393,7 +394,6 @@ This document serves as an instructional guide on **Skills**, a dynamic feature 
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://support.claude.com/en/articles/12512176-what-are-skills](https://support.claude.com/en/articles/12512176-what-are-skills)
 - [https://forms.gle/sY9ou5fqZBd3TjHF8](https://forms.gle/sY9ou5fqZBd3TjHF8)

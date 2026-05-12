@@ -4,6 +4,7 @@ parent: Claude 101
 nav_order: 2
 ---
 
+
 # Your first conversation with Claude
 
 ## Cuộc trò chuyện đầu tiên của bạn với Claude
@@ -381,7 +382,6 @@ This comprehensive guide introduces users to effective collaboration with Claude
 
 ## Tài liệu liên quan
 
-- [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/learn](https://www.anthropic.com/learn)
 - [https://www.anthropic.com/ai-fluency](https://www.anthropic.com/ai-fluency)
 - [https://claude.com/resources/use-cases](https://claude.com/resources/use-cases)
