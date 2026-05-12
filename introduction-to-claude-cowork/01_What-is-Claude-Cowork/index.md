@@ -7,6 +7,7 @@ nav_order: 1
 
 # What is Claude Cowork
 
+
 ## Giới thiệu về Cowork
 Video này giới thiệu về Claude Cowork và loại công việc mà nó được thiết kế để
 thực hiện. Hãy chú ý cách Cowork hoạt động: nó không phải là một chatbot
@@ -179,7 +180,6 @@ Resumed conversation: 5af5126f-8e09-411a-8240-48215c820688
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="What is Claude Cowork"></iframe>
 </div>
-
 
 
 

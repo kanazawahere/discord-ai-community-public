@@ -7,6 +7,7 @@ nav_order: 6
 
 # Creating with artifacts
 
+
 ## Artifacts là gì?
 
 **Artifacts** là những kết quả đầu ra độc lập, có tính tương tác mà Claude tạo
@@ -140,7 +141,6 @@ Trong bài học tới, bạn sẽ tìm hiểu về **Skills (Kỹ năng)** — 
 thể tái sử dụng để dạy cho Claude các quy trình làm việc chuyên biệt.
 
 Resumed conversation: 864f8f33-91b4-4025-8aef-11b5e69d5991
-
 
 ## Câu hỏi ôn tập
 

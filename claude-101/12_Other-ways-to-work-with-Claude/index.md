@@ -7,6 +7,7 @@ nav_order: 12
 
 # Other ways to work with Claude
 
+
 ## Các cách khác để làm việc với Claude
 
 Claude là một trí tuệ nhân tạo và Claude.ai chỉ là một cách để làm việc với nó. Claude hiện có sẵn trong một số công cụ chuyên dụng được thiết kế để hỗ trợ
@@ -170,7 +171,6 @@ Resumed conversation: 301674dc-498f-452c-b2cd-20a2ff584cca
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Other ways to work with Claude"></iframe>
 </div>
-
 
 
 

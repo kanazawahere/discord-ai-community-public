@@ -7,6 +7,7 @@ nav_order: 10
 
 # Claude for Microsoft 365
 
+
 ## Những điểm chính cần lưu ý
 
 Claude hiện diện ngay bên trong tài liệu của bạn. Nó hoạt động như một tiện
@@ -115,7 +116,6 @@ Resumed conversation: fbc42ce9-7aa7-4ef9-bd8e-64b0ccc0fdcd
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Claude for Microsoft 365"></iframe>
 </div>
-
 
 
 

@@ -7,6 +7,7 @@ nav_order: 9
 
 # Enterprise search
 
+
 ## Tìm kiếm Doanh nghiệp (Enterprise Search)
 
 **Tìm kiếm Doanh nghiệp** bổ sung một tùy chọn chuyên dụng mang tên **"Ask {Tên
@@ -123,7 +124,6 @@ thành viên mới bắt nhịp nhanh hơn không?.
 bạn?.
 
 Resumed conversation: e0559433-18ec-4d79-9bb4-3759bf3ec0c8
-
 
 ## Câu hỏi ôn tập
 

@@ -7,6 +7,7 @@ nav_order: 5
 
 # Get better results faster
 
+
 ## Đạt kết quả tốt hơn, nhanh hơn
 
 Trong Bài học 4, bạn đã giao phó một nhiệm vụ và nhận lại được một sản phẩm thực
@@ -62,7 +63,6 @@ plugin, kết thúc bằng một hoạt động thực hành để cài đặt m
 công việc của bạn.
 
 Resumed conversation: b10cc91f-8bae-4a83-b7e5-22b9678090f7
-
 
 
 

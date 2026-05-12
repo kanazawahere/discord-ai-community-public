@@ -7,6 +7,7 @@ nav_order: 14
 
 # Wrap up and next steps
 
+
 ## Những nội dung bạn đã hoàn thành
 
 Khóa học này đã dẫn dắt bạn qua bốn mô-đun chính để làm chủ Claude Cowork:
@@ -80,7 +81,6 @@ mong nhận được phản hồi của bạn về cách sử dụng cũng như 
 Bản quyền © 2026 thuộc về Anthropic. Bảo lưu mọi quyền.
 
 Resumed conversation: 0552f994-201d-4284-a15d-3b2c540d07b0
-
 
 
 

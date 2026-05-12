@@ -7,6 +7,7 @@ nav_order: 2
 
 # Setting up Claude Cowork
 
+
 ## Cài đặt Cowork
 Cowork chạy bên trong ứng dụng Claude Desktop trên hệ điều hành Mac và Windows. Nếu bạn chưa có ứng dụng này, hãy cài đặt từ trang web claude.com/download. Sau khi cài đặt, hãy mở ứng dụng, đăng nhập và tìm chế độ Cowork trong
 trình chọn chế độ (mode selector) ở góc trên bên phải của trang. Nếu bạn
@@ -125,7 +126,6 @@ tra xem Claude đã nhận ra điều gì mà bạn có thể đã bỏ lỡ, ho
 hiểu sai hay làm bạn ngạc nhiên không.
 
 Resumed conversation: cec36271-68fb-47e4-8614-26ab2a271107
-
 
 
 

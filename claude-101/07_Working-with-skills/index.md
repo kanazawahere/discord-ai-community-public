@@ -7,6 +7,7 @@ nav_order: 7
 
 # Working with skills
 
+
 ## Tính khả dụng của gói (Plan availability)
 Tính năng Kỹ năng hiện đang ở dạng xem trước (feature preview) dành cho người
 dùng các gói **Pro, Max, Team và Enterprise**. Nếu bạn đang sử dụng gói Miễn
@@ -160,7 +161,6 @@ Resumed conversation: e2092b8c-6104-4047-8f69-92a3119249cc
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Working with skills"></iframe>
 </div>
-
 
 ## Câu hỏi ôn tập
 

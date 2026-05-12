@@ -7,6 +7,7 @@ nav_order: 13
 
 # What's next?
 
+
 ## Những gì bạn đã học được
 
 Chúc mừng bạn đã hoàn thành khóa học Claude 101. Bạn đã xây dựng được một
@@ -96,7 +97,6 @@ nền tảng vững chắc, phần còn lại sẽ đến từ việc bạn bắ
 việc.
 
 Resumed conversation: 83515854-abd2-450c-96a2-214402b8dd47
-
 
 
 

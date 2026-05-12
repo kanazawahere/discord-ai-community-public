@@ -7,6 +7,7 @@ nav_order: 9
 
 # Claude in Chrome
 
+
 ## Tổng quan về Claude trong Chrome
 Claude trong Chrome đóng vai trò là cầu nối cho các công cụ không có trình kết
 nối (connector) sẵn có. Đối với bất kỳ nội dung nào tồn tại trên trình
@@ -106,7 +107,6 @@ Resumed conversation: 9c9afee8-8ff6-4a3b-87b2-32550594886a
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Claude in Chrome"></iframe>
 </div>
-
 
 
 

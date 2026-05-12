@@ -7,6 +7,7 @@ nav_order: 3
 
 # Getting better results
 
+
 ## Các thách thức thường gặp và cách khắc phục
 
 Khi bắt đầu làm việc với Claude, bạn có thể gặp những lúc phản hồi không như
@@ -158,7 +159,6 @@ Resumed conversation: 83515854-abd2-450c-96a2-214402b8dd47
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Getting better results"></iframe>
 </div>
-
 
 ## Câu hỏi ôn tập
 

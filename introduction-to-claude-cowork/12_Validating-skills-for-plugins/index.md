@@ -7,6 +7,7 @@ nav_order: 12
 
 # Validating skills for plugins
 
+
 ## Tại sao việc xác thực lại quan trọng
 Khi bạn xây dựng một kỹ năng hoặc tập hợp chúng thành một plugin, thực chất bạn
 đang tạo ra một sản phẩm nhỏ để người khác sử dụng. Tương tự như bất kỳ thứ
@@ -117,7 +118,6 @@ chỉnh sửa kỹ năng cho phù hợp. Đó chính là toàn bộ quy trình v
 hoàn thiện một kỹ năng.
 
 Resumed conversation: cec36271-68fb-47e4-8614-26ab2a271107
-
 
 
 

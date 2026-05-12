@@ -7,6 +7,7 @@ nav_order: 6
 
 # Standing context: Global instructions and projects
 
+
 ## Chỉ dẫn chung: Bản tóm tắt áp dụng cho mọi phiên làm việc
 Chỉ dẫn chung đóng vai trò như một bản tóm tắt cố định. Bạn chỉ cần viết
 chúng một lần trong phần Cài đặt (Settings), và Claude sẽ tham chiếu đến chúng
@@ -128,7 +129,6 @@ Trong bài học tiếp theo, bạn sẽ tìm hiểu về **Kỹ năng (Skills)*
 thực hiện các quy trình chuyên biệt một cách tự động.
 
 Resumed conversation: de1efb74-69c2-40f6-bf56-2c1e0f3a77bc
-
 
 
 

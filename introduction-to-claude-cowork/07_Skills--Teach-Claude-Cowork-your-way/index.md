@@ -7,6 +7,7 @@ nav_order: 7
 
 # Skills: Teach Claude Cowork your way
 
+
 ## Kỹ năng: Dạy Claude Cowork theo cách của bạn
 
 Một **kỹ năng (skill)** là một cuốn cẩm nang (playbook) có thể tái sử dụng—một
@@ -126,7 +127,6 @@ Resumed conversation: 7384adeb-1625-4f84-8338-c2f6c2d69107
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Skills: Teach Claude Cowork your way"></iframe>
 </div>
-
 
 
 

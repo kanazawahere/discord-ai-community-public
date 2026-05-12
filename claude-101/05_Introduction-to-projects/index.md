@@ -7,6 +7,7 @@ nav_order: 5
 
 # Introduction to projects
 
+
 ## Giới thiệu về Projects (Dự án)
 Projects là các **không gian làm việc độc lập** có bộ nhớ, lịch sử trò chuyện,
 cơ sở tri thức và các hướng dẫn tùy chỉnh riêng. Hãy coi chúng là những môi
@@ -174,7 +175,6 @@ Resumed conversation: 446ad0bb-986d-4f68-a739-12c699daddad
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Introduction to projects"></iframe>
 </div>
-
 
 ## Câu hỏi ôn tập
 

@@ -7,6 +7,7 @@ nav_order: 8
 
 # Connecting your tools
 
+
 ## Connectors là gì?
 **Connectors** biến Claude từ một trợ lý đơn thuần thành một **cộng tác viên am
 hiểu thông tin** bằng cách cấp cho nó quyền truy cập vào chính các công cụ, dữ
@@ -134,7 +135,6 @@ Trung tâm trợ giúp Anthropic hoặc khám phá danh mục connector tại
 claude.ai/directory.
 
 Resumed conversation: 7a289797-01e7-4a17-a1bd-3ba5d460ddc3
-
 
 ## Câu hỏi ôn tập
 

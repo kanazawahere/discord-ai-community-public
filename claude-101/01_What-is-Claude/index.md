@@ -7,6 +7,12 @@ nav_order: 1
 
 # What is Claude?
 
+
+## Slide bài học
+
+<div style="width:100%;margin:1.5rem 0;border:1px solid #e0e0e0;border-radius:8px;overflow:hidden;"><iframe src="/claude-101/slides/01_What-is-Claude.html" style="width:100%;height:700px;border:0;display:block;" loading="lazy"></iframe></div>
+
+
 ## Lộ trình khóa học
 
 Khóa học này bao gồm các phần chính sau:
@@ -116,12 +122,6 @@ cuộc trò chuyện đầu tiên và hiểu các kiến thức cơ bản về c
 tin nhắn.
 
 Resumed conversation: 2611288e-b1aa-4437-b6f7-9361e4d502e5
-
-
-## Slide bài học
-
-<div style="width:100%;margin:1.5rem 0;border:1px solid #e0e0e0;border-radius:8px;overflow:hidden;"><iframe src="/claude-101/slides/01_What-is-Claude.html" style="width:100%;height:700px;border:0;display:block;" loading="lazy"></iframe></div>
-
 
 
 

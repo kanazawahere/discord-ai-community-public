@@ -7,6 +7,7 @@ nav_order: 15
 
 # Quiz on Claude Cowork
 
+
 ## Đạt kết quả tốt hơn, nhanh hơn
 
 Trong các phần trước, bạn đã học cách giao phó một nhiệm vụ và nhận lại một sản
@@ -69,7 +70,6 @@ tiết trên được trình bày dựa trên thông tin từ lịch sử trò c
 này.*
 
 Resumed conversation: b10cc91f-8bae-4a83-b7e5-22b9678090f7
-
 
 ## Quiz
 

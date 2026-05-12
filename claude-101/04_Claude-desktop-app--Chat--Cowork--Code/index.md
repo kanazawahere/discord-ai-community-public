@@ -7,6 +7,7 @@ nav_order: 4
 
 # Claude desktop app: Chat, Cowork, Code
 
+
 ## Ứng dụng Claude trên máy tính: Chat, Cowork và Code
 
 Ứng dụng Claude trên máy tính cung cấp cho bạn ba phương thức để làm việc:
@@ -216,7 +217,6 @@ Trong học phần tiếp theo, bạn sẽ học cách tổ chức công việc 
 mình bằng cách sử dụng **Dự án (Projects)**.
 
 Resumed conversation: bd35aa25-4168-4a48-9683-56635670933d
-
 
 ## Câu hỏi ôn tập
 

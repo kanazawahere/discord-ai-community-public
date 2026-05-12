@@ -7,6 +7,7 @@ nav_order: 3
 
 # What Claude Cowork can do for you
 
+
 ## Những loại công việc phù hợp với Claude Cowork
 
 Không phải mọi nhiệm vụ đều phù hợp với Cowork, và bạn sẽ tận dụng tối đa công
@@ -139,7 +140,6 @@ Resumed conversation: d3cf8904-a9b0-4193-a509-44d4a24c602f
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="What Claude Cowork can do for you"></iframe>
 </div>
-
 
 
 

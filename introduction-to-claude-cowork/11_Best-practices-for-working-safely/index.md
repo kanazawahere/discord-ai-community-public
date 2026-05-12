@@ -7,6 +7,7 @@ nav_order: 11
 
 # Best practices for working safely
 
+
 ## Vai trò của bạn trong việc làm việc an toàn với Cowork
 
 Bạn đã biết rằng theo mặc định, Claude luôn hỏi ý kiến bạn trước khi xóa và
@@ -116,7 +117,6 @@ tiêu chuẩn cụ thể để lọc.
 qua kiểm tra bản thảo trước.
 
 Resumed conversation: 1f9f93f9-2883-4f13-85db-d28382e6c119
-
 
 ## Câu hỏi ôn tập
 

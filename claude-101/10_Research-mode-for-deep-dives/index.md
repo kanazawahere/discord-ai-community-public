@@ -7,6 +7,7 @@ nav_order: 10
 
 # Research mode for deep dives
 
+
 ## Những điểm mấu chốt về Chế độ Nghiên cứu
 Chế độ Nghiên cứu thay đổi hoàn toàn cách Claude tìm kiếm và phân tích thông tin. Thay vì thực hiện một lần tìm kiếm duy nhất, Claude hoạt động theo cơ chế
 đại lý (agentic) — thực hiện nhiều tìm kiếm gối đầu lên nhau, đồng thời xác định
@@ -169,7 +170,6 @@ gồm cả video hướng dẫn, hãy truy cập Trung tâm Trợ giúp của An
 *Bản quyền 2025 Anthropic. Mọi quyền được bảo lưu.*
 
 Resumed conversation: c058a465-d3be-488d-96d9-af88ee1c51c7
-
 
 ## Câu hỏi ôn tập
 

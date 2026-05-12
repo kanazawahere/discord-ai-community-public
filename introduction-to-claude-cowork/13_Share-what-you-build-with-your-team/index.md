@@ -7,6 +7,7 @@ nav_order: 13
 
 # Share what you build with your team
 
+
 ## Mở rộng quy trình làm việc trong nhóm của bạn
 
 Đến thời điểm này, nhóm của bạn đã có một vài kỹ năng (skills) chứng minh được
@@ -103,7 +104,6 @@ Bạn có muốn tôi tạo một bản báo cáo tóm tắt các bước cụ t
 việc bàn giao plugin đầu tiên cho bộ phận IT không?
 
 Resumed conversation: d3cf8904-a9b0-4193-a509-44d4a24c602f
-
 
 ## Câu hỏi ôn tập
 

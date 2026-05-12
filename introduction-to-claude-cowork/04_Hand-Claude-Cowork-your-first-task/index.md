@@ -7,6 +7,7 @@ nav_order: 4
 
 # Hand Claude Cowork your first task
 
+
 ## Giao nhiệm vụ đầu tiên cho Claude Cowork
 
 Claude Cowork cho phép bạn ủy quyền hoàn toàn các tác vụ cho Claude ngay tại nơi
@@ -129,7 +130,6 @@ Resumed conversation: 0552f994-201d-4284-a15d-3b2c540d07b0
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Hand Claude Cowork your first task"></iframe>
 </div>
-
 
 
 

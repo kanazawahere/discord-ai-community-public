@@ -7,6 +7,7 @@ nav_order: 8
 
 # Plugins: Encode your team's expertise
 
+
 ## Plugin: Mã hóa chuyên môn của nhóm bạn
 
 Video trong bài học cho thấy sự thay đổi khi quy trình làm việc của một nhóm
@@ -158,7 +159,6 @@ Resumed conversation: 85a17ef4-3637-45c7-a706-d33dd6c02e99
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
           allowfullscreen loading="lazy" title="Plugins: Encode your team's expertise"></iframe>
 </div>
-
 
 
 
